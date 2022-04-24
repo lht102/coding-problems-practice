@@ -20,3 +20,6 @@ mod maximize_number_of_subsequences_in_a_string;
 
 #[path = "02195_append_k_integers_with_minimal_sum/solution.rs"]
 mod append_k_integers_with_minimal_sum;
+
+#[path = "02182_construct_string_with_repeat_limit/solution.rs"]
+mod construct_string_with_repeat_limit;
