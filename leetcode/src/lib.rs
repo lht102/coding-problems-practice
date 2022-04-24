@@ -14,3 +14,6 @@ mod design_underground_system;
 
 #[path = "00033_search_in_rotated_sorted_array/solution.rs"]
 mod search_in_rotated_sorted_array;
+
+#[path = "02207_maximize_number_of_subsequences_in_a_string/solution.rs"]
+mod maximize_number_of_subsequences_in_a_string;
