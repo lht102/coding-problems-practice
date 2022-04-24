@@ -6,3 +6,6 @@ mod minimum_rounds_to_complete_all_tasks;
 
 #[path = "02208_minimum_operations_to_halve_array_sum/solution.rs"]
 mod minimum_operations_to_halve_array_sum;
+
+#[path = "01396_design_underground_system/solution.rs"]
+mod design_underground_system;
