@@ -18,7 +18,7 @@ impl Solution {
                 (num + 2) / 3
             })
             .collect();
-        if arr.iter().find(|&&x| x == -1).is_some() {
+        if arr.iter().any(|&x| x == -1) {
             -1
         } else {
             arr.iter().sum()
