@@ -1,10 +1,8 @@
 use std::collections::HashMap;
 
-#[allow(dead_code)]
 struct Solution;
 
 impl Solution {
-    #[allow(dead_code)]
     pub fn minimum_rounds(tasks: Vec<i32>) -> i32 {
         let arr: Vec<i32> = tasks
             .iter()

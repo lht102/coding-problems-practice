@@ -1,7 +1,6 @@
 use std::cmp::Ordering;
 use std::collections::BinaryHeap;
 
-#[allow(dead_code)]
 struct Solution;
 
 #[derive(PartialEq)]
@@ -22,7 +21,6 @@ impl Ord for NonNan {
 }
 
 impl Solution {
-    #[allow(dead_code)]
     pub fn halve_array(nums: Vec<i32>) -> i32 {
         let h_sum = nums.iter().map(|&n| n as f64).sum::<f64>() / 2.0;
         let mut max_heap: BinaryHeap<NonNan> = BinaryHeap::from(
