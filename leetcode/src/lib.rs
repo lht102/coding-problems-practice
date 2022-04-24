@@ -17,3 +17,6 @@ mod search_in_rotated_sorted_array;
 
 #[path = "02207_maximize_number_of_subsequences_in_a_string/solution.rs"]
 mod maximize_number_of_subsequences_in_a_string;
+
+#[path = "02195_append_k_integers_with_minimal_sum/solution.rs"]
+mod append_k_integers_with_minimal_sum;
