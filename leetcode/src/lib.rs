@@ -26,3 +26,6 @@ mod construct_string_with_repeat_limit;
 
 #[path = "01584_min_cost_to_connect_all_points/solution.rs"]
 mod min_cost_to_connect_all_points;
+
+#[path = "01202_smallest_string_with_swaps/solution.rs"]
+mod smallest_string_with_swaps;
