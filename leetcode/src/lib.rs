@@ -29,3 +29,6 @@ mod min_cost_to_connect_all_points;
 
 #[path = "01202_smallest_string_with_swaps/solution.rs"]
 mod smallest_string_with_swaps;
+
+#[path = "01631_path_with_minimum_effort/solution.rs"]
+mod path_with_minimum_effort;
