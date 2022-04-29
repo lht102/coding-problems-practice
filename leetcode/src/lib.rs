@@ -35,3 +35,6 @@ mod smallest_string_with_swaps;
 
 #[path = "01631_path_with_minimum_effort/solution.rs"]
 mod path_with_minimum_effort;
+
+#[path = "02126_destroying_asteroids/solution.rs"]
+mod destroying_asteroids;
