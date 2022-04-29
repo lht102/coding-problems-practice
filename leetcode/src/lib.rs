@@ -38,3 +38,6 @@ mod path_with_minimum_effort;
 
 #[path = "02126_destroying_asteroids/solution.rs"]
 mod destroying_asteroids;
+
+#[path = "02178_maximum_split_of_positive_even_integers/solution.rs"]
+mod maximum_split_of_positive_even_integers;
