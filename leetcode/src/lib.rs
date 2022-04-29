@@ -41,3 +41,6 @@ mod destroying_asteroids;
 
 #[path = "02178_maximum_split_of_positive_even_integers/solution.rs"]
 mod maximum_split_of_positive_even_integers;
+
+#[path = "02131_longest_palindrome_by_concatenating_two_letter_words/solution.rs"]
+mod longest_palindrome_by_concatenating_two_letter_words;
