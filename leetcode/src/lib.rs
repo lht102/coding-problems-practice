@@ -24,6 +24,9 @@ mod append_k_integers_with_minimal_sum;
 #[path = "02182_construct_string_with_repeat_limit/solution.rs"]
 mod construct_string_with_repeat_limit;
 
+#[path = "02170_minimum_operations_to_make_the_array_alternating/solution.rs"]
+mod minimum_operations_to_make_the_array_alternating;
+
 #[path = "01584_min_cost_to_connect_all_points/solution.rs"]
 mod min_cost_to_connect_all_points;
 
