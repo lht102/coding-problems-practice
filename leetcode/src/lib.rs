@@ -44,3 +44,6 @@ mod maximum_split_of_positive_even_integers;
 
 #[path = "02131_longest_palindrome_by_concatenating_two_letter_words/solution.rs"]
 mod longest_palindrome_by_concatenating_two_letter_words;
+
+#[path = "02116_check_if_a_parentheses_string_can_be_valid/solution.rs"]
+mod check_if_a_parentheses_string_can_be_valid;
