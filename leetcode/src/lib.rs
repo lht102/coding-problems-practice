@@ -51,5 +51,5 @@ mod check_if_a_parentheses_string_can_be_valid;
 #[path = "00399_evaluate_division/solution.rs"]
 mod evaluate_division;
 
-#[path = "02091_removing_minimum_and_maximum_from_array/solution.rs"]
-mod removing_minimum_and_maximum_from_array;
+#[path = "00844_backspace_string_compare/solution.rs"]
+mod backspace_string_compare;
