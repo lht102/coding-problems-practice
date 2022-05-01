@@ -56,3 +56,6 @@ mod backspace_string_compare;
 
 #[path = "02087_minimum_cost_homecoming_of_a_robot_in_a_grid/solution.rs"]
 mod minimum_cost_homecoming_of_a_robot_in_a_grid;
+
+#[path = "02255_count_prefixes_of_a_given_string/solution.rs"]
+mod count_prefixes_of_a_given_string;
