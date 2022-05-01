@@ -53,3 +53,6 @@ mod evaluate_division;
 
 #[path = "00844_backspace_string_compare/solution.rs"]
 mod backspace_string_compare;
+
+#[path = "02087_minimum_cost_homecoming_of_a_robot_in_a_grid/solution.rs"]
+mod minimum_cost_homecoming_of_a_robot_in_a_grid;
