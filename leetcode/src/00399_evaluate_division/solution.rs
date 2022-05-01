@@ -1,3 +1,4 @@
+use std::collections::hash_map::Entry;
 use std::collections::HashMap;
 
 struct Solution;
@@ -11,15 +12,15 @@ impl Solution {
         let n = equations.len();
         let mut num_v = 0;
         let mut s_to_v = HashMap::<String, usize>::new();
-        for i in 0..n {
-            let from = equations[i][0].clone();
-            if !s_to_v.contains_key(&from) {
-                s_to_v.insert(from, num_v);
+        for equation in &equations {
+            let from = equation[0].clone();
+            if let Entry::Vacant(e) = s_to_v.entry(from) {
+                e.insert(num_v);
                 num_v += 1;
             }
-            let to = equations[i][1].clone();
-            if !s_to_v.contains_key(&to) {
-                s_to_v.insert(to, num_v);
+            let to = equation[1].clone();
+            if let Entry::Vacant(e) = s_to_v.entry(to) {
+                e.insert(num_v);
                 num_v += 1;
             }
         }
