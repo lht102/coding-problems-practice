@@ -62,3 +62,6 @@ mod count_prefixes_of_a_given_string;
 
 #[path = "02256_minimum_average_difference/solution.rs"]
 mod minimum_average_difference;
+
+#[path = "02257_count_unguarded_cells_in_the_grid/solution.rs"]
+mod count_unguarded_cells_in_the_grid;
