@@ -68,3 +68,6 @@ mod count_unguarded_cells_in_the_grid;
 
 #[path = "00905_sort_array_by_parity/solution.rs"]
 mod sort_array_by_parity;
+
+#[path = "02259_remove_digit_from_number_to_maximize_result/solution.rs"]
+mod remove_digit_from_number_to_maximize_result;
