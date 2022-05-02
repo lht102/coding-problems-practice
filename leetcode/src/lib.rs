@@ -65,3 +65,6 @@ mod minimum_average_difference;
 
 #[path = "02257_count_unguarded_cells_in_the_grid/solution.rs"]
 mod count_unguarded_cells_in_the_grid;
+
+#[path = "00905_sort_array_by_parity/solution.rs"]
+mod sort_array_by_parity;
