@@ -77,3 +77,6 @@ mod minimum_consecutive_cards_to_pick_up;
 
 #[path = "02261_k_divisible_elements_subarrays/solution.rs"]
 mod k_divisible_elements_subarrays;
+
+#[path = "02150_find_all_lonely_numbers_in_the_array/solution.rs"]
+mod find_all_lonely_numbers_in_the_array;
