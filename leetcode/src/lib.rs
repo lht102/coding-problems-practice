@@ -74,3 +74,6 @@ mod remove_digit_from_number_to_maximize_result;
 
 #[path = "02260_minimum_consecutive_cards_to_pick_up/solution.rs"]
 mod minimum_consecutive_cards_to_pick_up;
+
+#[path = "02261_k_divisible_elements_subarrays/solution.rs"]
+mod k_divisible_elements_subarrays;
