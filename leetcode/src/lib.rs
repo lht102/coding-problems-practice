@@ -80,3 +80,6 @@ mod k_divisible_elements_subarrays;
 
 #[path = "02150_find_all_lonely_numbers_in_the_array/solution.rs"]
 mod find_all_lonely_numbers_in_the_array;
+
+#[path = "00581_shortest_unsorted_continuous_subarray/solution.rs"]
+mod shortest_unsorted_continuous_subarray;
