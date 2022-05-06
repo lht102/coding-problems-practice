@@ -86,3 +86,6 @@ mod shortest_unsorted_continuous_subarray;
 
 #[path = "01679_max_number_of_k_sum_pairs/solution.rs"]
 mod max_number_of_k_sum_pairs;
+
+#[path = "02135_count_words_obtained_after_adding_a_letter/solution.rs"]
+mod count_words_obtained_after_adding_a_letter;
