@@ -89,3 +89,6 @@ mod max_number_of_k_sum_pairs;
 
 #[path = "02135_count_words_obtained_after_adding_a_letter/solution.rs"]
 mod count_words_obtained_after_adding_a_letter;
+
+#[path = "01209_remove_all_adjacent_duplicates_in_string_ii/solution.rs"]
+mod remove_all_adjacent_duplicates_in_string_ii;
