@@ -83,3 +83,6 @@ mod find_all_lonely_numbers_in_the_array;
 
 #[path = "00581_shortest_unsorted_continuous_subarray/solution.rs"]
 mod shortest_unsorted_continuous_subarray;
+
+#[path = "01679_max_number_of_k_sum_pairs/solution.rs"]
+mod max_number_of_k_sum_pairs;
