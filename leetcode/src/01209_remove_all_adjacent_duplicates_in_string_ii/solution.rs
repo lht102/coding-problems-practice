@@ -2,7 +2,7 @@ struct Solution;
 
 impl Solution {
     pub fn remove_duplicates(s: String, k: i32) -> String {
-        let mut st = Vec::<(char, usize)>::new();
+        let mut st = vec![('\0', 0)];
         st.push(('\0', 0));
         for ch in s.chars() {
             if let Some(last) = st.last_mut() {
