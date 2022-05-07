@@ -95,3 +95,6 @@ mod remove_all_adjacent_duplicates_in_string_ii;
 
 #[path = "00456_132_pattern/solution.rs"]
 mod q_132_pattern;
+
+#[path = "02121_intervals_between_identical_elements/solution.rs"]
+mod intervals_between_identical_elements;
