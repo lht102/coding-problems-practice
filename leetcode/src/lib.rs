@@ -98,3 +98,6 @@ mod q_132_pattern;
 
 #[path = "02121_intervals_between_identical_elements/solution.rs"]
 mod intervals_between_identical_elements;
+
+#[path = "02115_find_all_possible_recipes_from_given_supplies/solution.rs"]
+mod find_all_possible_recipes_from_given_supplies;
