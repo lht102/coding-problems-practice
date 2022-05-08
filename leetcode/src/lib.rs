@@ -101,3 +101,6 @@ mod intervals_between_identical_elements;
 
 #[path = "02115_find_all_possible_recipes_from_given_supplies/solution.rs"]
 mod find_all_possible_recipes_from_given_supplies;
+
+#[path = "00341_flatten_nested_list_iterator/solution.rs"]
+mod flatten_nested_list_iterator;
