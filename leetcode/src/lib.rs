@@ -107,3 +107,6 @@ mod flatten_nested_list_iterator;
 
 #[path = "02264_largest_3_same_digit_number_in_string/solution.rs"]
 mod largest_3_same_digit_number_in_string;
+
+#[path = "02265_count_nodes_equal_to_average_of_subtree/solution.rs"]
+mod count_nodes_equal_to_average_of_subtree;
