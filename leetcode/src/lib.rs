@@ -116,3 +116,6 @@ mod count_number_of_texts;
 
 #[path = "00017_letter_combinations_of_a_phone_number/solution.rs"]
 mod letter_combinations_of_a_phone_number;
+
+#[path = "02171_removing_minimum_number_of_magic_beans/solution.rs"]
+mod removing_minimum_number_of_magic_beans;
