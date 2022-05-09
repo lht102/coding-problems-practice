@@ -110,3 +110,6 @@ mod largest_3_same_digit_number_in_string;
 
 #[path = "02265_count_nodes_equal_to_average_of_subtree/solution.rs"]
 mod count_nodes_equal_to_average_of_subtree;
+
+#[path = "02266_count_number_of_texts/solution.rs"]
+mod count_number_of_texts;
