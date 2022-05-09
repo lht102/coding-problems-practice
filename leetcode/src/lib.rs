@@ -119,3 +119,6 @@ mod letter_combinations_of_a_phone_number;
 
 #[path = "02171_removing_minimum_number_of_magic_beans/solution.rs"]
 mod removing_minimum_number_of_magic_beans;
+
+#[path = "02007_find_original_array_from_doubled_array/solution.rs"]
+mod find_original_array_from_doubled_array;
