@@ -128,3 +128,6 @@ mod combination_sum_iii;
 
 #[path = "01814_count_nice_pairs_in_an_array/solution.rs"]
 mod count_nice_pairs_in_an_array;
+
+#[path = "02140_solving_questions_with_brainpower/solution.rs"]
+mod solving_questions_with_brainpower;
