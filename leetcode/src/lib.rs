@@ -122,3 +122,6 @@ mod removing_minimum_number_of_magic_beans;
 
 #[path = "02007_find_original_array_from_doubled_array/solution.rs"]
 mod find_original_array_from_doubled_array;
+
+#[path = "00216_combination_sum_iii/solution.rs"]
+mod combination_sum_iii;
