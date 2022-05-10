@@ -125,3 +125,6 @@ mod find_original_array_from_doubled_array;
 
 #[path = "00216_combination_sum_iii/solution.rs"]
 mod combination_sum_iii;
+
+#[path = "01814_count_nice_pairs_in_an_array/solution.rs"]
+mod count_nice_pairs_in_an_array;
