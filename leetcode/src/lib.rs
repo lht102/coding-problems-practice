@@ -131,3 +131,6 @@ mod count_nice_pairs_in_an_array;
 
 #[path = "02140_solving_questions_with_brainpower/solution.rs"]
 mod solving_questions_with_brainpower;
+
+#[path = "01641_count_sorted_vowel_strings/solution.rs"]
+mod count_sorted_vowel_strings;
