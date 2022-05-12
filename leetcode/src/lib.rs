@@ -137,3 +137,6 @@ mod count_sorted_vowel_strings;
 
 #[path = "00047_permutations_ii/solution.rs"]
 mod permutations_ii;
+
+#[path = "02109_adding_spaces_to_a_string/solution.rs"]
+mod adding_spaces_to_a_string;
