@@ -134,3 +134,6 @@ mod solving_questions_with_brainpower;
 
 #[path = "01641_count_sorted_vowel_strings/solution.rs"]
 mod count_sorted_vowel_strings;
+
+#[path = "00047_permutations_ii/solution.rs"]
+mod permutations_ii;
