@@ -140,3 +140,6 @@ mod permutations_ii;
 
 #[path = "02109_adding_spaces_to_a_string/solution.rs"]
 mod adding_spaces_to_a_string;
+
+#[path = "02059_minimum_operations_to_convert_number/solution.rs"]
+mod minimum_operations_to_convert_number;
