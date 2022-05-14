@@ -143,3 +143,6 @@ mod adding_spaces_to_a_string;
 
 #[path = "02059_minimum_operations_to_convert_number/solution.rs"]
 mod minimum_operations_to_convert_number;
+
+#[path = "00743_network_delay_time/solution.rs"]
+mod network_delay_time;
