@@ -149,3 +149,6 @@ mod network_delay_time;
 
 #[path = "00020_valid_parentheses/solution.rs"]
 mod valid_parentheses;
+
+#[path = "02269_find_the_k_beauty_of_a_number/solution.rs"]
+mod find_the_k_beauty_of_a_number;
