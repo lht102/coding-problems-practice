@@ -146,3 +146,6 @@ mod minimum_operations_to_convert_number;
 
 #[path = "00743_network_delay_time/solution.rs"]
 mod network_delay_time;
+
+#[path = "00020_valid_parentheses/solution.rs"]
+mod valid_parentheses;
