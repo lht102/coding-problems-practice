@@ -161,3 +161,6 @@ mod maximum_white_tiles_covered_by_a_carpet;
 
 #[path = "01302_deepest_leaves_sum/solution.rs"]
 mod deepest_leaves_sum;
+
+#[path = "02273_find_resultant_array_after_removing_anagrams/solution.rs"]
+mod find_resultant_array_after_removing_anagrams;
