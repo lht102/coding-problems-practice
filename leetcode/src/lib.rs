@@ -155,3 +155,6 @@ mod find_the_k_beauty_of_a_number;
 
 #[path = "02270_number_of_ways_to_split_array/solution.rs"]
 mod number_of_ways_to_split_array;
+
+#[path = "02271_maximum_white_tiles_covered_by_a_carpet/solution.rs"]
+mod maximum_white_tiles_covered_by_a_carpet;
