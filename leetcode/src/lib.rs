@@ -152,3 +152,6 @@ mod valid_parentheses;
 
 #[path = "02269_find_the_k_beauty_of_a_number/solution.rs"]
 mod find_the_k_beauty_of_a_number;
+
+#[path = "02270_number_of_ways_to_split_array/solution.rs"]
+mod number_of_ways_to_split_array;
