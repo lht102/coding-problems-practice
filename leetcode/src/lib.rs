@@ -164,3 +164,6 @@ mod deepest_leaves_sum;
 
 #[path = "02273_find_resultant_array_after_removing_anagrams/solution.rs"]
 mod find_resultant_array_after_removing_anagrams;
+
+#[path = "02274_maximum_consecutive_floors_without_special_floors/solution.rs"]
+mod maximum_consecutive_floors_without_special_floors;
