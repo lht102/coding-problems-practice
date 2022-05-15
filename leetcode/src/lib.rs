@@ -167,3 +167,6 @@ mod find_resultant_array_after_removing_anagrams;
 
 #[path = "02274_maximum_consecutive_floors_without_special_floors/solution.rs"]
 mod maximum_consecutive_floors_without_special_floors;
+
+#[path = "02275_largest_combination_with_bitwise_and_greater_than_zero/solution.rs"]
+mod largest_combination_with_bitwise_and_greater_than_zero;
