@@ -2,14 +2,16 @@ struct Solution;
 
 impl Solution {
     pub fn ways_to_split_array(nums: Vec<i32>) -> i32 {
-        let mut p_sum = vec![0i64; nums.len() + 1];
-        for i in 1..=nums.len() {
-            p_sum[i] = p_sum[i - 1] + nums[i - 1] as i64;
-        }
+        let psum = std::iter::once(0)
+            .chain(nums.iter().scan(0, |sum, num| {
+                *sum += num;
+                Some(*sum)
+            }))
+            .collect::<Vec<_>>();
         let mut res = 0;
         for i in 1..nums.len() {
-            let pre = p_sum[i];
-            let suf = p_sum[nums.len()] - p_sum[i];
+            let pre = psum[i];
+            let suf = psum[nums.len()] - psum[i];
             if pre >= suf {
                 res += 1;
             }

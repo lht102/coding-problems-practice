@@ -13,13 +13,15 @@ impl Solution {
                 });
         let mut res = vec![0; arr.len()];
         for indices in num_to_indices.values() {
-            let mut pre = vec![0; indices.len() + 1];
-            for i in 1..pre.len() {
-                pre[i] = pre[i - 1] + indices[i - 1];
-            }
+            let psum = std::iter::once(0)
+                .chain(indices.iter().scan(0, |sum, i| {
+                    *sum += i;
+                    Some(*sum)
+                }))
+                .collect::<Vec<_>>();
             for (i, &idx) in indices.iter().enumerate() {
-                res[idx] = ((idx * i - pre[i])
-                    + (pre[indices.len()] - pre[i] - idx * (indices.len() - i)))
+                res[idx] = ((idx * i - psum[i])
+                    + (psum[indices.len()] - psum[i] - idx * (indices.len() - i)))
                     as i64
             }
         }
