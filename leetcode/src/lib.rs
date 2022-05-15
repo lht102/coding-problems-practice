@@ -158,3 +158,6 @@ mod number_of_ways_to_split_array;
 
 #[path = "02271_maximum_white_tiles_covered_by_a_carpet/solution.rs"]
 mod maximum_white_tiles_covered_by_a_carpet;
+
+#[path = "01302_deepest_leaves_sum/solution.rs"]
+mod deepest_leaves_sum;
