@@ -26,6 +26,7 @@ impl Solution {
 mod tests {
     use super::*;
 
+    #[test]
     fn test() {
         let num = 240;
         let k = 2;

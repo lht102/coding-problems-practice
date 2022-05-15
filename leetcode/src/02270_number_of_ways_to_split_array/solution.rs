@@ -22,6 +22,7 @@ impl Solution {
 mod tests {
     use super::*;
 
+    #[test]
     fn test() {
         let nums = vec![10, 4, -8, 7];
         assert_eq!(Solution::ways_to_split_array(nums), 2);
