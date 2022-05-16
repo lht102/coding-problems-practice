@@ -173,3 +173,6 @@ mod largest_combination_with_bitwise_and_greater_than_zero;
 
 #[path = "01091_shortest_path_in_binary_matrix/solution.rs"]
 mod shortest_path_in_binary_matrix;
+
+#[path = "01657_determine_if_two_strings_are_close/solution.rs"]
+mod determine_if_two_strings_are_close;
