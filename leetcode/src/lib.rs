@@ -176,3 +176,6 @@ mod shortest_path_in_binary_matrix;
 
 #[path = "01657_determine_if_two_strings_are_close/solution.rs"]
 mod determine_if_two_strings_are_close;
+
+#[path = "01546_maximum_number_of_non_overlapping_subarrays_with_sum_equals_target/solution.rs"]
+mod maximum_number_of_non_overlapping_subarrays_with_sum_equals_target;
