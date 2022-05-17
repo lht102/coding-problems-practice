@@ -179,3 +179,6 @@ mod determine_if_two_strings_are_close;
 
 #[path = "01546_maximum_number_of_non_overlapping_subarrays_with_sum_equals_target/solution.rs"]
 mod maximum_number_of_non_overlapping_subarrays_with_sum_equals_target;
+
+#[path = "02055_plates_between_candles/solution.rs"]
+mod plates_between_candles;
