@@ -185,3 +185,6 @@ mod plates_between_candles;
 
 #[path = "00209_minimum_size_subarray_sum/solution.rs"]
 mod minimum_size_subarray_sum;
+
+#[path = "00238_product_of_array_except_self/solution.rs"]
+mod product_of_array_except_self;
