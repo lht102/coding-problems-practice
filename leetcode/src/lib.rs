@@ -188,3 +188,6 @@ mod minimum_size_subarray_sum;
 
 #[path = "00523_continuous_subarray_sum/solution.rs"]
 mod continuous_subarray_sum;
+
+#[path = "00329_longest_increasing_path_in_a_matrix/solution.rs"]
+mod longest_increasing_path_in_a_matrix;
