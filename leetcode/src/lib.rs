@@ -191,3 +191,6 @@ mod continuous_subarray_sum;
 
 #[path = "00329_longest_increasing_path_in_a_matrix/solution.rs"]
 mod longest_increasing_path_in_a_matrix;
+
+#[path = "00063_unique_paths_ii/solution.rs"]
+mod unique_paths_ii;
