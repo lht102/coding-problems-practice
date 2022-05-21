@@ -207,3 +207,6 @@ mod coin_change;
 
 #[path = "00560_subarray_sum_equals_k/solution.rs"]
 mod subarray_sum_equals_k;
+
+#[path = "00303_range_sum_query_immutable/solution.rs"]
+mod range_sum_query_immutable;
