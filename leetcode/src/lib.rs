@@ -197,3 +197,6 @@ mod unique_paths_ii;
 
 #[path = "00525_contiguous_array/solution.rs"]
 mod contiguous_array;
+
+#[path = "01192_critical_connections_in_a_network/solution.rs"]
+mod critical_connections_in_a_network;
