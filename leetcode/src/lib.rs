@@ -194,3 +194,6 @@ mod longest_increasing_path_in_a_matrix;
 
 #[path = "00063_unique_paths_ii/solution.rs"]
 mod unique_paths_ii;
+
+#[path = "00525_contiguous_array/solution.rs"]
+mod contiguous_array;
