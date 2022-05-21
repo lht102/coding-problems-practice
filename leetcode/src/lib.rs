@@ -201,3 +201,6 @@ mod contiguous_array;
 
 #[path = "01192_critical_connections_in_a_network/solution.rs"]
 mod critical_connections_in_a_network;
+
+#[path = "00322_coin_change/solution.rs"]
+mod coin_change;
