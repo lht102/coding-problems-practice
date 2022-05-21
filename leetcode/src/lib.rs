@@ -1,4 +1,5 @@
 #![allow(dead_code)]
+#![allow(clippy::too_many_arguments)]
 
 #[path = "00001_two_sum/solution.rs"]
 mod two_sum;
