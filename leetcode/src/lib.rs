@@ -222,3 +222,6 @@ mod percentage_of_letter_in_string;
 
 #[path = "02279_maximum_bags_with_full_capacity_of_rocks/solution.rs"]
 mod maximum_bags_with_full_capacity_of_rocks;
+
+#[path = "02280_minimum_lines_to_represent_a_line_chart/solution.rs"]
+mod minimum_lines_to_represent_a_line_chart;
