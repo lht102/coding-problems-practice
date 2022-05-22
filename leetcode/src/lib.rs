@@ -213,3 +213,6 @@ mod range_sum_query_immutable;
 
 #[path = "01109_corporate_flight_bookings/solution.rs"]
 mod corporate_flight_bookings;
+
+#[path = "00647_palindromic_substrings/solution.rs"]
+mod palindromic_substrings;
