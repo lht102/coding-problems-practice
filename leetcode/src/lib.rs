@@ -219,3 +219,6 @@ mod palindromic_substrings;
 
 #[path = "02278_percentage_of_letter_in_string/Solution.rs"]
 mod percentage_of_letter_in_string;
+
+#[path = "02279_maximum_bags_with_full_capacity_of_rocks/solution.rs"]
+mod maximum_bags_with_full_capacity_of_rocks;
