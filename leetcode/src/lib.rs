@@ -216,3 +216,6 @@ mod corporate_flight_bookings;
 
 #[path = "00647_palindromic_substrings/solution.rs"]
 mod palindromic_substrings;
+
+#[path = "02278_percentage_of_letter_in_string/Solution.rs"]
+mod percentage_of_letter_in_string;
