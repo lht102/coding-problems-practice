@@ -225,3 +225,6 @@ mod maximum_bags_with_full_capacity_of_rocks;
 
 #[path = "02280_minimum_lines_to_represent_a_line_chart/solution.rs"]
 mod minimum_lines_to_represent_a_line_chart;
+
+#[path = "00474_ones_and_zeroes/solution.rs"]
+mod ones_and_zeroes;
