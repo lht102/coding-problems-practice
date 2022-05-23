@@ -228,3 +228,6 @@ mod minimum_lines_to_represent_a_line_chart;
 
 #[path = "00474_ones_and_zeroes/solution.rs"]
 mod ones_and_zeroes;
+
+#[path = "00930_binary_subarrays_with_sum/solution.rs"]
+mod binary_subarrays_with_sum;
