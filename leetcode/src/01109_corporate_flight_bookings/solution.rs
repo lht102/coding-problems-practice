@@ -10,7 +10,7 @@ impl Solution {
             diffs[right + 1] -= booking[2];
         }
         diffs[0..n]
-            .into_iter()
+            .iter()
             .scan(0, |acc, num| {
                 *acc += num;
                 Some(*acc)
