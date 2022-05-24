@@ -32,8 +32,8 @@ mod tests {
 
     #[test]
     fn test() {
-        // let s = String::from("abc");
-        // assert_eq!(Solution::count_substrings(s), 3);
+        let s = String::from("abc");
+        assert_eq!(Solution::count_substrings(s), 3);
 
         let s = String::from("aaa");
         assert_eq!(Solution::count_substrings(s), 6);
