@@ -234,3 +234,6 @@ mod binary_subarrays_with_sum;
 
 #[path = "00974_subarray_sums_divisible_by_k/solution.rs"]
 mod subarray_sums_divisible_by_k;
+
+#[path = "00032_longest_valid_parentheses/solution.rs"]
+mod longest_valid_parentheses;
