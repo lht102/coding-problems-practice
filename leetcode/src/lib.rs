@@ -237,3 +237,6 @@ mod subarray_sums_divisible_by_k;
 
 #[path = "00032_longest_valid_parentheses/solution.rs"]
 mod longest_valid_parentheses;
+
+#[path = "01004_max_consecutive_ones_iii/solution.rs"]
+mod max_consecutive_ones_iii;
