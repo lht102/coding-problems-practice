@@ -246,3 +246,6 @@ mod russian_doll_envelopes;
 
 #[path = "01658_minimum_operations_to_reduce_x_to_zero/solution.rs"]
 mod minimum_operations_to_reduce_x_to_zero;
+
+#[path = "00121_best_time_to_buy_and_sell_stock/solution.rs"]
+mod best_time_to_buy_and_sell_stock;
