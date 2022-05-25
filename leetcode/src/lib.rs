@@ -240,3 +240,6 @@ mod longest_valid_parentheses;
 
 #[path = "01004_max_consecutive_ones_iii/solution.rs"]
 mod max_consecutive_ones_iii;
+
+#[path = "00354_russian_doll_envelopes/solution.rs"]
+mod russian_doll_envelopes;
