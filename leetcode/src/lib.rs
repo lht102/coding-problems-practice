@@ -243,3 +243,6 @@ mod max_consecutive_ones_iii;
 
 #[path = "00354_russian_doll_envelopes/solution.rs"]
 mod russian_doll_envelopes;
+
+#[path = "01658_minimum_operations_to_reduce_x_to_zero/solution.rs"]
+mod minimum_operations_to_reduce_x_to_zero;
