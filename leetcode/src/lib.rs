@@ -252,3 +252,6 @@ mod best_time_to_buy_and_sell_stock;
 
 #[path = "00191_number_of_1_bits/solution.rs"]
 mod number_of_1_bits;
+
+#[path = "00134_gas_station/solution.rs"]
+mod gas_station;
