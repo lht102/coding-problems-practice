@@ -249,3 +249,6 @@ mod minimum_operations_to_reduce_x_to_zero;
 
 #[path = "00121_best_time_to_buy_and_sell_stock/solution.rs"]
 mod best_time_to_buy_and_sell_stock;
+
+#[path = "00191_number_of_1_bits/solution.rs"]
+mod number_of_1_bits;
