@@ -270,3 +270,6 @@ mod check_if_number_has_equal_digit_count_and_digit_value;
 
 #[path = "02284_sender_with_largest_word_count/solution.rs"]
 mod sender_with_largest_word_count;
+
+#[path = "02285_maximum_total_importance_of_roads/solution.rs"]
+mod maximum_total_importance_of_roads;
