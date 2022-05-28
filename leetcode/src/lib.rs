@@ -261,3 +261,6 @@ mod number_of_steps_to_reduce_a_number_to_zero;
 
 #[path = "00268_missing_number/solution.rs"]
 mod missing_number;
+
+#[path = "01882_process_tasks_using_servers/solution.rs"]
+mod process_tasks_using_servers;
