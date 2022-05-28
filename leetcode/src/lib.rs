@@ -267,3 +267,6 @@ mod process_tasks_using_servers;
 
 #[path = "02283_check_if_number_has_equal_digit_count_and_digit_value/solution.rs"]
 mod check_if_number_has_equal_digit_count_and_digit_value;
+
+#[path = "02284_sender_with_largest_word_count/solution.rs"]
+mod sender_with_largest_word_count;
