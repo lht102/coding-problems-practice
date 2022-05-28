@@ -264,3 +264,6 @@ mod missing_number;
 
 #[path = "01882_process_tasks_using_servers/solution.rs"]
 mod process_tasks_using_servers;
+
+#[path = "02283_check_if_number_has_equal_digit_count_and_digit_value/solution.rs"]
+mod check_if_number_has_equal_digit_count_and_digit_value;
