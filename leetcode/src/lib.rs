@@ -258,3 +258,6 @@ mod gas_station;
 
 #[path = "01342_number_of_steps_to_reduce_a_number_to_zero/solutoin.rs"]
 mod number_of_steps_to_reduce_a_number_to_zero;
+
+#[path = "00268_missing_number/solution.rs"]
+mod missing_number;
