@@ -279,3 +279,6 @@ mod maximum_product_of_word_lengths;
 
 #[path = "02287_rearrange_characters_to_make_target_string/solution.rs"]
 mod rearrange_characters_to_make_target_string;
+
+#[path = "02288_apply_discount_to_prices/solution.rs"]
+mod apply_discount_to_prices;
