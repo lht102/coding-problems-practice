@@ -282,3 +282,6 @@ mod rearrange_characters_to_make_target_string;
 
 #[path = "02288_apply_discount_to_prices/solution.rs"]
 mod apply_discount_to_prices;
+
+#[path = "02289_steps_to_make_array_non_decreasing/solution.rs"]
+mod steps_to_make_array_non_decreasing;
