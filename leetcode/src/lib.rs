@@ -273,3 +273,6 @@ mod sender_with_largest_word_count;
 
 #[path = "02285_maximum_total_importance_of_roads/solution.rs"]
 mod maximum_total_importance_of_roads;
+
+#[path = "00318_maximum_product_of_word_lengths/solution.rs"]
+mod maximum_product_of_word_lengths;
