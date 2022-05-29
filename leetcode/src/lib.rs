@@ -276,3 +276,6 @@ mod maximum_total_importance_of_roads;
 
 #[path = "00318_maximum_product_of_word_lengths/solution.rs"]
 mod maximum_product_of_word_lengths;
+
+#[path = "02287_rearrange_characters_to_make_target_string/solution.rs"]
+mod rearrange_characters_to_make_target_string;
