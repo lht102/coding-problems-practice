@@ -288,3 +288,6 @@ mod steps_to_make_array_non_decreasing;
 
 #[path = "00029_divide_two_integers/solution.rs"]
 mod divide_two_integers;
+
+#[path = "02202_maximize_the_topmost_element_after_k_moves/solution.rs"]
+mod maximize_the_topmost_element_after_k_moves;
