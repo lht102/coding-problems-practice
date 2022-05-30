@@ -285,3 +285,6 @@ mod apply_discount_to_prices;
 
 #[path = "02289_steps_to_make_array_non_decreasing/solution.rs"]
 mod steps_to_make_array_non_decreasing;
+
+#[path = "00029_divide_two_integers/solution.rs"]
+mod divide_two_integers;
