@@ -291,3 +291,6 @@ mod divide_two_integers;
 
 #[path = "02202_maximize_the_topmost_element_after_k_moves/solution.rs"]
 mod maximize_the_topmost_element_after_k_moves;
+
+#[path = "01461_check_if_a_string_contains_all_binary_codes_of_size_k/solution.rs"]
+mod check_if_a_string_contains_all_binary_codes_of_size_k;
