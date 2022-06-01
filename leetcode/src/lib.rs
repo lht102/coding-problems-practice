@@ -294,3 +294,6 @@ mod maximize_the_topmost_element_after_k_moves;
 
 #[path = "01461_check_if_a_string_contains_all_binary_codes_of_size_k/solution.rs"]
 mod check_if_a_string_contains_all_binary_codes_of_size_k;
+
+#[path = "01480_running_sum_of_1d_array/solution.rs"]
+mod running_sum_of_1d_array;
