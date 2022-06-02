@@ -300,3 +300,6 @@ mod running_sum_of_1d_array;
 
 #[path = "00867_transpose_matrix/solution.rs"]
 mod transpose_matrix;
+
+#[path = "00125_valid_palindrome/solution.rs"]
+mod valid_palindrome;
