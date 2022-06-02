@@ -297,3 +297,6 @@ mod check_if_a_string_contains_all_binary_codes_of_size_k;
 
 #[path = "01480_running_sum_of_1d_array/solution.rs"]
 mod running_sum_of_1d_array;
+
+#[path = "00867_transpose_matrix/solution.rs"]
+mod transpose_matrix;
