@@ -3,8 +3,7 @@ struct Solution;
 impl Solution {
     pub fn total_steps(nums: Vec<i32>) -> i32 {
         let mut res = 0;
-        let mut st = Vec::new();
-        st.push((nums[0], 0));
+        let mut st = vec![(nums[0], 0)];
         for &num in nums.iter().skip(1) {
             let mut cnt = 0;
             while let Some(&(cur_num, cur_cnt)) = st.last() {

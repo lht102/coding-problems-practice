@@ -10,8 +10,8 @@ impl Solution {
         }
         let k = k as usize;
         let mut res = -1;
-        for i in 0..nums.len().min(k - 1) {
-            res = res.max(nums[i]);
+        for &num in nums.iter().take(nums.len().min(k - 1)) {
+            res = res.max(num);
         }
         if k < nums.len() {
             res = res.max(nums[k]);

@@ -6,8 +6,8 @@ impl Solution {
         let words = sentence.split_whitespace().collect::<Vec<_>>();
         let mut res = Vec::new();
         for w in words {
-            if w.starts_with('$') {
-                if let Ok(num) = w[1..].parse::<f64>() {
+            if let Some(stripped) = w.strip_prefix('$') {
+                if let Ok(num) = stripped.parse::<f64>() {
                     let p = num * (100.0 - discount) / 100.0;
                     res.push(format!("${:.2}", p));
                     continue;

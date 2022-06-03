@@ -10,8 +10,8 @@ impl Solution {
         }
         ind.sort_unstable();
         let mut res = 0;
-        for i in 0..n {
-            res += ind[i] * (i as i64 + 1);
+        for (i, d) in ind.iter().enumerate().take(n) {
+            res += d * (i as i64 + 1);
         }
         res
     }

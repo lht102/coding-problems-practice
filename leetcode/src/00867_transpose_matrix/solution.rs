@@ -1,6 +1,7 @@
 struct Solution;
 
 impl Solution {
+    #[allow(clippy::needless_range_loop)]
     pub fn transpose(matrix: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
         let m = matrix.len();
         let n = matrix[0].len();

@@ -7,9 +7,9 @@ impl Solution {
         let mut dp = vec![vec![0; n]; t + 1];
         for k in 1..=t {
             let mut min_p = prices[0];
-            for i in 1..n {
-                min_p = min_p.min(prices[i] - dp[k - 1][i - 1]);
-                dp[k][i] = dp[k][i - 1].max(prices[i] - min_p);
+            for (i, &price) in prices.iter().enumerate().take(n).skip(1) {
+                min_p = min_p.min(price - dp[k - 1][i - 1]);
+                dp[k][i] = dp[k][i - 1].max(price - min_p);
             }
         }
         dp[t][n - 1]
