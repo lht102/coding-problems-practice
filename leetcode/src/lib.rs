@@ -303,3 +303,6 @@ mod transpose_matrix;
 
 #[path = "00125_valid_palindrome/solution.rs"]
 mod valid_palindrome;
+
+#[path = "00123_best_time_to_buy_and_sell_stock_iii/solution.rs"]
+mod best_time_to_buy_and_sell_stock_iii;
