@@ -318,3 +318,6 @@ mod merge_two_sorted_lists;
 
 #[path = "01775_equal_sum_arrays_with_minimum_number_of_operations/solution.rs"]
 mod equal_sum_arrays_with_minimum_number_of_operations;
+
+#[path = "00226_invert_binary_tree/solution.rs"]
+mod invert_binary_tree;
