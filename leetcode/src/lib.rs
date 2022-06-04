@@ -312,3 +312,6 @@ mod range_sum_query_2d_immutable;
 
 #[path = "00051_n_queens/solution.rs"]
 mod n_queens;
+
+#[path = "00021_merge_two_sorted_lists/solution.rs"]
+mod merge_two_sorted_lists;
