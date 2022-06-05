@@ -330,3 +330,6 @@ mod min_max_game;
 
 #[path = "02294_partition_array_such_that_maximum_difference_is_k/solution.rs"]
 mod partition_array_such_that_maximum_difference_is_k;
+
+#[path = "02295_replace_elements_in_an_array/solution.rs"]
+mod replace_elements_in_an_array;
