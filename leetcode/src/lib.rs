@@ -324,3 +324,6 @@ mod invert_binary_tree;
 
 #[path = "00052_n_queens_ii/solution.rs"]
 mod n_queens_ii;
+
+#[path = "02293_min_max_game/solution.rs"]
+mod min_max_game;
