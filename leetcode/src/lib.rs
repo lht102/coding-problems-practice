@@ -321,3 +321,6 @@ mod equal_sum_arrays_with_minimum_number_of_operations;
 
 #[path = "00226_invert_binary_tree/solution.rs"]
 mod invert_binary_tree;
+
+#[path = "00052_n_queens_ii/solution.rs"]
+mod n_queens_ii;
