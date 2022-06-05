@@ -327,3 +327,6 @@ mod n_queens_ii;
 
 #[path = "02293_min_max_game/solution.rs"]
 mod min_max_game;
+
+#[path = "02294_partition_array_such_that_maximum_difference_is_k/solution.rs"]
+mod partition_array_such_that_maximum_difference_is_k;
