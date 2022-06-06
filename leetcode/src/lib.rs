@@ -333,3 +333,6 @@ mod partition_array_such_that_maximum_difference_is_k;
 
 #[path = "02295_replace_elements_in_an_array/solution.rs"]
 mod replace_elements_in_an_array;
+
+#[path = "00242_valid_anagram/solution.rs"]
+mod valid_anagram;
