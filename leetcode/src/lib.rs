@@ -336,3 +336,6 @@ mod replace_elements_in_an_array;
 
 #[path = "00242_valid_anagram/solution.rs"]
 mod valid_anagram;
+
+#[path = "00704_binary_search/solution.rs"]
+mod binary_search;
