@@ -342,3 +342,6 @@ mod binary_search;
 
 #[path = "00088_merge_sorted_array/solution.rs"]
 mod merge_sorted_array;
+
+#[path = "00733_flood_fill/solution.rs"]
+mod flood_fill;
