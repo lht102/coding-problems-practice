@@ -339,3 +339,6 @@ mod valid_anagram;
 
 #[path = "00704_binary_search/solution.rs"]
 mod binary_search;
+
+#[path = "00088_merge_sorted_array/solution.rs"]
+mod merge_sorted_array;
