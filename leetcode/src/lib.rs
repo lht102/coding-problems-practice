@@ -348,3 +348,6 @@ mod flood_fill;
 
 #[path = "01332_remove_palindromic_subsequences/solution.rs"]
 mod remove_palindromic_subsequences;
+
+#[path = "00053_maximum_subarray/solution.rs"]
+mod maximum_subarray;
