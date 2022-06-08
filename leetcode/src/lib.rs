@@ -345,3 +345,6 @@ mod merge_sorted_array;
 
 #[path = "00733_flood_fill/solution.rs"]
 mod flood_fill;
+
+#[path = "01332_remove_palindromic_subsequences/solution.rs"]
+mod remove_palindromic_subsequences;
