@@ -351,3 +351,6 @@ mod remove_palindromic_subsequences;
 
 #[path = "00053_maximum_subarray/solution.rs"]
 mod maximum_subarray;
+
+#[path = "000167_two_sum_ii_input_array_is_sorted/solution.rs"]
+mod two_sum_ii_input_array_is_sorted;
