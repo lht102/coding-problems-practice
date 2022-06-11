@@ -1,3 +1,5 @@
+use std::collections::HashMap;
+
 struct Solution;
 
 impl Solution {
@@ -8,6 +10,13 @@ impl Solution {
                 Some(*acc)
             }))
             .collect::<Vec<_>>();
+        let psum_to_idx = psum.iter().enumerate().fold(
+            HashMap::<i32, usize>::with_capacity(psum.len()),
+            |mut map, (i, &num)| {
+                *map.entry(num).or_default() = i;
+                map
+            },
+        );
         let ssum = std::iter::once(0)
             .chain(nums.iter().rev().scan(0, |acc, num| {
                 *acc += num;
@@ -15,9 +24,11 @@ impl Solution {
             }))
             .collect::<Vec<_>>();
         let mut res = usize::MAX;
-        for (j, num) in ssum.iter().enumerate() {
-            if let Ok(i) = psum[0..psum.len() - j].binary_search(&(x - num)) {
-                res = res.min(i + j);
+        for (end, sum) in ssum.iter().enumerate() {
+            if let Some(&start) = psum_to_idx.get(&(x - sum)) {
+                if start + end <= nums.len() {
+                    res = res.min(start + end);
+                }
             }
         }
         if res == usize::MAX {
@@ -60,5 +71,9 @@ mod tests {
         ];
         let x = 134365;
         assert_eq!(Solution::min_operations(nums, x), 16);
+
+        let nums = vec![5, 2, 3, 1, 1];
+        let x = 5;
+        assert_eq!(Solution::min_operations(nums, x), 1);
     }
 }
