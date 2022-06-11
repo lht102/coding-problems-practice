@@ -363,3 +363,6 @@ mod lowest_common_ancestor_of_a_binary_search_tree;
 
 #[path = "00110_balanced_binary_tree/solution.rs"]
 mod balanced_binary_tree;
+
+#[path = "00232_implement_queue_using_stacks/solution.rs"]
+mod implement_queue_using_stacks;
