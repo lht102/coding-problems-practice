@@ -369,3 +369,6 @@ mod implement_queue_using_stacks;
 
 #[path = "00278_first_bad_version/solution.rs"]
 mod first_bad_version;
+
+#[path = "02299_strong_password_checker_ii/solution.rs"]
+mod strong_password_checker_ii;
