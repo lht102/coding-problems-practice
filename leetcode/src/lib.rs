@@ -372,3 +372,6 @@ mod first_bad_version;
 
 #[path = "02299_strong_password_checker_ii/solution.rs"]
 mod strong_password_checker_ii;
+
+#[path = "02300_successful_pairs_of_spells_and_potions/solution.rs"]
+mod successful_pairs_of_spells_and_potions;
