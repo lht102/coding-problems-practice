@@ -357,3 +357,6 @@ mod two_sum_ii_input_array_is_sorted;
 
 #[path = "00003_longest_substring_without_repeating_characters/solution.rs"]
 mod longest_substring_without_repeating_characters;
+
+#[path = "00235_lowest_common_ancestor_of_a_binary_search_tree/solution.rs"]
+mod lowest_common_ancestor_of_a_binary_search_tree;
