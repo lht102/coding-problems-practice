@@ -256,7 +256,7 @@ mod number_of_1_bits;
 #[path = "00134_gas_station/solution.rs"]
 mod gas_station;
 
-#[path = "01342_number_of_steps_to_reduce_a_number_to_zero/solutoin.rs"]
+#[path = "01342_number_of_steps_to_reduce_a_number_to_zero/solution.rs"]
 mod number_of_steps_to_reduce_a_number_to_zero;
 
 #[path = "00268_missing_number/solution.rs"]
