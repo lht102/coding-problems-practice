@@ -5,7 +5,6 @@ run:
 linters:
   disable-all: true
   enable:
-    - deadcode
     - errcheck
     - gosimple
     - govet
@@ -13,7 +12,6 @@ linters:
     - staticcheck
     - structcheck
     - typecheck
-    - unused
     - varcheck
     - godot
     - gofmt

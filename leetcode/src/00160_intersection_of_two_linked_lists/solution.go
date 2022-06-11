@@ -5,7 +5,6 @@ type ListNode struct {
 	Next *ListNode
 }
 
-// nolint: unused, deadcode
 func getIntersectionNode(headA, headB *ListNode) *ListNode {
 	if headA == nil || headB == nil {
 		return nil
