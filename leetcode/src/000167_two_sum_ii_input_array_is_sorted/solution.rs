@@ -1,3 +1,5 @@
+use std::cmp::Ordering;
+
 struct Solution;
 
 impl Solution {
@@ -6,12 +8,10 @@ impl Solution {
         let mut hi = numbers.len() - 1;
         while lo < hi {
             let cur_sum = numbers[lo] + numbers[hi];
-            if cur_sum == target {
-                return vec![lo as i32 + 1, hi as i32 + 1];
-            } else if cur_sum < target {
-                lo += 1;
-            } else {
-                hi -= 1;
+            match cur_sum.cmp(&target) {
+                Ordering::Greater => hi -= 1,
+                Ordering::Less => lo += 1,
+                _ => return vec![lo as i32 + 1, hi as i32 + 1],
             }
         }
         unreachable!();
