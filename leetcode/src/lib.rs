@@ -360,3 +360,6 @@ mod longest_substring_without_repeating_characters;
 
 #[path = "00235_lowest_common_ancestor_of_a_binary_search_tree/solution.rs"]
 mod lowest_common_ancestor_of_a_binary_search_tree;
+
+#[path = "00110_balanced_binary_tree/solution.rs"]
+mod balanced_binary_tree;
