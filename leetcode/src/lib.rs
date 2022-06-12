@@ -375,3 +375,6 @@ mod strong_password_checker_ii;
 
 #[path = "02300_successful_pairs_of_spells_and_potions/solution.rs"]
 mod successful_pairs_of_spells_and_potions;
+
+#[path = "01695_maximum_erasure_value/solution.rs"]
+mod maximum_erasure_value;
