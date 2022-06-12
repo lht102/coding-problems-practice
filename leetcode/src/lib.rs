@@ -381,3 +381,6 @@ mod maximum_erasure_value;
 
 #[path = "02303_calculate_amount_paid_in_taxes/solution.rs"]
 mod calculate_amount_paid_in_taxes;
+
+#[path = "02304_minimum_path_cost_in_a_grid/solution.rs"]
+mod minimum_path_cost_in_a_grid;
