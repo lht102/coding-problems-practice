@@ -384,3 +384,6 @@ mod calculate_amount_paid_in_taxes;
 
 #[path = "02304_minimum_path_cost_in_a_grid/solution.rs"]
 mod minimum_path_cost_in_a_grid;
+
+#[path = "02305_fair_distribution_of_cookies/solution.rs"]
+mod fair_distribution_of_cookies;
