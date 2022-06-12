@@ -379,5 +379,5 @@ mod successful_pairs_of_spells_and_potions;
 #[path = "01695_maximum_erasure_value/solution.rs"]
 mod maximum_erasure_value;
 
-#[path = "00297_calculate_amount_paid_in_taxes/solution.rs"]
+#[path = "02303_calculate_amount_paid_in_taxes/solution.rs"]
 mod calculate_amount_paid_in_taxes;
