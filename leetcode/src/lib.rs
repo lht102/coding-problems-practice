@@ -387,3 +387,6 @@ mod minimum_path_cost_in_a_grid;
 
 #[path = "02305_fair_distribution_of_cookies/solution.rs"]
 mod fair_distribution_of_cookies;
+
+#[path = "00120_triangle/solution.rs"]
+mod triangle;
