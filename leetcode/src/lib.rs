@@ -390,3 +390,6 @@ mod fair_distribution_of_cookies;
 
 #[path = "00120_triangle/solution.rs"]
 mod triangle;
+
+#[path = "00383_ransom_note/solution.rs"]
+mod ransom_note;
