@@ -393,3 +393,6 @@ mod triangle;
 
 #[path = "00383_ransom_note/solution.rs"]
 mod ransom_note;
+
+#[path = "00070_climbing_stairs/solution.rs"]
+mod climbing_stairs;
