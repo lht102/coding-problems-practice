@@ -396,3 +396,6 @@ mod ransom_note;
 
 #[path = "00070_climbing_stairs/solution.rs"]
 mod climbing_stairs;
+
+#[path = "00583_delete_operation_for_two_strings/solution.rs"]
+mod delete_operation_for_two_strings;
