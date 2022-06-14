@@ -399,3 +399,6 @@ mod climbing_stairs;
 
 #[path = "00583_delete_operation_for_two_strings/solution.rs"]
 mod delete_operation_for_two_strings;
+
+#[path = "00409_longest_palindrome/solution.rs"]
+mod longest_palindrome;
