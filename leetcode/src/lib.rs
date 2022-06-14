@@ -402,3 +402,6 @@ mod delete_operation_for_two_strings;
 
 #[path = "00409_longest_palindrome/solution.rs"]
 mod longest_palindrome;
+
+#[path = "00155_min_stack/solution.rs"]
+mod min_stack;
