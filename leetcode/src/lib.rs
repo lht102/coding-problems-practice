@@ -405,3 +405,6 @@ mod longest_palindrome;
 
 #[path = "00155_min_stack/solution.rs"]
 mod min_stack;
+
+#[path = "00005_longest_palindromic_substring/solution.rs"]
+mod longest_palindromic_substring;
