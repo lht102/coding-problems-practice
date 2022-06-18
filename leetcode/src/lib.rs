@@ -411,3 +411,6 @@ mod longest_palindromic_substring;
 
 #[path = "00745_prefix_and_suffix_search/solution.rs"]
 mod prefix_and_suffix_search;
+
+#[path = "01048_longest_string_chain/solution.rs"]
+mod longest_string_chain;
