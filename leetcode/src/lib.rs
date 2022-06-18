@@ -408,3 +408,6 @@ mod min_stack;
 
 #[path = "00005_longest_palindromic_substring/solution.rs"]
 mod longest_palindromic_substring;
+
+#[path = "00745_prefix_and_suffix_search/solution.rs"]
+mod prefix_and_suffix_search;
