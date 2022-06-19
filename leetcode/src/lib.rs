@@ -417,3 +417,6 @@ mod longest_string_chain;
 
 #[path = "01268_search_suggestions_system/solution.rs"]
 mod search_suggestions_system;
+
+#[path = "02309_greatest_english_letter_in_upper_and_lower_case/solution.rs"]
+mod greatest_english_letter_in_upper_and_lower_case;
