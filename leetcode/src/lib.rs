@@ -420,3 +420,6 @@ mod search_suggestions_system;
 
 #[path = "02309_greatest_english_letter_in_upper_and_lower_case/solution.rs"]
 mod greatest_english_letter_in_upper_and_lower_case;
+
+#[path = "02310_sum_of_numbers_with_units_digit_k/solution.rs"]
+mod sum_of_numbers_with_units_digit_k;
