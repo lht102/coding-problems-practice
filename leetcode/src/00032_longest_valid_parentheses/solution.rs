@@ -5,12 +5,12 @@ impl Solution {
         let mut dp = vec![-1; s.len()];
         let s = s.chars().collect::<Vec<_>>();
         for i in 0..s.len() {
-            Solution::helper(&s, i as i32, &mut dp);
+            Solution::solve(&s, i as i32, &mut dp);
         }
         *dp.iter().max().unwrap_or(&0)
     }
 
-    fn helper(s: &[char], i: i32, dp: &mut Vec<i32>) -> i32 {
+    fn solve(s: &[char], i: i32, dp: &mut Vec<i32>) -> i32 {
         if i < 0 {
             return 0;
         }
@@ -27,14 +27,14 @@ impl Solution {
                 0
             }
         } else if s[idx - 1] == '(' {
-            Solution::helper(s, i - 2, dp) + 2
+            Solution::solve(s, i - 2, dp) + 2
         } else {
-            let prev = i - Solution::helper(s, i - 1, dp) - 1;
+            let prev = i - Solution::solve(s, i - 1, dp) - 1;
             if prev < 0 {
                 0
             } else if s[prev as usize] == '(' {
-                Solution::helper(s, i - 1, dp)
-                    + Solution::helper(s, i - Solution::helper(s, i - 1, dp) - 2, dp)
+                Solution::solve(s, i - 1, dp)
+                    + Solution::solve(s, i - Solution::solve(s, i - 1, dp) - 2, dp)
                     + 2
             } else {
                 0

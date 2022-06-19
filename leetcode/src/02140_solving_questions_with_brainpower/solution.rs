@@ -3,21 +3,21 @@ struct Solution;
 impl Solution {
     pub fn most_points(questions: Vec<Vec<i32>>) -> i64 {
         let mut dp = vec![-1; questions.len() + 1];
-        Self::dfs(&questions, 0, &mut dp);
+        Self::solve(&questions, 0, &mut dp);
         dp[0]
     }
 
-    fn dfs(questions: &Vec<Vec<i32>>, ci: usize, dp: &mut Vec<i64>) -> i64 {
+    fn solve(questions: &Vec<Vec<i32>>, ci: usize, dp: &mut Vec<i64>) -> i64 {
         if ci >= questions.len() {
             return 0;
         }
         if dp[ci] != -1 {
             return dp[ci];
         }
-        let solve =
-            Self::dfs(questions, ci + questions[ci][1] as usize + 1, dp) + questions[ci][0] as i64;
-        let skip = Self::dfs(questions, ci + 1, dp);
-        dp[ci] = solve.max(skip);
+        let res = Self::solve(questions, ci + questions[ci][1] as usize + 1, dp)
+            + questions[ci][0] as i64;
+        let skip = Self::solve(questions, ci + 1, dp);
+        dp[ci] = res.max(skip);
         dp[ci]
     }
 }

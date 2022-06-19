@@ -7,10 +7,10 @@ impl Solution {
             .map(|s| s.chars().filter(|&ch| ch == '0').count() as usize)
             .collect::<Vec<_>>();
         let mut dp = vec![vec![vec![-1; n as usize + 1]; m as usize + 1]; strs.len()];
-        Solution::helper(&strs, &zeros, strs.len() - 1, m as i32, n as i32, &mut dp)
+        Solution::solve(&strs, &zeros, strs.len() - 1, m as i32, n as i32, &mut dp)
     }
 
-    fn helper(
+    fn solve(
         strs: &Vec<String>,
         zeros: &[usize],
         k: usize,
@@ -31,8 +31,8 @@ impl Solution {
 
         dp[k][m as usize][n as usize] =
             if m - zeros[k] as i32 >= 0 && n - (strs[k].len() - zeros[k]) as i32 >= 0 {
-                Solution::helper(strs, zeros, k - 1, m, n, dp).max(
-                    Solution::helper(
+                Solution::solve(strs, zeros, k - 1, m, n, dp).max(
+                    Solution::solve(
                         strs,
                         zeros,
                         k - 1,
@@ -42,7 +42,7 @@ impl Solution {
                     ) + 1,
                 )
             } else {
-                Solution::helper(strs, zeros, k - 1, m, n, dp)
+                Solution::solve(strs, zeros, k - 1, m, n, dp)
             };
         dp[k][m as usize][n as usize]
     }

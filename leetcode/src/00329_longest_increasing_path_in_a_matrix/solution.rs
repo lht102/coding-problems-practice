@@ -6,13 +6,13 @@ impl Solution {
         let mut res = 0;
         for i in 0..matrix.len() {
             for j in 0..matrix[0].len() {
-                res = res.max(Solution::dfs(&matrix, i as i32, j as i32, &mut dp));
+                res = res.max(Solution::solve(&matrix, i as i32, j as i32, &mut dp));
             }
         }
         res
     }
 
-    fn dfs(matrix: &Vec<Vec<i32>>, r: i32, c: i32, dp: &mut Vec<Vec<i32>>) -> i32 {
+    fn solve(matrix: &Vec<Vec<i32>>, r: i32, c: i32, dp: &mut Vec<Vec<i32>>) -> i32 {
         let dirs: &'static [i32] = &[0, 1, 0, -1, 0];
         if dp[r as usize][c as usize] != 0 {
             return dp[r as usize][c as usize];
@@ -28,7 +28,7 @@ impl Solution {
             {
                 continue;
             }
-            res = res.max(Solution::dfs(matrix, nr, nc, dp) + 1);
+            res = res.max(Solution::solve(matrix, nr, nc, dp) + 1);
         }
         dp[r as usize][c as usize] = res;
         res

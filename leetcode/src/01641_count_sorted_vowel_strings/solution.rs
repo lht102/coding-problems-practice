@@ -15,7 +15,7 @@ impl Solution {
         dp[n][5]
     }
 
-    fn helper(n: usize, v: usize, dp: &mut Vec<Vec<i32>>) -> i32 {
+    fn solve(n: usize, v: usize, dp: &mut Vec<Vec<i32>>) -> i32 {
         if n == 0 {
             return 1;
         }
@@ -25,8 +25,8 @@ impl Solution {
         if dp[n][v] != -1 {
             return dp[n][v];
         }
-        let skip = Self::helper(n, v - 1, dp);
-        let chose = Self::helper(n - 1, v, dp);
+        let skip = Self::solve(n, v - 1, dp);
+        let chose = Self::solve(n - 1, v, dp);
         dp[n][v] = chose + skip;
         dp[n][v]
     }
