@@ -414,3 +414,6 @@ mod prefix_and_suffix_search;
 
 #[path = "01048_longest_string_chain/solution.rs"]
 mod longest_string_chain;
+
+#[path = "01268_search_suggestions_system/solution.rs"]
+mod search_suggestions_system;
