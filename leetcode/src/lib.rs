@@ -429,3 +429,6 @@ mod short_encoding_of_words;
 
 #[path = "01642_furthest_building_you_can_reach/solution.rs"]
 mod furthest_building_you_can_reach;
+
+#[path = "02311_longest_binary_subsequence_less_than_or_equal_to_k/solution.rs"]
+mod longest_binary_subsequence_less_than_or_equal_to_k;
