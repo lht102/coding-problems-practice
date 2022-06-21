@@ -426,3 +426,6 @@ mod sum_of_numbers_with_units_digit_k;
 
 #[path = "00820_short_encoding_of_words/solution.rs"]
 mod short_encoding_of_words;
+
+#[path = "01642_furthest_building_you_can_reach/solution.rs"]
+mod furthest_building_you_can_reach;
