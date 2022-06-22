@@ -432,3 +432,6 @@ mod furthest_building_you_can_reach;
 
 #[path = "02311_longest_binary_subsequence_less_than_or_equal_to_k/solution.rs"]
 mod longest_binary_subsequence_less_than_or_equal_to_k;
+
+#[path = "00215_kth_largest_element_in_an_array/solution.rs"]
+mod kth_largest_element_in_an_array;
