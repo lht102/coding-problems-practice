@@ -435,3 +435,6 @@ mod longest_binary_subsequence_less_than_or_equal_to_k;
 
 #[path = "00215_kth_largest_element_in_an_array/solution.rs"]
 mod kth_largest_element_in_an_array;
+
+#[path = "00630_course_schedule_iii/solution.rs"]
+mod course_schedule_iii;
