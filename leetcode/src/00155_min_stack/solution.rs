@@ -27,9 +27,9 @@ impl MinStack {
     }
 
     fn pop(&mut self) {
-        self.head.take().map(|node| {
+        if let Some(node) = self.head.take() {
             self.head = node.next;
-        });
+        }
     }
 
     fn top(&self) -> i32 {
