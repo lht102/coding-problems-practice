@@ -438,3 +438,6 @@ mod kth_largest_element_in_an_array;
 
 #[path = "00630_course_schedule_iii/solution.rs"]
 mod course_schedule_iii;
+
+#[path = "01354_construct_target_array_with_multiple_sums/solution.rs"]
+mod construct_target_array_with_multiple_sums;
