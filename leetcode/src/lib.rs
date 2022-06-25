@@ -441,3 +441,6 @@ mod course_schedule_iii;
 
 #[path = "01354_construct_target_array_with_multiple_sums/solution.rs"]
 mod construct_target_array_with_multiple_sums;
+
+#[path = "00665_non_decreasing_array/solution.rs"]
+mod non_decreasing_array;
