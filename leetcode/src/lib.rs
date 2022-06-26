@@ -450,3 +450,6 @@ mod count_asterisks;
 
 #[path = "02316_count_unreachable_pairs_of_nodes_in_an_undirected_graph/solution.rs"]
 mod count_unreachable_pairs_of_nodes_in_an_undirected_graph;
+
+#[path = "02317_maximum_xor_after_operations/solution.rs"]
+mod maximum_xor_after_operations;
