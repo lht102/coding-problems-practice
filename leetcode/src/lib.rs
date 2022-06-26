@@ -447,3 +447,6 @@ mod non_decreasing_array;
 
 #[path = "02315_count_asterisks/solution.rs"]
 mod count_asterisks;
+
+#[path = "02316_count_unreachable_pairs_of_nodes_in_an_undirected_graph/solution.rs"]
+mod count_unreachable_pairs_of_nodes_in_an_undirected_graph;
