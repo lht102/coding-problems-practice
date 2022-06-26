@@ -453,3 +453,6 @@ mod count_unreachable_pairs_of_nodes_in_an_undirected_graph;
 
 #[path = "02317_maximum_xor_after_operations/solution.rs"]
 mod maximum_xor_after_operations;
+
+#[path = "01423_maximum_points_you_can_obtain_from_cards/solution.rs"]
+mod maximum_points_you_can_obtain_from_cards;
