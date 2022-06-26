@@ -444,3 +444,6 @@ mod construct_target_array_with_multiple_sums;
 
 #[path = "00665_non_decreasing_array/solution.rs"]
 mod non_decreasing_array;
+
+#[path = "02315_count_asterisks/solution.rs"]
+mod count_asterisks;
