@@ -456,3 +456,6 @@ mod maximum_xor_after_operations;
 
 #[path = "01423_maximum_points_you_can_obtain_from_cards/solution.rs"]
 mod maximum_points_you_can_obtain_from_cards;
+
+#[path = "01689_partitioning_into_minimum_number_of_deci_binary_numbers/solution.rs"]
+mod partitioning_into_minimum_number_of_deci_binary_numbers;
