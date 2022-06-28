@@ -462,3 +462,6 @@ mod partitioning_into_minimum_number_of_deci_binary_numbers;
 
 #[path = "02319_check_if_matrix_is_x_matrix/solution.rs"]
 mod check_if_matrix_is_x_matrix;
+
+#[path = "01647_minimum_deletions_to_make_character_frequencies_unique/solution.rs"]
+mod minimum_deletions_to_make_character_frequencies_unique;
