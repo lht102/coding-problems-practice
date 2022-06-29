@@ -465,3 +465,6 @@ mod check_if_matrix_is_x_matrix;
 
 #[path = "01647_minimum_deletions_to_make_character_frequencies_unique/solution.rs"]
 mod minimum_deletions_to_make_character_frequencies_unique;
+
+#[path = "00406_queue_reconstruction_by_height/solution.rs"]
+mod queue_reconstruction_by_height;
