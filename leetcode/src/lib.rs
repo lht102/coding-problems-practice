@@ -468,3 +468,6 @@ mod minimum_deletions_to_make_character_frequencies_unique;
 
 #[path = "00406_queue_reconstruction_by_height/solution.rs"]
 mod queue_reconstruction_by_height;
+
+#[path = "00462_minimum_moves_to_equal_array_elements_ii/solution.rs"]
+mod minimum_moves_to_equal_array_elements_ii;
