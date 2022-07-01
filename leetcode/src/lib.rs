@@ -471,3 +471,6 @@ mod queue_reconstruction_by_height;
 
 #[path = "00462_minimum_moves_to_equal_array_elements_ii/solution.rs"]
 mod minimum_moves_to_equal_array_elements_ii;
+
+#[path = "01710_maximum_units_on_a_truck/solution.rs"]
+mod maximum_units_on_a_truck;
