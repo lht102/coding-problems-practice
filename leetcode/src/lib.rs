@@ -474,3 +474,6 @@ mod minimum_moves_to_equal_array_elements_ii;
 
 #[path = "01710_maximum_units_on_a_truck/solution.rs"]
 mod maximum_units_on_a_truck;
+
+#[path = "01465_maximum_area_of_a_piece_of_cake_after_horizontal_and_vertical_cuts/solution.rs"]
+mod maximum_area_of_a_piece_of_cake_after_horizontal_and_vertical_cuts;
