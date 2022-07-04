@@ -480,3 +480,6 @@ mod maximum_area_of_a_piece_of_cake_after_horizontal_and_vertical_cuts;
 
 #[path = "00376_wiggle_subsequence/solution.rs"]
 mod wiggle_subsequence;
+
+#[path = "00135_candy/solution.rs"]
+mod candy;
