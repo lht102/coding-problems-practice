@@ -483,3 +483,6 @@ mod wiggle_subsequence;
 
 #[path = "00135_candy/solution.rs"]
 mod candy;
+
+#[path = "00128_longest_consecutive_sequence/solution.rs"]
+mod longest_consecutive_sequence;
