@@ -486,3 +486,6 @@ mod candy;
 
 #[path = "00128_longest_consecutive_sequence/solution.rs"]
 mod longest_consecutive_sequence;
+
+#[path = "00509_fibonacci_number/solution.rs"]
+mod fibonacci_number;
