@@ -492,3 +492,6 @@ mod fibonacci_number;
 
 #[path = "00746_min_cost_climbing_stairs/solution.rs"]
 mod min_cost_climbing_stairs;
+
+#[path = "00199_binary_tree_right_side_view/solution.rs"]
+mod binary_tree_right_side_view;
