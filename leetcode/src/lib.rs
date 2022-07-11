@@ -489,3 +489,6 @@ mod longest_consecutive_sequence;
 
 #[path = "00509_fibonacci_number/solution.rs"]
 mod fibonacci_number;
+
+#[path = "00746_min_cost_climbing_stairs/solution.rs"]
+mod min_cost_climbing_stairs;
