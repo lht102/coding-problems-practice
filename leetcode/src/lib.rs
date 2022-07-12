@@ -495,3 +495,6 @@ mod min_cost_climbing_stairs;
 
 #[path = "00199_binary_tree_right_side_view/solution.rs"]
 mod binary_tree_right_side_view;
+
+#[path = "00473_matchsticks_to_square/solution.rs"]
+mod matchsticks_to_square;
