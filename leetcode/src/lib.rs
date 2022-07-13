@@ -498,3 +498,6 @@ mod binary_tree_right_side_view;
 
 #[path = "00473_matchsticks_to_square/solution.rs"]
 mod matchsticks_to_square;
+
+#[path = "00102_binary_tree_level_order_traversal/solution.rs"]
+mod binary_tree_level_order_traversal;
