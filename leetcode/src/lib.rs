@@ -501,3 +501,6 @@ mod matchsticks_to_square;
 
 #[path = "00102_binary_tree_level_order_traversal/solution.rs"]
 mod binary_tree_level_order_traversal;
+
+#[path = "00105_construct_binary_tree_from_preorder_and_inorder_traversal/solution.rs"]
+mod construct_binary_tree_from_preorder_and_inorder_traversal;
