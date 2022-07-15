@@ -507,3 +507,6 @@ mod construct_binary_tree_from_preorder_and_inorder_traversal;
 
 #[path = "00695_max_area_of_island/solution.rs"]
 mod max_area_of_island;
+
+#[path = "02331_evaluate_boolean_binary_tree/solution.rs"]
+mod evaluate_boolean_binary_tree;
