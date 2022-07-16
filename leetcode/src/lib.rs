@@ -513,3 +513,6 @@ mod evaluate_boolean_binary_tree;
 
 #[path = "00576_out_of_boundary_paths/solution.rs"]
 mod out_of_boundary_paths;
+
+#[path = "02335_minimum_amount_of_time_to_fill_cups/solution.rs"]
+mod minimum_amount_of_time_to_fill_cups;
