@@ -510,3 +510,6 @@ mod max_area_of_island;
 
 #[path = "02331_evaluate_boolean_binary_tree/solution.rs"]
 mod evaluate_boolean_binary_tree;
+
+#[path = "00576_out_of_boundary_paths/solution.rs"]
+mod out_of_boundary_paths;
