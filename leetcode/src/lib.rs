@@ -519,3 +519,6 @@ mod minimum_amount_of_time_to_fill_cups;
 
 #[path = "01074_number_of_submatrices_that_sum_to_target/solution.rs"]
 mod number_of_submatrices_that_sum_to_target;
+
+#[path = "00118_pascals_triangle/solution.rs"]
+mod pascals_triangle;
