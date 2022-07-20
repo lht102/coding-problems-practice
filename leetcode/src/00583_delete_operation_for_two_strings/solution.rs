@@ -9,8 +9,8 @@ impl Solution {
         for j in 0..word2.len() {
             dp[0][j + 1] = j as i32 + 1;
         }
-        for (i, ch1) in word1.chars().enumerate() {
-            for (j, ch2) in word2.chars().enumerate() {
+        for (i, ch1) in word1.char_indices() {
+            for (j, ch2) in word2.char_indices() {
                 dp[i + 1][j + 1] = (dp[i][j + 1] + 1)
                     .min(dp[i + 1][j] + 1)
                     .min(dp[i][j] + if ch1 == ch2 { 0 } else { 2 });
