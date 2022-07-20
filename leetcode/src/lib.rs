@@ -522,3 +522,6 @@ mod number_of_submatrices_that_sum_to_target;
 
 #[path = "00118_pascals_triangle/solution.rs"]
 mod pascals_triangle;
+
+#[path = "00792_number_of_matching_subsequences/solution.rs"]
+mod number_of_matching_subsequences;
