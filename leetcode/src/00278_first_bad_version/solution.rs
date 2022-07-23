@@ -23,8 +23,8 @@ impl Solution {
 
     pub fn new(n: i32, bad: i32) -> Self {
         let mut versions = vec![false; n as usize];
-        for i in bad as usize - 1..n as usize {
-            versions[i] = true;
+        for v in versions.iter_mut().take(n as usize).skip(bad as usize - 1) {
+            *v = true;
         }
         Self { versions }
     }

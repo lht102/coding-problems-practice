@@ -4,12 +4,12 @@ struct Solution;
 
 impl Solution {
     pub fn num_submatrix_sum_target(matrix: Vec<Vec<i32>>, target: i32) -> i32 {
-        let m = matrix.len();
+        let _m = matrix.len();
         let n = matrix[0].len();
         let mut matrix = matrix;
-        for i in 0..m {
+        for arr in matrix.iter_mut() {
             for j in 1..n {
-                matrix[i][j] += matrix[i][j - 1];
+                arr[j] += arr[j - 1];
             }
         }
         let mut res = 0;
@@ -17,13 +17,8 @@ impl Solution {
             for to_col in from_col..n {
                 let mut total = 0;
                 let mut freq = HashMap::from([(0, 1)]);
-                for row in 0..m {
-                    total += matrix[row][to_col]
-                        - if from_col == 0 {
-                            0
-                        } else {
-                            matrix[row][from_col - 1]
-                        };
+                for arr in matrix.iter() {
+                    total += arr[to_col] - if from_col == 0 { 0 } else { arr[from_col - 1] };
                     if let Some(cnt) = freq.get(&(total - target)) {
                         res += cnt;
                     }

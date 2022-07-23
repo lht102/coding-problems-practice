@@ -28,7 +28,7 @@ impl Solution {
         let mut res = Vec::new();
         let mut q = VecDeque::new();
         if let Some(r) = root {
-            q.push_back(r.clone());
+            q.push_back(r);
         }
         while !q.is_empty() {
             let mut cur = Vec::with_capacity(q.len());

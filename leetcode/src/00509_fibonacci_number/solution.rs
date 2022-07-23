@@ -9,7 +9,7 @@ impl Solution {
         let mut cur = 1;
         for _ in 2..=n {
             let tmp = cur;
-            cur = cur + prev;
+            cur += prev;
             prev = tmp;
         }
         cur

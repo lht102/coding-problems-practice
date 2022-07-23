@@ -16,7 +16,7 @@ impl Trie {
     fn insert(&mut self, s: &str, index: usize) {
         let mut cur = self;
         for ch in s.chars() {
-            cur = cur.next.entry(ch).or_insert(Trie::new());
+            cur = cur.next.entry(ch).or_insert_with(Trie::new);
             cur.indices.push(index);
         }
     }

@@ -13,4 +13,4 @@ test:
 .PHONY: lint
 lint:
 	golangci-lint run --fix
-	cargo clippy --fix
+	cargo clippy --fix --allow-dirty

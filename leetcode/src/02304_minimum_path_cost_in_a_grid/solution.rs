@@ -9,8 +9,8 @@ impl Solution {
         let m = grid.len();
         let n = grid[0].len();
         let mut cell_to_row = HashMap::new();
-        for i in 0..m {
-            for &cell in &grid[i] {
+        for (i, arr) in grid.iter().enumerate() {
+            for &cell in arr {
                 cell_to_row.insert(cell as usize, i);
             }
         }

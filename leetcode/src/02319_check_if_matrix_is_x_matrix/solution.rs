@@ -8,10 +8,8 @@ impl Solution {
                     if num == 0 {
                         return false;
                     }
-                } else {
-                    if num != 0 {
-                        return false;
-                    }
+                } else if num != 0 {
+                    return false;
                 }
             }
         }

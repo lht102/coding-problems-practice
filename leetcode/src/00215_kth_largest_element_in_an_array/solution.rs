@@ -1,3 +1,5 @@
+use std::cmp::Ordering;
+
 struct Solution;
 
 impl Solution {
@@ -12,16 +14,14 @@ impl Solution {
             return nums[start];
         }
         let p = Solution::partition(nums, start, end);
-        if p < rank {
-            Solution::quick_select(nums, p + 1, end, rank)
-        } else if p > rank {
-            Solution::quick_select(nums, start, p - 1, rank)
-        } else {
-            nums[p]
+        match p.cmp(&rank) {
+            Ordering::Less => Solution::quick_select(nums, p + 1, end, rank),
+            Ordering::Greater => Solution::quick_select(nums, start, p - 1, rank),
+            Ordering::Equal => nums[p],
         }
     }
 
-    fn partition(nums: &mut Vec<i32>, start: usize, end: usize) -> usize {
+    fn partition(nums: &mut [i32], start: usize, end: usize) -> usize {
         let pivot = nums[end];
         let mut left = start;
         for i in start..end {

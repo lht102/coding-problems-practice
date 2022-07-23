@@ -1,14 +1,11 @@
 struct Solution;
 
 impl Solution {
-    #[allow(clippy::needless_range_loop)]
     pub fn transpose(matrix: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
-        let m = matrix.len();
-        let n = matrix[0].len();
-        let mut res = vec![vec![0; m]; n];
-        for i in 0..m {
-            for j in 0..n {
-                res[j][i] = matrix[i][j];
+        let mut res = vec![vec![0; matrix.len()]; matrix[0].len()];
+        for (i, arr1) in matrix.iter().enumerate() {
+            for (j, arr2) in res.iter_mut().enumerate() {
+                arr2[i] = arr1[j];
             }
         }
         res
