@@ -525,3 +525,6 @@ mod pascals_triangle;
 
 #[path = "00792_number_of_matching_subsequences/solution.rs"]
 mod number_of_matching_subsequences;
+
+#[path = "00206_reverse_linked_list/solution.rs"]
+mod reverse_linked_list;
