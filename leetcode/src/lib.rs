@@ -528,3 +528,6 @@ mod number_of_matching_subsequences;
 
 #[path = "00206_reverse_linked_list/solution.rs"]
 mod reverse_linked_list;
+
+#[path = "00240_search_a_2d_matrix_ii/solution.rs"]
+mod search_a_2d_matrix_ii;
