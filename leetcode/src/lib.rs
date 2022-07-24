@@ -531,3 +531,6 @@ mod reverse_linked_list;
 
 #[path = "00240_search_a_2d_matrix_ii/solution.rs"]
 mod search_a_2d_matrix_ii;
+
+#[path = "00315_count_of_smaller_numbers_after_self/solution.rs"]
+mod count_of_smaller_numbers_after_self;
