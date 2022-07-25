@@ -4,11 +4,10 @@ struct Solution;
 
 impl Solution {
     pub fn length_of_longest_substring(s: String) -> i32 {
-        let s = s.chars().collect::<Vec<_>>();
         let mut ch_to_idx: HashMap<char, usize> = HashMap::new();
         let mut start = 0;
         let mut res = 0;
-        for (end, &ch) in s.iter().enumerate() {
+        for (end, ch) in s.char_indices() {
             if let Some(idx) = ch_to_idx.get(&ch) {
                 start = start.max(idx + 1);
             }
