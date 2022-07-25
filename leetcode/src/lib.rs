@@ -534,3 +534,6 @@ mod search_a_2d_matrix_ii;
 
 #[path = "00315_count_of_smaller_numbers_after_self/solution.rs"]
 mod count_of_smaller_numbers_after_self;
+
+#[path = "00034_find_first_and_last_position_of_element_in_sorted_array/solution.rs"]
+mod find_first_and_last_position_of_element_in_sorted_array;
