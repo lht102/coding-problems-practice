@@ -537,3 +537,6 @@ mod count_of_smaller_numbers_after_self;
 
 #[path = "00034_find_first_and_last_position_of_element_in_sorted_array/solution.rs"]
 mod find_first_and_last_position_of_element_in_sorted_array;
+
+#[path = "00236_lowest_common_ancestor_of_a_binary_tree/solution.rs"]
+mod lowest_common_ancestor_of_a_binary_tree;
