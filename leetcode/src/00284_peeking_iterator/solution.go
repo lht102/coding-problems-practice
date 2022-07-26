@@ -1,6 +1,5 @@
 package leetcode
 
-//   Below is the interface for Iterator, which is already defined for you.
 type Iterator struct {
 	arr    []int
 	curIdx int
