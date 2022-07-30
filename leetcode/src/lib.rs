@@ -548,3 +548,6 @@ mod reverse_linked_list_ii;
 
 #[path = "00890_find_and_replace_pattern/solution.rs"]
 mod find_and_replace_pattern;
+
+#[path = "00916_word_subsets/solution.rs"]
+mod word_subsets;
