@@ -540,3 +540,6 @@ mod find_first_and_last_position_of_element_in_sorted_array;
 
 #[path = "00236_lowest_common_ancestor_of_a_binary_tree/solution.rs"]
 mod lowest_common_ancestor_of_a_binary_tree;
+
+#[path = "00114_flatten_binary_tree_to_linked_list/solution.rs"]
+mod flatten_binary_tree_to_linked_list;
