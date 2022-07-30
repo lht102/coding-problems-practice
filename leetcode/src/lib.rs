@@ -543,3 +543,5 @@ mod lowest_common_ancestor_of_a_binary_tree;
 
 #[path = "00114_flatten_binary_tree_to_linked_list/solution.rs"]
 mod flatten_binary_tree_to_linked_list;
+#[path = "00092_reverse_linked_list_ii/solution.rs"]
+mod reverse_linked_list_ii;
