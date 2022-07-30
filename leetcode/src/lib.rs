@@ -545,3 +545,6 @@ mod lowest_common_ancestor_of_a_binary_tree;
 mod flatten_binary_tree_to_linked_list;
 #[path = "00092_reverse_linked_list_ii/solution.rs"]
 mod reverse_linked_list_ii;
+
+#[path = "00890_find_and_replace_pattern/solution.rs"]
+mod find_and_replace_pattern;
