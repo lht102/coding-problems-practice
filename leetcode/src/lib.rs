@@ -551,3 +551,6 @@ mod find_and_replace_pattern;
 
 #[path = "00916_word_subsets/solution.rs"]
 mod word_subsets;
+
+#[path = "00307_range_sum_query_mutable/solution.rs"]
+mod range_sum_query_mutable;
