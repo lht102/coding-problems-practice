@@ -554,3 +554,6 @@ mod word_subsets;
 
 #[path = "00307_range_sum_query_mutable/solution.rs"]
 mod range_sum_query_mutable;
+
+#[path = "00062_unique_paths/solution.rs"]
+mod unique_paths;
