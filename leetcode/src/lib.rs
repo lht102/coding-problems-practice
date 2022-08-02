@@ -557,3 +557,6 @@ mod range_sum_query_mutable;
 
 #[path = "00062_unique_paths/solution.rs"]
 mod unique_paths;
+
+#[path = "00378_kth_smallest_element_in_a_sorted_matrix/solution.rs"]
+mod kth_smallest_element_in_a_sorted_matrix;
