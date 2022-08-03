@@ -5,12 +5,11 @@ struct Solution;
 
 impl Solution {
     pub fn kth_smallest(matrix: Vec<Vec<i32>>, k: i32) -> i32 {
-        let m = matrix.len();
         let n = matrix[0].len();
         let k = k as usize;
         let mut min_heap: BinaryHeap<Reverse<(i32, usize, usize)>> = BinaryHeap::new();
-        for r in 0..m.min(k) {
-            min_heap.push(Reverse((matrix[r][0], r, 0)));
+        for (r, arr) in matrix.iter().enumerate().take(k) {
+            min_heap.push(Reverse((arr[0], r, 0)));
         }
         let mut res = -1;
         for _ in 0..k {

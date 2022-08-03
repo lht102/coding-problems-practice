@@ -14,8 +14,8 @@ func TestKthSmallest(t *testing.T) {
 
 		expected int
 	}{
-		{[][]int{[]int{1, 5, 9}, []int{10, 11, 13}, []int{12, 13, 15}}, 8, 13},
-		{[][]int{[]int{-5}}, 1, -5},
+		{[][]int{{1, 5, 9}, {10, 11, 13}, {12, 13, 15}}, 8, 13},
+		{[][]int{{-5}}, 1, -5},
 	}
 
 	for i, tt := range tests {
