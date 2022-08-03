@@ -560,3 +560,6 @@ mod unique_paths;
 
 #[path = "00378_kth_smallest_element_in_a_sorted_matrix/solution.rs"]
 mod kth_smallest_element_in_a_sorted_matrix;
+
+#[path = "00729_my_calendar_i/solution.rs"]
+mod my_calendar_i;
