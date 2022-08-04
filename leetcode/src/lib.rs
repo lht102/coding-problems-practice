@@ -563,3 +563,6 @@ mod kth_smallest_element_in_a_sorted_matrix;
 
 #[path = "00729_my_calendar_i/solution.rs"]
 mod my_calendar_i;
+
+#[path = "00858_mirror_reflection/solution.rs"]
+mod mirror_reflection;
