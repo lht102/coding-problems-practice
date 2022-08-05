@@ -566,3 +566,6 @@ mod my_calendar_i;
 
 #[path = "00858_mirror_reflection/solution.rs"]
 mod mirror_reflection;
+
+#[path = "00377_combination_sum_iv/solution.rs"]
+mod combination_sum_iv;
