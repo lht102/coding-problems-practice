@@ -18,9 +18,7 @@ impl Solution {
         let mut b = b;
         while b != 0 {
             a %= b;
-            let tmp = b;
-            b = a;
-            a = tmp;
+            std::mem::swap(&mut b, &mut a);
         }
         a
     }
