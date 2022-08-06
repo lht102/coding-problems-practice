@@ -569,3 +569,6 @@ mod mirror_reflection;
 
 #[path = "00377_combination_sum_iv/solution.rs"]
 mod combination_sum_iv;
+
+#[path = "00458_poor_pigs/solution.rs"]
+mod poor_pigs;
