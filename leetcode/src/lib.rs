@@ -572,3 +572,6 @@ mod combination_sum_iv;
 
 #[path = "00458_poor_pigs/solution.rs"]
 mod poor_pigs;
+
+#[path = "01220_count_vowels_permutation/solution.rs"]
+mod count_vowels_permutation;
