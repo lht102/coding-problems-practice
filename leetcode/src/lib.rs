@@ -575,3 +575,6 @@ mod poor_pigs;
 
 #[path = "01220_count_vowels_permutation/solution.rs"]
 mod count_vowels_permutation;
+
+#[path = "00300_longest_increasing_subsequence/solution.rs"]
+mod longest_increasing_subsequence;
