@@ -581,3 +581,6 @@ mod longest_increasing_subsequence;
 
 #[path = "00823_binary_trees_with_factors/solution.rs"]
 mod binary_trees_with_factors;
+
+#[path = "00108_convert_sorted_array_to_binary_search_tree/solution.rs"]
+mod convert_sorted_array_to_binary_search_tree;
