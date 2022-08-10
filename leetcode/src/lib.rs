@@ -578,3 +578,6 @@ mod count_vowels_permutation;
 
 #[path = "00300_longest_increasing_subsequence/solution.rs"]
 mod longest_increasing_subsequence;
+
+#[path = "00823_binary_trees_with_factors/solution.rs"]
+mod binary_trees_with_factors;
