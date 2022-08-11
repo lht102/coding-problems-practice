@@ -584,3 +584,6 @@ mod binary_trees_with_factors;
 
 #[path = "00108_convert_sorted_array_to_binary_search_tree/solution.rs"]
 mod convert_sorted_array_to_binary_search_tree;
+
+#[path = "00098_validate_binary_search_tree/solution.rs"]
+mod validate_binary_search_tree;
