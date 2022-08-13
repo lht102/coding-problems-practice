@@ -5,7 +5,7 @@ impl Solution {
         let candle_indices = s
             .chars()
             .enumerate()
-            .filter_map(|(i, ch)| if ch == '|' { Some(i) } else { None })
+            .filter_map(|(i, ch)| (ch == '|').then(|| i))
             .collect::<Vec<_>>();
         queries
             .into_iter()
