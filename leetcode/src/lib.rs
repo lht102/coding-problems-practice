@@ -587,3 +587,6 @@ mod convert_sorted_array_to_binary_search_tree;
 
 #[path = "00098_validate_binary_search_tree/solution.rs"]
 mod validate_binary_search_tree;
+
+#[path = "00030_substring_with_concatenation_of_all_words/solution.rs"]
+mod substring_with_concatenation_of_all_words;
