@@ -59,12 +59,12 @@ impl Solution {
                 .cloned()
                 .map(|arr| String::from_utf8(arr).unwrap())
                 .collect::<Vec<_>>();
-            path.push(String::from_utf8(begin_word_bytes.iter().cloned().collect()).unwrap());
+            path.push(String::from_utf8(begin_word_bytes.to_vec()).unwrap());
             path.reverse();
             res.push(path);
             return;
         }
-        cur_path.push(end_word_bytes.iter().cloned().collect::<Vec<_>>());
+        cur_path.push(end_word_bytes.to_vec());
         let cur_distance = *word_distance.get(end_word_bytes).unwrap();
         for i in 0..end_word_bytes.len() {
             let tmp = end_word_bytes[i];
