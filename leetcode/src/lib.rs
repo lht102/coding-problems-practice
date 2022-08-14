@@ -590,3 +590,6 @@ mod validate_binary_search_tree;
 
 #[path = "00030_substring_with_concatenation_of_all_words/solution.rs"]
 mod substring_with_concatenation_of_all_words;
+
+#[path = "00126_word_ladder_ii/solution.rs"]
+mod word_ladder_ii;
