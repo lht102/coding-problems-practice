@@ -593,3 +593,6 @@ mod substring_with_concatenation_of_all_words;
 
 #[path = "00126_word_ladder_ii/solution.rs"]
 mod word_ladder_ii;
+
+#[path = "00013_roman_to_integer/solution.rs"]
+mod roman_to_integer;
