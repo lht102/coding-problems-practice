@@ -596,3 +596,6 @@ mod word_ladder_ii;
 
 #[path = "00013_roman_to_integer/solution.rs"]
 mod roman_to_integer;
+
+#[path = "00387_first_unique_character_in_a_string/solution.rs"]
+mod first_unique_character_in_a_string;
