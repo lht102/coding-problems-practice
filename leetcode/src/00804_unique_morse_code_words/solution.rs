@@ -13,9 +13,7 @@ impl Solution {
             .into_iter()
             .fold(HashSet::<String>::new(), |mut word_set, w| {
                 let s = w
-                    .chars()
-                    .map(|ch| morse[(ch as u8 - b'a') as usize].chars())
-                    .flatten()
+                    .chars().flat_map(|ch| morse[(ch as u8 - b'a') as usize].chars())
                     .collect::<String>();
                 word_set.insert(s);
                 word_set

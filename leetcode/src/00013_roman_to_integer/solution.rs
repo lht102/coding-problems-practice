@@ -4,7 +4,7 @@ impl Solution {
     pub fn roman_to_int(s: String) -> i32 {
         let mut res = 0;
         let mut prev = 0;
-        for cur in s.chars().map(|ch| Solution::roman_ch_to_int(ch)).rev() {
+        for cur in s.chars().map(Solution::roman_ch_to_int).rev() {
             if cur >= prev {
                 res += cur;
             } else {
