@@ -599,3 +599,6 @@ mod roman_to_integer;
 
 #[path = "00387_first_unique_character_in_a_string/solution.rs"]
 mod first_unique_character_in_a_string;
+
+#[path = "00804_unique_morse_code_words/solution.rs"]
+mod unique_morse_code_words;
