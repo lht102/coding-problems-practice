@@ -602,3 +602,6 @@ mod first_unique_character_in_a_string;
 
 #[path = "00804_unique_morse_code_words/solution.rs"]
 mod unique_morse_code_words;
+
+#[path = "01338_reduce_array_size_to_the_half/solution.rs"]
+mod reduce_array_size_to_the_half;
