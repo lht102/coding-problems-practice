@@ -9,7 +9,7 @@ impl Solution {
                 .into_iter()
                 .fold(HashMap::<char, usize>::with_capacity(26), |mut map, w| {
                     let tmp = Solution::to_counter(&w);
-                    for ch in 'a'..'z' {
+                    for ch in 'a'..='z' {
                         let entry = map.entry(ch).or_default();
                         *entry = (*entry).max(*tmp.get(&ch).unwrap_or(&0));
                     }
@@ -19,7 +19,7 @@ impl Solution {
             .into_iter()
             .filter(|w| {
                 let tmp = Solution::to_counter(w);
-                for ch in 'a'..'z' {
+                for ch in 'a'..='z' {
                     if *tmp.get(&ch).unwrap_or(&0) < *counter.get(&ch).unwrap_or(&0) {
                         return false;
                     }
