@@ -605,3 +605,6 @@ mod unique_morse_code_words;
 
 #[path = "01338_reduce_array_size_to_the_half/solution.rs"]
 mod reduce_array_size_to_the_half;
+
+#[path = "00659_split_array_into_consecutive_subsequences/solution.rs"]
+mod split_array_into_consecutive_subsequences;
