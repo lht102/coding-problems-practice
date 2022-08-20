@@ -608,3 +608,6 @@ mod reduce_array_size_to_the_half;
 
 #[path = "00659_split_array_into_consecutive_subsequences/solution.rs"]
 mod split_array_into_consecutive_subsequences;
+
+#[path = "00871_minimum_number_of_refueling_stops/solution.rs"]
+mod minimum_number_of_refueling_stops;
