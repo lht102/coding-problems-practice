@@ -611,3 +611,6 @@ mod split_array_into_consecutive_subsequences;
 
 #[path = "00871_minimum_number_of_refueling_stops/solution.rs"]
 mod minimum_number_of_refueling_stops;
+
+#[path = "00936_stamping_the_sequence/solution.rs"]
+mod stamping_the_sequence;
