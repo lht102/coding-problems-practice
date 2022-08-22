@@ -614,3 +614,6 @@ mod minimum_number_of_refueling_stops;
 
 #[path = "00936_stamping_the_sequence/solution.rs"]
 mod stamping_the_sequence;
+
+#[path = "00342_power_of_four/solution.rs"]
+mod power_of_four;
