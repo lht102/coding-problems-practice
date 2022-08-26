@@ -620,3 +620,6 @@ mod power_of_four;
 
 #[path = "00234_palindrome_linked_list/solution.rs"]
 mod palindrome_linked_list;
+
+#[path = "00326_power_of_three/solution.rs"]
+mod power_of_three;
