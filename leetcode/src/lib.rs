@@ -617,3 +617,6 @@ mod stamping_the_sequence;
 
 #[path = "00342_power_of_four/solution.rs"]
 mod power_of_four;
+
+#[path = "00234_palindrome_linked_list/solution.rs"]
+mod palindrome_linked_list;
