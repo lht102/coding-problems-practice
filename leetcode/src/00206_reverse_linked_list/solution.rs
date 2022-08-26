@@ -19,7 +19,7 @@ impl Solution {
         while let Some(mut node) = cur {
             cur = node.next;
             node.next = prev;
-            prev = Some(node)
+            prev = Some(node);
         }
         prev
     }
