@@ -623,3 +623,6 @@ mod palindrome_linked_list;
 
 #[path = "00326_power_of_three/solution.rs"]
 mod power_of_three;
+
+#[path = "00869_reordered_power_of_2/solution.rs"]
+mod reordered_power_of_2;
