@@ -626,3 +626,6 @@ mod power_of_three;
 
 #[path = "00869_reordered_power_of_2/solution.rs"]
 mod reordered_power_of_2;
+
+#[path = "00363_max_sum_of_rectangle_no_larger_than_k/solution.rs"]
+mod max_sum_of_rectangle_no_larger_than_k;
