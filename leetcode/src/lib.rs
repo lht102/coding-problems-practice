@@ -629,3 +629,6 @@ mod reordered_power_of_2;
 
 #[path = "00363_max_sum_of_rectangle_no_larger_than_k/solution.rs"]
 mod max_sum_of_rectangle_no_larger_than_k;
+
+#[path = "01329_sort_the_matrix_diagonally/solution.rs"]
+mod sort_the_matrix_diagonally;
