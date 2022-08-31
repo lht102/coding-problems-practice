@@ -632,3 +632,6 @@ mod max_sum_of_rectangle_no_larger_than_k;
 
 #[path = "01329_sort_the_matrix_diagonally/solution.rs"]
 mod sort_the_matrix_diagonally;
+
+#[path = "00200_number_of_islands/solution.rs"]
+mod number_of_islands;
