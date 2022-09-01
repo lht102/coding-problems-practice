@@ -26,10 +26,10 @@ impl Solution {
             return false;
         }
         visited[i as usize][j as usize] = true;
-        return Solution::dfs(grid, visited, i + 1, j)
+        Solution::dfs(grid, visited, i + 1, j)
             || Solution::dfs(grid, visited, i - 1, j)
             || Solution::dfs(grid, visited, i, j + 1)
-            || Solution::dfs(grid, visited, i, j - 1);
+            || Solution::dfs(grid, visited, i, j - 1)
     }
 }
 
