@@ -638,3 +638,6 @@ mod number_of_islands;
 
 #[path = "00417_pacific_atlantic_water_flow/solution.rs"]
 mod pacific_atlantic_water_flow;
+
+#[path = "01448_count_good_nodes_in_binary_tree/solution.rs"]
+mod count_good_nodes_in_binary_tree;
