@@ -641,3 +641,6 @@ mod pacific_atlantic_water_flow;
 
 #[path = "01448_count_good_nodes_in_binary_tree/solution.rs"]
 mod count_good_nodes_in_binary_tree;
+
+#[path = "00637_average_of_levels_in_binary_tree/solution.rs"]
+mod average_of_levels_in_binary_tree;
