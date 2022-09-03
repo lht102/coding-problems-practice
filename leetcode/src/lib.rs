@@ -644,3 +644,6 @@ mod count_good_nodes_in_binary_tree;
 
 #[path = "00637_average_of_levels_in_binary_tree/solution.rs"]
 mod average_of_levels_in_binary_tree;
+
+#[path = "00967_numbers_with_same_consecutive_differences/solution.rs"]
+mod numbers_with_same_consecutive_differences;
