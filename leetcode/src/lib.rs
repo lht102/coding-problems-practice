@@ -647,3 +647,6 @@ mod average_of_levels_in_binary_tree;
 
 #[path = "00967_numbers_with_same_consecutive_differences/solution.rs"]
 mod numbers_with_same_consecutive_differences;
+
+#[path = "01996_the_number_of_weak_characters_in_the_game/solution.rs"]
+mod the_number_of_weak_characters_in_the_game;
