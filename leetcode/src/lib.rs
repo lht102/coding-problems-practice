@@ -650,3 +650,6 @@ mod numbers_with_same_consecutive_differences;
 
 #[path = "01996_the_number_of_weak_characters_in_the_game/solution.rs"]
 mod the_number_of_weak_characters_in_the_game;
+
+#[path = "00188_best_time_to_buy_and_sell_stock_iv/solution.rs"]
+mod best_time_to_buy_and_sell_stock_iv;
