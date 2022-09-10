@@ -653,3 +653,6 @@ mod the_number_of_weak_characters_in_the_game;
 
 #[path = "00188_best_time_to_buy_and_sell_stock_iv/solution.rs"]
 mod best_time_to_buy_and_sell_stock_iv;
+
+#[path = "00094_binary_tree_inorder_traversal/solution.rs"]
+mod binary_tree_inorder_traversal;
