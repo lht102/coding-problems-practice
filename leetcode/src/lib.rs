@@ -656,3 +656,6 @@ mod best_time_to_buy_and_sell_stock_iv;
 
 #[path = "00094_binary_tree_inorder_traversal/solution.rs"]
 mod binary_tree_inorder_traversal;
+
+#[path = "00606_construct_string_from_binary_tree/solution.rs"]
+mod construct_string_from_binary_tree;
