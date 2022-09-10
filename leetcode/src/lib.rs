@@ -659,3 +659,6 @@ mod binary_tree_inorder_traversal;
 
 #[path = "00606_construct_string_from_binary_tree/solution.rs"]
 mod construct_string_from_binary_tree;
+
+#[path = "00814_binary_tree_pruning/solution.rs"]
+mod binary_tree_pruning;
