@@ -2,17 +2,17 @@ struct Solution;
 
 impl Solution {
     pub fn max_profit(prices: Vec<i32>) -> i32 {
-        let t = 2;
+        let k = 2;
         let n = prices.len();
-        let mut dp = vec![vec![0; n]; t + 1];
-        for k in 1..=t {
-            let mut min_p = prices[0];
-            for (i, &price) in prices.iter().enumerate().take(n).skip(1) {
-                min_p = min_p.min(price - dp[k - 1][i - 1]);
-                dp[k][i] = dp[k][i - 1].max(price - min_p);
+        let mut dp = vec![vec![0; n]; k + 1];
+        for i in 1..=k {
+            let mut max_p = dp[i - 1][0] - prices[0];
+            for (j, &price) in prices.iter().enumerate().skip(1) {
+                dp[i][j] = dp[i][j - 1].max(price + max_p);
+                max_p = max_p.max(dp[i - 1][j - 1] - price);
             }
         }
-        dp[t][n - 1]
+        dp[k][n - 1]
     }
 }
 
