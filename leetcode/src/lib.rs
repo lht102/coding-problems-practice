@@ -665,3 +665,6 @@ mod binary_tree_pruning;
 
 #[path = "00987_vertical_order_traversal_of_a_binary_tree/solution.rs"]
 mod vertical_order_traversal_of_a_binary_tree;
+
+#[path = "01383_maximum_performance_of_a_team/solution.rs"]
+mod maximum_performance_of_a_team;
