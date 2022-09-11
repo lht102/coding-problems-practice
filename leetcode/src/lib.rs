@@ -662,3 +662,6 @@ mod construct_string_from_binary_tree;
 
 #[path = "00814_binary_tree_pruning/solution.rs"]
 mod binary_tree_pruning;
+
+#[path = "00987_vertical_order_traversal_of_a_binary_tree/solution.rs"]
+mod vertical_order_traversal_of_a_binary_tree;
