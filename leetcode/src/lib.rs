@@ -668,3 +668,6 @@ mod vertical_order_traversal_of_a_binary_tree;
 
 #[path = "01383_maximum_performance_of_a_team/solution.rs"]
 mod maximum_performance_of_a_team;
+
+#[path = "00948_bag_of_tokens/solution.rs"]
+mod bag_of_tokens;
