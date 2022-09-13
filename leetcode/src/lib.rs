@@ -671,3 +671,6 @@ mod maximum_performance_of_a_team;
 
 #[path = "00948_bag_of_tokens/solution.rs"]
 mod bag_of_tokens;
+
+#[path = "00393_utf_8_validation/solution.rs"]
+mod utf_8_validation;
