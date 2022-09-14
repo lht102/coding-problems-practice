@@ -674,3 +674,6 @@ mod bag_of_tokens;
 
 #[path = "00393_utf_8_validation/solution.rs"]
 mod utf_8_validation;
+
+#[path = "01457_pseudo_palindromic_paths_in_a_binary_tree/solution.rs"]
+mod pseudo_palindromic_paths_in_a_binary_tree;
