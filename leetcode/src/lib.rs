@@ -677,3 +677,6 @@ mod utf_8_validation;
 
 #[path = "01457_pseudo_palindromic_paths_in_a_binary_tree/solution.rs"]
 mod pseudo_palindromic_paths_in_a_binary_tree;
+
+#[path = "02405_optimal_partition_of_string/solution.rs"]
+mod optimal_partition_of_string;
