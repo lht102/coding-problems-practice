@@ -680,3 +680,6 @@ mod pseudo_palindromic_paths_in_a_binary_tree;
 
 #[path = "02405_optimal_partition_of_string/solution.rs"]
 mod optimal_partition_of_string;
+
+#[path = "01770_maximum_score_from_performing_multiplication_operations/solution.rs"]
+mod maximum_score_from_performing_multiplication_operations;
