@@ -695,3 +695,6 @@ mod trapping_rain_water;
 
 #[path = "00609_find_duplicate_file_in_system/solution.rs"]
 mod find_duplicate_file_in_system;
+
+#[path = "00718_maximum_length_of_repeated_subarray/solution.rs"]
+mod maximum_length_of_repeated_subarray;
