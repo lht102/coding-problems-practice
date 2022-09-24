@@ -686,3 +686,6 @@ mod maximum_score_from_performing_multiplication_operations;
 
 #[path = "00336_palindrome_pairs/solution.rs"]
 mod palindrome_pairs;
+
+#[path = "00557_reverse_words_in_a_string_iii/solution.rs"]
+mod reverse_words_in_a_string_iii;
