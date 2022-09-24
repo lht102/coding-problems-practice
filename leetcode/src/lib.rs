@@ -704,3 +704,6 @@ mod sum_of_even_numbers_after_queries;
 
 #[path = "01680_concatenation_of_consecutive_binary_numbers/solution.rs"]
 mod concatenation_of_consecutive_binary_numbers;
+
+#[path = "00113_path_sum_ii/solution.rs"]
+mod path_sum_ii;
