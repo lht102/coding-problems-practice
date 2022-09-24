@@ -683,3 +683,6 @@ mod optimal_partition_of_string;
 
 #[path = "01770_maximum_score_from_performing_multiplication_operations/solution.rs"]
 mod maximum_score_from_performing_multiplication_operations;
+
+#[path = "00336_palindrome_pairs/solution.rs"]
+mod palindrome_pairs;
