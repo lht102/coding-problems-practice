@@ -689,3 +689,6 @@ mod palindrome_pairs;
 
 #[path = "00557_reverse_words_in_a_string_iii/solution.rs"]
 mod reverse_words_in_a_string_iii;
+
+#[path = "00042_trapping_rain_water/solution.rs"]
+mod trapping_rain_water;
