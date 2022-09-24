@@ -17,7 +17,7 @@ impl Solution {
             .windows(total_len)
             .into_iter()
             .enumerate()
-            .filter_map(|(i, w)| Solution::is_valid(freq.clone(), w, word_len).then(|| i as i32))
+            .filter_map(|(i, w)| Solution::is_valid(freq.clone(), w, word_len).then_some(i as i32))
             .collect::<Vec<_>>()
     }
 
