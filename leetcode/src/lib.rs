@@ -701,3 +701,6 @@ mod maximum_length_of_repeated_subarray;
 
 #[path = "00985_sum_of_even_numbers_after_queries/solution.rs"]
 mod sum_of_even_numbers_after_queries;
+
+#[path = "01680_concatenation_of_consecutive_binary_numbers/solution.rs"]
+mod concatenation_of_consecutive_binary_numbers;
