@@ -707,3 +707,6 @@ mod concatenation_of_consecutive_binary_numbers;
 
 #[path = "00113_path_sum_ii/solution.rs"]
 mod path_sum_ii;
+
+#[path = "00622_design_circular_queue/solution.rs"]
+mod design_circular_queue;
