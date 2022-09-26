@@ -710,3 +710,6 @@ mod path_sum_ii;
 
 #[path = "00622_design_circular_queue/solution.rs"]
 mod design_circular_queue;
+
+#[path = "00990_satisfiability_of_equality_equations/solution.rs"]
+mod satisfiability_of_equality_equations;
