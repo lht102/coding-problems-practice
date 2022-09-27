@@ -716,3 +716,6 @@ mod satisfiability_of_equality_equations;
 
 #[path = "00838_push_dominoes/solution.rs"]
 mod push_dominoes;
+
+#[path = "02410_maximum_matching_of_players_with_trainers/solution.rs"]
+mod maximum_matching_of_players_with_trainers;
