@@ -713,3 +713,6 @@ mod design_circular_queue;
 
 #[path = "00990_satisfiability_of_equality_equations/solution.rs"]
 mod satisfiability_of_equality_equations;
+
+#[path = "00838_push_dominoes/solution.rs"]
+mod push_dominoes;
