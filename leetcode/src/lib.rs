@@ -719,3 +719,6 @@ mod push_dominoes;
 
 #[path = "02410_maximum_matching_of_players_with_trainers/solution.rs"]
 mod maximum_matching_of_players_with_trainers;
+
+#[path = "00019_remove_nth_node_from_end_of_list/solution.rs"]
+mod remove_nth_node_from_end_of_list;
