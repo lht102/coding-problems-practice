@@ -722,3 +722,6 @@ mod maximum_matching_of_players_with_trainers;
 
 #[path = "00019_remove_nth_node_from_end_of_list/solution.rs"]
 mod remove_nth_node_from_end_of_list;
+
+#[path = "00658_find_k_closest_elements/solution.rs"]
+mod find_k_closest_elements;
