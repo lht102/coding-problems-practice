@@ -725,3 +725,6 @@ mod remove_nth_node_from_end_of_list;
 
 #[path = "00658_find_k_closest_elements/solution.rs"]
 mod find_k_closest_elements;
+
+#[path = "00091_decode_ways/solution.rs"]
+mod decode_ways;
