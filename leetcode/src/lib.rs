@@ -731,3 +731,6 @@ mod decode_ways;
 
 #[path = "01155_number_of_dice_rolls_with_target_sum/solution.rs"]
 mod number_of_dice_rolls_with_target_sum;
+
+#[path = "01578_minimum_time_to_make_rope_colorful/solution.rs"]
+mod minimum_time_to_make_rope_colorful;
