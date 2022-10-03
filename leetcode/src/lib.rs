@@ -728,3 +728,6 @@ mod find_k_closest_elements;
 
 #[path = "00091_decode_ways/solution.rs"]
 mod decode_ways;
+
+#[path = "01155_number_of_dice_rolls_with_target_sum/solution.rs"]
+mod number_of_dice_rolls_with_target_sum;
