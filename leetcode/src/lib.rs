@@ -734,3 +734,6 @@ mod number_of_dice_rolls_with_target_sum;
 
 #[path = "01578_minimum_time_to_make_rope_colorful/solution.rs"]
 mod minimum_time_to_make_rope_colorful;
+
+#[path = "00112_path_sum/solution.rs"]
+mod path_sum;
