@@ -737,3 +737,6 @@ mod minimum_time_to_make_rope_colorful;
 
 #[path = "00112_path_sum/solution.rs"]
 mod path_sum;
+
+#[path = "00623_add_one_row_to_tree/solution.rs"]
+mod add_one_row_to_tree;
