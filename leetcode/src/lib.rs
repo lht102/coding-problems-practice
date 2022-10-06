@@ -740,3 +740,6 @@ mod path_sum;
 
 #[path = "00623_add_one_row_to_tree/solution.rs"]
 mod add_one_row_to_tree;
+
+#[path = "00981_time_based_key_value_store/solution.rs"]
+mod time_based_key_value_store;
