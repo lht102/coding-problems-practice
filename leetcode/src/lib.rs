@@ -743,3 +743,6 @@ mod add_one_row_to_tree;
 
 #[path = "00981_time_based_key_value_store/solution.rs"]
 mod time_based_key_value_store;
+
+#[path = "00732_my_calendar_iii/solution.rs"]
+mod my_calendar_iii;
