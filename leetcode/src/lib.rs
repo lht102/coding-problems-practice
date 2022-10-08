@@ -746,3 +746,6 @@ mod time_based_key_value_store;
 
 #[path = "00732_my_calendar_iii/solution.rs"]
 mod my_calendar_iii;
+
+#[path = "00016_3sum_closest/solution.rs"]
+mod q_3sum_closest;
