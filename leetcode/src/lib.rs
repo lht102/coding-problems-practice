@@ -749,3 +749,6 @@ mod my_calendar_iii;
 
 #[path = "00016_3sum_closest/solution.rs"]
 mod q_3sum_closest;
+
+#[path = "00653_two_sum_iv_input_is_a_bst/solution.rs"]
+mod two_sum_iv_input_is_a_bst;
