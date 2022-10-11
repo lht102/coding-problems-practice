@@ -755,3 +755,6 @@ mod two_sum_iv_input_is_a_bst;
 
 #[path = "01328_break_a_palindrome/solution.rs"]
 mod break_a_palindrome;
+
+#[path = "00334_increasing_triplet_subsequence/solution.rs"]
+mod increasing_triplet_subsequence;
