@@ -758,3 +758,6 @@ mod break_a_palindrome;
 
 #[path = "00334_increasing_triplet_subsequence/solution.rs"]
 mod increasing_triplet_subsequence;
+
+#[path = "00976_largest_perimeter_triangle/solution.rs"]
+mod largest_perimeter_triangle;
