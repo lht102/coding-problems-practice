@@ -761,3 +761,6 @@ mod increasing_triplet_subsequence;
 
 #[path = "00976_largest_perimeter_triangle/solution.rs"]
 mod largest_perimeter_triangle;
+
+#[path = "01531_string_compression_ii/solution.rs"]
+mod string_compression_ii;
