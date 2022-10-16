@@ -764,3 +764,6 @@ mod largest_perimeter_triangle;
 
 #[path = "01531_string_compression_ii/solution.rs"]
 mod string_compression_ii;
+
+#[path = "01335_minimum_difficulty_of_a_job_schedule/solution.rs"]
+mod minimum_difficulty_of_a_job_schedule;
