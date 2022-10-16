@@ -767,3 +767,6 @@ mod string_compression_ii;
 
 #[path = "01335_minimum_difficulty_of_a_job_schedule/solution.rs"]
 mod minimum_difficulty_of_a_job_schedule;
+
+#[path = "02441_largest_positive_integer_that_exists_with_its_negative/solution.rs"]
+mod largest_positive_integer_that_exists_with_its_negative;
