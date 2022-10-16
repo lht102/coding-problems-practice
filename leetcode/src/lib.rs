@@ -773,3 +773,6 @@ mod largest_positive_integer_that_exists_with_its_negative;
 
 #[path = "02442_count_number_of_distinct_integers_after_reverse_operations/solution.rs"]
 mod count_number_of_distinct_integers_after_reverse_operations;
+
+#[path = "02443_sum_of_number_and_its_reverse/solution.rs"]
+mod sum_of_number_and_its_reverse;
