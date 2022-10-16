@@ -770,3 +770,6 @@ mod minimum_difficulty_of_a_job_schedule;
 
 #[path = "02441_largest_positive_integer_that_exists_with_its_negative/solution.rs"]
 mod largest_positive_integer_that_exists_with_its_negative;
+
+#[path = "02442_count_number_of_distinct_integers_after_reverse_operations/solution.rs"]
+mod count_number_of_distinct_integers_after_reverse_operations;
