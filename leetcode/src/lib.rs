@@ -776,3 +776,6 @@ mod count_number_of_distinct_integers_after_reverse_operations;
 
 #[path = "02443_sum_of_number_and_its_reverse/solution.rs"]
 mod sum_of_number_and_its_reverse;
+
+#[path = "01832_check_if_the_sentence_is_pangram/solution.rs"]
+mod check_if_the_sentence_is_pangram;
