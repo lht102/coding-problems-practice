@@ -779,3 +779,6 @@ mod sum_of_number_and_its_reverse;
 
 #[path = "01832_check_if_the_sentence_is_pangram/solution.rs"]
 mod check_if_the_sentence_is_pangram;
+
+#[path = "02439_minimize_maximum_of_array/solution.rs"]
+mod minimize_maximum_of_array;
