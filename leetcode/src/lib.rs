@@ -785,3 +785,6 @@ mod minimize_maximum_of_array;
 
 #[path = "00038_count_and_say/solution.rs"]
 mod count_and_say;
+
+#[path = "00692_top_k_frequent_words/solution.rs"]
+mod top_k_frequent_words;
