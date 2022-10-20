@@ -788,3 +788,6 @@ mod count_and_say;
 
 #[path = "00692_top_k_frequent_words/solution.rs"]
 mod top_k_frequent_words;
+
+#[path = "00012_integer_to_roman/solution.rs"]
+mod integer_to_roman;
