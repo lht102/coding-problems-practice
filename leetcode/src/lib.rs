@@ -791,3 +791,6 @@ mod top_k_frequent_words;
 
 #[path = "00012_integer_to_roman/solution.rs"]
 mod integer_to_roman;
+
+#[path = "00219_contains_duplicate_ii/solution.rs"]
+mod contains_duplicate_ii;
