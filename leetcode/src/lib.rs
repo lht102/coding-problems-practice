@@ -797,3 +797,6 @@ mod contains_duplicate_ii;
 
 #[path = "01239_maximum_length_of_a_concatenated_string_with_unique_characters/solution.rs"]
 mod maximum_length_of_a_concatenated_string_with_unique_characters;
+
+#[path = "01662_check_if_two_string_arrays_are_equivalent/solution.rs"]
+mod check_if_two_string_arrays_are_equivalent;
