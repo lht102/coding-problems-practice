@@ -794,3 +794,6 @@ mod integer_to_roman;
 
 #[path = "00219_contains_duplicate_ii/solution.rs"]
 mod contains_duplicate_ii;
+
+#[path = "01239_maximum_length_of_a_concatenated_string_with_unique_characters/solution.rs"]
+mod maximum_length_of_a_concatenated_string_with_unique_characters;
