@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestTwoSum(t *testing.T) {
+func TestCombinationSum4(t *testing.T) {
 	tests := []struct {
 		nums   []int
 		target int

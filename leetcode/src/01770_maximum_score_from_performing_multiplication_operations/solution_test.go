@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestTwoSum(t *testing.T) {
+func TestMaximumScore(t *testing.T) {
 	tests := []struct {
 		nums       []int
 		mulipliers []int

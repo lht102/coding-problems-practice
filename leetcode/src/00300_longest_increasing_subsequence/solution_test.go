@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func Test(t *testing.T) {
+func TestLengthOfLIS(t *testing.T) {
 	tests := []struct {
 		nums []int
 
