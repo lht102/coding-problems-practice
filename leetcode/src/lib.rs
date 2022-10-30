@@ -800,3 +800,6 @@ mod maximum_length_of_a_concatenated_string_with_unique_characters;
 
 #[path = "01662_check_if_two_string_arrays_are_equivalent/solution.rs"]
 mod check_if_two_string_arrays_are_equivalent;
+
+#[path = "00835_image_overlap/solution.rs"]
+mod image_overlap;
