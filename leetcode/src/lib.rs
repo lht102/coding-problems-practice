@@ -803,3 +803,6 @@ mod check_if_two_string_arrays_are_equivalent;
 
 #[path = "00835_image_overlap/solution.rs"]
 mod image_overlap;
+
+#[path = "01293_shortest_path_in_a_grid_with_obstacles_elimination/solution.rs"]
+mod shortest_path_in_a_grid_with_obstacles_elimination;
