@@ -809,3 +809,6 @@ mod shortest_path_in_a_grid_with_obstacles_elimination;
 
 #[path = "00049_group_anagrams/solution.rs"]
 mod group_anagrams;
+
+#[path = "02136_earliest_possible_day_of_full_bloom/solution.rs"]
+mod earliest_possible_day_of_full_bloom;
