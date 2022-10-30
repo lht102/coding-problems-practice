@@ -806,3 +806,6 @@ mod image_overlap;
 
 #[path = "01293_shortest_path_in_a_grid_with_obstacles_elimination/solution.rs"]
 mod shortest_path_in_a_grid_with_obstacles_elimination;
+
+#[path = "00049_group_anagrams/solution.rs"]
+mod group_anagrams;
