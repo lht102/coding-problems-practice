@@ -812,3 +812,6 @@ mod group_anagrams;
 
 #[path = "02136_earliest_possible_day_of_full_bloom/solution.rs"]
 mod earliest_possible_day_of_full_bloom;
+
+#[path = "00766_toeplitz_matrix/solution.rs"]
+mod toeplitz_matrix;
