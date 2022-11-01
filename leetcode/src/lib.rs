@@ -815,3 +815,6 @@ mod earliest_possible_day_of_full_bloom;
 
 #[path = "00766_toeplitz_matrix/solution.rs"]
 mod toeplitz_matrix;
+
+#[path = "01706_where_will_the_ball_fall/solution.rs"]
+mod where_will_the_ball_fall;
