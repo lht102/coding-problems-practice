@@ -818,3 +818,6 @@ mod toeplitz_matrix;
 
 #[path = "01706_where_will_the_ball_fall/solution.rs"]
 mod where_will_the_ball_fall;
+
+#[path = "00433_minimum_genetic_mutation/solution.rs"]
+mod minimum_genetic_mutation;
