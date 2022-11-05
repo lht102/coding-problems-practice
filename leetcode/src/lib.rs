@@ -821,3 +821,6 @@ mod where_will_the_ball_fall;
 
 #[path = "00433_minimum_genetic_mutation/solution.rs"]
 mod minimum_genetic_mutation;
+
+#[path = "00345_reverse_vowels_of_a_string/solution.rs"]
+mod reverse_vowels_of_a_string;
