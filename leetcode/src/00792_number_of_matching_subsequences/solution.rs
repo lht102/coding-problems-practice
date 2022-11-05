@@ -12,13 +12,7 @@ impl Solution {
                 });
         words
             .iter()
-            .map(|w| {
-                if Solution::is_subsequence(w, &char_indices) {
-                    1
-                } else {
-                    0
-                }
-            })
+            .map(|w| i32::from(Solution::is_subsequence(w, &char_indices)))
             .sum()
     }
 

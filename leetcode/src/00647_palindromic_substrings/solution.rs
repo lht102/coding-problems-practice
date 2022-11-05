@@ -11,13 +11,9 @@ impl Solution {
                 if j == i {
                     dp[i][j] = 1;
                 } else if j == i + 1 {
-                    dp[i][j] = if s[i] == s[j] { 1 } else { 0 };
+                    dp[i][j] = i32::from(s[i] == s[j]);
                 } else {
-                    dp[i][j] = if s[i] == s[j] && dp[i + 1][j - 1] == 1 {
-                        1
-                    } else {
-                        0
-                    };
+                    dp[i][j] = i32::from(s[i] == s[j] && dp[i + 1][j - 1] == 1);
                 }
                 res += dp[i][j];
             }

@@ -13,7 +13,7 @@ impl Solution {
             .into_values()
             .filter(|cnt| cnt % 2 == 1)
             .count();
-        (s.len() - num_of_odd + if num_of_odd > 0 { 1 } else { 0 }) as i32
+        (s.len() - num_of_odd + usize::from(num_of_odd > 0)) as i32
     }
 }
 

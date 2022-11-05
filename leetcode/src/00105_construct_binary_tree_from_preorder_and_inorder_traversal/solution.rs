@@ -41,7 +41,7 @@ impl Solution {
 
     fn solve(
         preorder: &[i32],
-        inorder: &[i32],
+        _inorder: &[i32],
         num_to_idx: &HashMap<i32, usize>,
         pre_i: &mut usize,
         in_left: i32,
@@ -55,9 +55,9 @@ impl Solution {
         *pre_i += 1;
         let root = Rc::new(RefCell::new(TreeNode::new(val)));
         root.borrow_mut().left =
-            Solution::solve(preorder, inorder, num_to_idx, pre_i, in_left, mid - 1);
+            Solution::solve(preorder, _inorder, num_to_idx, pre_i, in_left, mid - 1);
         root.borrow_mut().right =
-            Solution::solve(preorder, inorder, num_to_idx, pre_i, mid + 1, in_right);
+            Solution::solve(preorder, _inorder, num_to_idx, pre_i, mid + 1, in_right);
         Some(root)
     }
 }

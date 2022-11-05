@@ -3,7 +3,7 @@ struct Solution;
 impl Solution {
     pub fn max_area(h: i32, w: i32, horizontal_cuts: Vec<i32>, vertical_cuts: Vec<i32>) -> i32 {
         let max_gap = |cuts: &mut Vec<i32>, sz| {
-            cuts.extend(&[0, sz]);
+            cuts.extend([0, sz]);
             cuts.sort_unstable();
             cuts.windows(2).map(|w| w[1] - w[0]).max().unwrap() as u64
         };

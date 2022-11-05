@@ -31,7 +31,7 @@ impl Solution {
             let r = r.borrow();
             let new_bitmap = bitmap ^ (1 << r.val);
             if r.left.is_none() && r.right.is_none() {
-                return if new_bitmap.count_ones() <= 1 { 1 } else { 0 };
+                return i32::from(new_bitmap.count_ones() <= 1);
             }
             Solution::dfs(&r.left, new_bitmap) + Solution::dfs(&r.right, new_bitmap)
         } else {
