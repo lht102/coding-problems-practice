@@ -827,3 +827,6 @@ mod reverse_vowels_of_a_string;
 
 #[path = "00212_word_search_ii/solution.rs"]
 mod word_search_ii;
+
+#[path = "00899_orderly_queue/solution.rs"]
+mod orderly_queue;
