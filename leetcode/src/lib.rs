@@ -824,3 +824,6 @@ mod minimum_genetic_mutation;
 
 #[path = "00345_reverse_vowels_of_a_string/solution.rs"]
 mod reverse_vowels_of_a_string;
+
+#[path = "00212_word_search_ii/solution.rs"]
+mod word_search_ii;
