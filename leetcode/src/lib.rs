@@ -830,3 +830,6 @@ mod word_search_ii;
 
 #[path = "00899_orderly_queue/solution.rs"]
 mod orderly_queue;
+
+#[path = "01323_maximum_69_number/solution.rs"]
+mod maximum_69_number;
