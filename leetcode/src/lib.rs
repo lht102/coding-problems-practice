@@ -833,3 +833,6 @@ mod orderly_queue;
 
 #[path = "01323_maximum_69_number/solution.rs"]
 mod maximum_69_number;
+
+#[path = "01544_make_the_string_great/solution.rs"]
+mod make_the_string_great;
