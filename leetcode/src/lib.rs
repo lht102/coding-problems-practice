@@ -836,3 +836,6 @@ mod maximum_69_number;
 
 #[path = "01544_make_the_string_great/solution.rs"]
 mod make_the_string_great;
+
+#[path = "00901_online_stock_span/solution.rs"]
+mod online_stock_span;
