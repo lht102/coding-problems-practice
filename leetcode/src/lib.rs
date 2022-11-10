@@ -839,3 +839,6 @@ mod make_the_string_great;
 
 #[path = "00901_online_stock_span/solution.rs"]
 mod online_stock_span;
+
+#[path = "01047_remove_all_adjacent_duplicates_in_string/solution.rs"]
+mod remove_all_adjacent_duplicates_in_string;
