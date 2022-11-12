@@ -842,3 +842,6 @@ mod online_stock_span;
 
 #[path = "01047_remove_all_adjacent_duplicates_in_string/solution.rs"]
 mod remove_all_adjacent_duplicates_in_string;
+
+#[path = "00026_remove_duplicates_from_sorted_array/solution.rs"]
+mod remove_duplicates_from_sorted_array;
