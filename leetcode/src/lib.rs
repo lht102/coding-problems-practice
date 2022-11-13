@@ -848,3 +848,6 @@ mod remove_duplicates_from_sorted_array;
 
 #[path = "00295_find_median_from_data_stream/solution.rs"]
 mod find_median_from_data_stream;
+
+#[path = "00151_reverse_words_in_a_string/solution.rs"]
+mod reverse_words_in_a_string;
