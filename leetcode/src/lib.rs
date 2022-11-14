@@ -851,3 +851,6 @@ mod find_median_from_data_stream;
 
 #[path = "00151_reverse_words_in_a_string/solution.rs"]
 mod reverse_words_in_a_string;
+
+#[path = "00947_most_stones_removed_with_same_row_or_column/solution.rs"]
+mod most_stones_removed_with_same_row_or_column;
