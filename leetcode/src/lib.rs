@@ -854,3 +854,6 @@ mod reverse_words_in_a_string;
 
 #[path = "00947_most_stones_removed_with_same_row_or_column/solution.rs"]
 mod most_stones_removed_with_same_row_or_column;
+
+#[path = "00222_count_complete_tree_nodes/solution.rs"]
+mod count_complete_tree_nodes;
