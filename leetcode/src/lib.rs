@@ -857,3 +857,6 @@ mod most_stones_removed_with_same_row_or_column;
 
 #[path = "00222_count_complete_tree_nodes/solution.rs"]
 mod count_complete_tree_nodes;
+
+#[path = "00374_guess_number_higher_or_lower/solution.rs"]
+mod guess_number_higher_or_lower;
