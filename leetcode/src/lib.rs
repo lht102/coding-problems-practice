@@ -860,3 +860,6 @@ mod count_complete_tree_nodes;
 
 #[path = "00374_guess_number_higher_or_lower/solution.rs"]
 mod guess_number_higher_or_lower;
+
+#[path = "01926_nearest_exit_from_entrance_in_maze/solution.rs"]
+mod nearest_exit_from_entrance_in_maze;
