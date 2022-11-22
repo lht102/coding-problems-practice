@@ -863,3 +863,6 @@ mod guess_number_higher_or_lower;
 
 #[path = "01926_nearest_exit_from_entrance_in_maze/solution.rs"]
 mod nearest_exit_from_entrance_in_maze;
+
+#[path = "00279_perfect_squares/solution.rs"]
+mod perfect_squares;
