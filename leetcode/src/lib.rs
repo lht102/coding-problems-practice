@@ -866,3 +866,6 @@ mod nearest_exit_from_entrance_in_maze;
 
 #[path = "00279_perfect_squares/solution.rs"]
 mod perfect_squares;
+
+#[path = "00036_valid_sudoku/solution.rs"]
+mod valid_sudoku;
