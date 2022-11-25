@@ -869,3 +869,6 @@ mod perfect_squares;
 
 #[path = "00036_valid_sudoku/solution.rs"]
 mod valid_sudoku;
+
+#[path = "00079_word_search/solution.rs"]
+mod word_search;
