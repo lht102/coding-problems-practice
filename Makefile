@@ -8,7 +8,7 @@ fmt:
 .PHONY: test
 test:
 	go test ./...
-	cargo test
+	cargo test -- --nocapture
 
 .PHONY: lint
 lint:
