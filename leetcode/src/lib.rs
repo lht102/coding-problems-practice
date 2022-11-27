@@ -872,3 +872,6 @@ mod valid_sudoku;
 
 #[path = "00079_word_search/solution.rs"]
 mod word_search;
+
+#[path = "00907_sum_of_subarray_minimums/solution.rs"]
+mod sum_of_subarray_minimums;
