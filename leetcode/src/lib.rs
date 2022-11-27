@@ -875,3 +875,6 @@ mod word_search;
 
 #[path = "00907_sum_of_subarray_minimums/solution.rs"]
 mod sum_of_subarray_minimums;
+
+#[path = "01235_maximum_profit_in_job_scheduling/solution.rs"]
+mod maximum_profit_in_job_scheduling;
