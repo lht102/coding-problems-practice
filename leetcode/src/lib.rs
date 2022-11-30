@@ -878,3 +878,6 @@ mod sum_of_subarray_minimums;
 
 #[path = "01235_maximum_profit_in_job_scheduling/solution.rs"]
 mod maximum_profit_in_job_scheduling;
+
+#[path = "02225_find_players_with_zero_or_one_losses/solution.rs"]
+mod find_players_with_zero_or_one_losses;
