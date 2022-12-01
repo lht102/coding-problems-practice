@@ -884,3 +884,6 @@ mod find_players_with_zero_or_one_losses;
 
 #[path = "01207_unique_number_of_occurrences/solution.rs"]
 mod unique_number_of_occurrences;
+
+#[path = "01704_determine_if_string_halves_are_alike/solution.rs"]
+mod determine_if_string_halves_are_alike;
