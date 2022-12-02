@@ -5,18 +5,15 @@ struct Solution;
 
 impl Solution {
     pub fn close_strings(word1: String, word2: String) -> bool {
-        let freq1 = word1
-            .chars()
-            .fold(HashMap::<char, usize>::new(), |mut map, ch| {
-                *map.entry(ch).or_default() += 1;
-                map
-            });
-        let freq2 = word2
-            .chars()
-            .fold(HashMap::<char, usize>::new(), |mut map, ch| {
-                *map.entry(ch).or_default() += 1;
-                map
-            });
+        let counter = |w: &str| {
+            w.chars()
+                .fold(HashMap::<char, usize>::new(), |mut map, ch| {
+                    *map.entry(ch).or_default() += 1;
+                    map
+                })
+        };
+        let freq1 = counter(&word1);
+        let freq2 = counter(&word2);
         let mut cnt1 = freq1.values().collect::<Vec<_>>();
         cnt1.sort_unstable();
         let mut cnt2 = freq2.values().collect::<Vec<_>>();
