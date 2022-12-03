@@ -887,3 +887,6 @@ mod unique_number_of_occurrences;
 
 #[path = "01704_determine_if_string_halves_are_alike/solution.rs"]
 mod determine_if_string_halves_are_alike;
+
+#[path = "00451_sort_characters_by_frequency/solution.rs"]
+mod sort_characters_by_frequency;
