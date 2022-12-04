@@ -2,24 +2,26 @@ struct Solution;
 
 impl Solution {
     pub fn minimum_average_difference(nums: Vec<i32>) -> i32 {
-        let n = nums.len();
-        let mut prefix = nums.into_iter().map(|num| num as i64).collect::<Vec<_>>();
-        for i in 1..n {
-            prefix[i] += prefix[i - 1];
-        }
-        (0..n)
-            .map(|i| (Self::difference(&prefix, i), i))
+        let psum = nums
+            .iter()
+            .scan(0i64, |acc, &num| {
+                *acc += num as i64;
+                Some(*acc)
+            })
+            .collect::<Vec<_>>();
+        (0..psum.len())
+            .map(|i| (Self::difference(&psum, i), i))
             .min()
             .unwrap()
             .1 as i32
     }
 
-    fn difference(prefix: &[i64], idx: usize) -> i64 {
-        if idx == prefix.len() - 1 {
-            return prefix[prefix.len() - 1] / prefix.len() as i64;
+    fn difference(psum: &[i64], idx: usize) -> i64 {
+        if idx == psum.len() - 1 {
+            return psum[psum.len() - 1] / psum.len() as i64;
         }
-        (prefix[idx] / (idx + 1) as i64
-            - (prefix[prefix.len() - 1] - prefix[idx]) / (prefix.len() - 1 - idx) as i64)
+        (psum[idx] / (idx + 1) as i64
+            - (psum[psum.len() - 1] - psum[idx]) / (psum.len() - 1 - idx) as i64)
             .abs()
     }
 }
