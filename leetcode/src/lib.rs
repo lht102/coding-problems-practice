@@ -890,3 +890,6 @@ mod determine_if_string_halves_are_alike;
 
 #[path = "00451_sort_characters_by_frequency/solution.rs"]
 mod sort_characters_by_frequency;
+
+#[path = "00876_middle_of_the_linked_list/solution.rs"]
+mod middle_of_the_linked_list;
