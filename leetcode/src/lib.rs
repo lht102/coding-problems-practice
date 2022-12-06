@@ -893,3 +893,6 @@ mod sort_characters_by_frequency;
 
 #[path = "00876_middle_of_the_linked_list/solution.rs"]
 mod middle_of_the_linked_list;
+
+#[path = "00328_odd_even_linked_list/solution.rs"]
+mod odd_even_linked_list;
