@@ -896,3 +896,6 @@ mod middle_of_the_linked_list;
 
 #[path = "00328_odd_even_linked_list/solution.rs"]
 mod odd_even_linked_list;
+
+#[path = "00938_range_sum_of_bst/solution.rs"]
+mod range_sum_of_bst;
