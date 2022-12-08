@@ -899,3 +899,6 @@ mod odd_even_linked_list;
 
 #[path = "00938_range_sum_of_bst/solution.rs"]
 mod range_sum_of_bst;
+
+#[path = "00872_leaf_similar_trees/solution.rs"]
+mod leaf_similar_trees;
