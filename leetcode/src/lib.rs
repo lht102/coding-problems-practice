@@ -902,3 +902,6 @@ mod range_sum_of_bst;
 
 #[path = "00872_leaf_similar_trees/solution.rs"]
 mod leaf_similar_trees;
+
+#[path = "01026_maximum_difference_between_node_and_ancestor/solution.rs"]
+mod maximum_difference_between_node_and_ancestor;
