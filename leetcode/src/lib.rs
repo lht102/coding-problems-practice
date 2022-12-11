@@ -908,3 +908,6 @@ mod maximum_difference_between_node_and_ancestor;
 
 #[path = "01339_maximum_product_of_splitted_binary_tree/solution.rs"]
 mod maximum_product_of_splitted_binary_tree;
+
+#[path = "00124_binary_tree_maximum_path_sum/solution.rs"]
+mod binary_tree_maximum_path_sum;
