@@ -911,3 +911,6 @@ mod maximum_product_of_splitted_binary_tree;
 
 #[path = "00124_binary_tree_maximum_path_sum/solution.rs"]
 mod binary_tree_maximum_path_sum;
+
+#[path = "00931_minimum_falling_path_sum/solution.rs"]
+mod minimum_falling_path_sum;
