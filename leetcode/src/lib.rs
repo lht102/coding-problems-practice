@@ -917,3 +917,6 @@ mod minimum_falling_path_sum;
 
 #[path = "00198_house_robber/solution.rs"]
 mod house_robber;
+
+#[path = "01143_longest_common_subsequence/solution.rs"]
+mod longest_common_subsequence;
