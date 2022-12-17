@@ -920,3 +920,6 @@ mod house_robber;
 
 #[path = "01143_longest_common_subsequence/solution.rs"]
 mod longest_common_subsequence;
+
+#[path = "00150_evaluate_reverse_polish_notation/solution.rs"]
+mod evaluate_reverse_polish_notation;
