@@ -923,3 +923,6 @@ mod longest_common_subsequence;
 
 #[path = "00150_evaluate_reverse_polish_notation/solution.rs"]
 mod evaluate_reverse_polish_notation;
+
+#[path = "00739_daily_temperatures/solution.rs"]
+mod daily_temperatures;
