@@ -926,3 +926,6 @@ mod evaluate_reverse_polish_notation;
 
 #[path = "00739_daily_temperatures/solution.rs"]
 mod daily_temperatures;
+
+#[path = "01971_find_if_path_exists_in_graph/solution.rs"]
+mod find_if_path_exists_in_graph;
