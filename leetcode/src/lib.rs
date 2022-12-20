@@ -929,3 +929,6 @@ mod daily_temperatures;
 
 #[path = "01971_find_if_path_exists_in_graph/solution.rs"]
 mod find_if_path_exists_in_graph;
+
+#[path = "00841_keys_and_rooms/solution.rs"]
+mod keys_and_rooms;
