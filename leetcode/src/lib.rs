@@ -932,3 +932,6 @@ mod find_if_path_exists_in_graph;
 
 #[path = "00841_keys_and_rooms/solution.rs"]
 mod keys_and_rooms;
+
+#[path = "00886_possible_bipartition/solution.rs"]
+mod possible_bipartition;
