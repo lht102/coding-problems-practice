@@ -18,7 +18,7 @@ impl Solution {
         lo
     }
 
-    fn dfs(g: &Vec<Vec<i32>>, vi: &mut Vec<Vec<bool>>, ci: i32, cj: i32, k: i32) -> bool {
+    fn dfs(g: &[Vec<i32>], vi: &mut Vec<Vec<bool>>, ci: i32, cj: i32, k: i32) -> bool {
         if ci as usize == g.len() - 1 && cj as usize == g[0].len() - 1 {
             return true;
         }
