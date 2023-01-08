@@ -935,3 +935,6 @@ mod keys_and_rooms;
 
 #[path = "00886_possible_bipartition/solution.rs"]
 mod possible_bipartition;
+
+#[path = "00834_sum_of_distances_in_tree/solution.rs"]
+mod sum_of_distances_in_tree;
