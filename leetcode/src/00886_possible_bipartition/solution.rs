@@ -50,12 +50,12 @@ mod tests {
         let dislikes = vec![vec![1, 2], vec![1, 3], vec![2, 4]];
         assert!(Solution::possible_bipartition(n, dislikes));
 
-        // let n = 3;
-        // let dislikes = vec![vec![1, 2], vec![1, 3], vec![2, 3]];
-        // assert!(!Solution::possible_bipartition(n, dislikes));
-        //
-        // let n = 5;
-        // let dislikes = vec![vec![1, 2], vec![2, 3], vec![3, 4], vec![4, 5], vec![1, 5]];
-        // assert!(!Solution::possible_bipartition(n, dislikes));
+        let n = 3;
+        let dislikes = vec![vec![1, 2], vec![1, 3], vec![2, 3]];
+        assert!(!Solution::possible_bipartition(n, dislikes));
+
+        let n = 5;
+        let dislikes = vec![vec![1, 2], vec![2, 3], vec![3, 4], vec![4, 5], vec![1, 5]];
+        assert!(!Solution::possible_bipartition(n, dislikes));
     }
 }
