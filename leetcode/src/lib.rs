@@ -941,3 +941,6 @@ mod sum_of_distances_in_tree;
 
 #[path = "00149_max_points_on_a_line/solution.rs"]
 mod max_points_on_a_line;
+
+#[path = "00290_word_pattern/solution.rs"]
+mod word_pattern;
