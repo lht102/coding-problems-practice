@@ -953,3 +953,6 @@ mod delete_columns_to_make_sorted;
 
 #[path = "00452_minimum_number_of_arrows_to_burst_balloons/solution.rs"]
 mod minimum_number_of_arrows_to_burst_balloons;
+
+#[path = "00472_concatenated_words/solution.rs"]
+mod concatenated_words;
