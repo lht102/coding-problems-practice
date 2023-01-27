@@ -947,3 +947,6 @@ mod word_pattern;
 
 #[path = "00520_detect_capital/solution.rs"]
 mod detect_capital;
+
+#[path = "00944_delete_columns_to_make_sorted/solution.rs"]
+mod delete_columns_to_make_sorted;
