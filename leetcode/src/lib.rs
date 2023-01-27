@@ -950,3 +950,6 @@ mod detect_capital;
 
 #[path = "00944_delete_columns_to_make_sorted/solution.rs"]
 mod delete_columns_to_make_sorted;
+
+#[path = "00452_minimum_number_of_arrows_to_burst_balloons/solution.rs"]
+mod minimum_number_of_arrows_to_burst_balloons;
