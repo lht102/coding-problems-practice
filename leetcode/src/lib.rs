@@ -938,3 +938,6 @@ mod possible_bipartition;
 
 #[path = "00834_sum_of_distances_in_tree/solution.rs"]
 mod sum_of_distances_in_tree;
+
+#[path = "00149_max_points_on_a_line/solution.rs"]
+mod max_points_on_a_line;
