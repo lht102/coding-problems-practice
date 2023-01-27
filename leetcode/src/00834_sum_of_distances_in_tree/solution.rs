@@ -13,7 +13,7 @@ impl Solution {
         let mut cnts = vec![0; n];
         let mut res = vec![0; n];
         Solution::dfs(&adj, 0, None, &mut cnts, &mut res);
-        Solution::dfs2(&adj, 0, None, &mut cnts, &mut res);
+        Solution::dfs2(&adj, 0, None, &cnts, &mut res);
         res
     }
 
