@@ -944,3 +944,6 @@ mod max_points_on_a_line;
 
 #[path = "00290_word_pattern/solution.rs"]
 mod word_pattern;
+
+#[path = "00520_detect_capital/solution.rs"]
+mod detect_capital;
