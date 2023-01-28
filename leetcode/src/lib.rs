@@ -965,3 +965,6 @@ mod binary_tree_preorder_traversal;
 
 #[path = "00100_same_tree/solution.rs"]
 mod same_tree;
+
+#[path = "01443_minimum_time_to_collect_all_apples_in_a_tree/solution.rs"]
+mod minimum_time_to_collect_all_apples_in_a_tree;
