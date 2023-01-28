@@ -962,3 +962,6 @@ mod maximum_ice_cream_bars;
 
 #[path = "00144_binary_tree_preorder_traversal/solution.rs"]
 mod binary_tree_preorder_traversal;
+
+#[path = "00100_same_tree/solution.rs"]
+mod same_tree;
