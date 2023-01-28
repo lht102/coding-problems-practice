@@ -956,3 +956,6 @@ mod minimum_number_of_arrows_to_burst_balloons;
 
 #[path = "00472_concatenated_words/solution.rs"]
 mod concatenated_words;
+
+#[path = "01833_maximum_ice_cream_bars/solution.rs"]
+mod maximum_ice_cream_bars;
