@@ -16,10 +16,8 @@ impl Solution {
     fn dfs(source: usize, parent: Option<usize>, adj: &[Vec<usize>], has_apple: &[bool]) -> i32 {
         let mut total_time = 0;
         for &destination in &adj[source] {
-            if let Some(p) = parent {
-                if destination == p {
-                    continue;
-                }
+            if Some(destination) == parent {
+                continue;
             }
             let t = Solution::dfs(destination, Some(source), adj, has_apple);
             if t > 0 || has_apple[destination] {
