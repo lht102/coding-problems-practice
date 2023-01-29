@@ -971,3 +971,6 @@ mod minimum_time_to_collect_all_apples_in_a_tree;
 
 #[path = "01519_number_of_nodes_in_the_sub_tree_with_the_same_label/solution.rs"]
 mod number_of_nodes_in_the_sub_tree_with_the_same_label;
+
+#[path = "00352_data_stream_as_disjoint_intervals/solution.rs"]
+mod data_stream_as_disjoint_intervals;
