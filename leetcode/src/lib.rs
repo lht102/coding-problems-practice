@@ -974,3 +974,6 @@ mod number_of_nodes_in_the_sub_tree_with_the_same_label;
 
 #[path = "00352_data_stream_as_disjoint_intervals/solution.rs"]
 mod data_stream_as_disjoint_intervals;
+
+#[path = "01137_n_th_tribonacci_number/solution.rs"]
+mod n_th_tribonacci_number;
