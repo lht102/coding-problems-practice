@@ -10,9 +10,7 @@ linters:
     - govet
     - ineffassign
     - staticcheck
-    - structcheck
     - typecheck
-    - varcheck
     - godot
     - gofmt
     - gofumpt

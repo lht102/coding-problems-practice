@@ -1,0 +1,46 @@
+name: Workflow
+on: [push]
+jobs:
+  fmt:
+    name: Run formatter
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-go@v3
+        with:
+          go-version: ^1.19.0
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: rustfmt, clippy
+      - run: if [ "$(gofmt -s -l . | wc -l)" -gt 0 ]; then exit 1; fi
+      - run: cargo fmt --all -- --check
+  lint:
+    name: Run linter
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-go@v3
+        with:
+          go-version: ^1.19.0
+      - uses: golangci/golangci-lint-action@v3
+        with:
+          version: v1.50.1
+          working-directory: leetcode
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: rustfmt, clippy
+      - run: golangci-lint run
+      - run: cargo clippy
+  test:
+    name: Run test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-go@v3
+        with:
+          go-version: ^1.19.0
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: rustfmt, clippy
+      - run: go test ./...
+      - run: cargo test

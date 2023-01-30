@@ -16,7 +16,7 @@ impl Solution {
             });
         for (i, &num) in nums.iter().enumerate() {
             let cnt = *freq.get(&i).unwrap_or(&0);
-            if cnt != num as usize {
+            if cnt != num {
                 return false;
             }
         }

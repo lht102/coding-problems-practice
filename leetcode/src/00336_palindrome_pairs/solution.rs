@@ -71,9 +71,7 @@ fn is_palindrome(s: &[char], i: usize, j: usize) -> bool {
     let (mut i, mut j) = (i, j);
     while i < j && s[i] == s[j] {
         i += 1;
-        if j > 0 {
-            j -= 1;
-        }
+        j = j.saturating_sub(1);
     }
     i >= j
 }

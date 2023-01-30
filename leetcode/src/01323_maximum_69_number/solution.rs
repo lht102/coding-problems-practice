@@ -7,7 +7,7 @@ impl Solution {
         let mut i = 0;
         while val > 0 {
             if val % 10 == 6 {
-                digits = i as i32;
+                digits = i;
             }
             i += 1;
             val /= 10;
