@@ -14,7 +14,7 @@ impl Solution {
                 pq.push(Reverse(diff));
             }
             if pq.len() > ladders {
-                b -= pq.pop().unwrap().0 as i32;
+                b -= pq.pop().unwrap().0;
             }
             if b < 0 {
                 return i as i32 - 1;

@@ -9,7 +9,7 @@ impl Solution {
             if let Some(stripped) = w.strip_prefix('$') {
                 if let Ok(num) = stripped.parse::<f64>() {
                     let p = num * (100.0 - discount) / 100.0;
-                    res.push(format!("${:.2}", p));
+                    res.push(format!("${p:.2}"));
                     continue;
                 }
             }

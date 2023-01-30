@@ -12,7 +12,7 @@ impl Solution {
     }
 
     fn solve(s: &[i32], k: i32, cur_idx: usize, cur_len: usize, dp: &mut Vec<Vec<i32>>) -> i32 {
-        if dp[cur_idx][cur_len as usize] != -1 {
+        if dp[cur_idx][cur_len] != -1 {
             return dp[cur_idx][cur_len];
         }
         if cur_idx == s.len() {

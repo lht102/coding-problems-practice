@@ -16,12 +16,12 @@ impl Solution {
             if ch == prev {
                 cnt += 1;
             } else {
-                res.push_str(&format!("{}{}", cnt, prev));
+                res.push_str(&format!("{cnt}{prev}"));
                 prev = ch;
                 cnt = 1;
             }
         }
-        res.push_str(&format!("{}{}", cnt, prev));
+        res.push_str(&format!("{cnt}{prev}"));
         res
     }
 }

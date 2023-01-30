@@ -4,10 +4,10 @@ impl Solution {
     pub fn find_max_form(strs: Vec<String>, m: i32, n: i32) -> i32 {
         let zeros = strs
             .iter()
-            .map(|s| s.chars().filter(|&ch| ch == '0').count() as usize)
+            .map(|s| s.chars().filter(|&ch| ch == '0').count())
             .collect::<Vec<_>>();
         let mut dp = vec![vec![vec![-1; n as usize + 1]; m as usize + 1]; strs.len()];
-        Solution::solve(&strs, &zeros, strs.len() - 1, m as i32, n as i32, &mut dp)
+        Solution::solve(&strs, &zeros, strs.len() - 1, m, n, &mut dp)
     }
 
     fn solve(
