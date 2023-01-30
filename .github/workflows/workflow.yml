@@ -12,7 +12,8 @@ jobs:
       - uses: dtolnay/rust-toolchain@stable
         with:
           components: rustfmt, clippy
-      - run: make fmt
+      - run: if [ "$(gofmt -s -l . | wc -l)" -gt 0 ]; then exit 1; fi
+      - run: cargo fmt --all -- --check
   lint:
     name: Run linter
     runs-on: ubuntu-latest
@@ -28,7 +29,8 @@ jobs:
       - uses: dtolnay/rust-toolchain@stable
         with:
           components: rustfmt, clippy
-      - run: make lint
+      - run: golangci-lint run
+      - run: cargo clippy
   test:
     name: Run test
     runs-on: ubuntu-latest
@@ -40,4 +42,5 @@ jobs:
       - uses: dtolnay/rust-toolchain@stable
         with:
           components: rustfmt, clippy
-      - run: make test
+      - run: go test ./...
+      - run: cargo test
