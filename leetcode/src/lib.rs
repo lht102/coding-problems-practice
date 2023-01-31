@@ -977,3 +977,6 @@ mod data_stream_as_disjoint_intervals;
 
 #[path = "01137_n_th_tribonacci_number/solution.rs"]
 mod n_th_tribonacci_number;
+
+#[path = "01626_best_team_with_no_conflicts/solution.rs"]
+mod best_team_with_no_conflicts;
