@@ -983,3 +983,6 @@ mod best_team_with_no_conflicts;
 
 #[path = "01071_greatest_common_divisor_of_strings/solution.rs"]
 mod greatest_common_divisor_of_strings;
+
+#[path = "00953_verifying_an_alien_dictionary/solution.rs"]
+mod verifying_an_alien_dictionary;
