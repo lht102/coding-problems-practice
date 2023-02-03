@@ -986,3 +986,6 @@ mod greatest_common_divisor_of_strings;
 
 #[path = "00953_verifying_an_alien_dictionary/solution.rs"]
 mod verifying_an_alien_dictionary;
+
+#[path = "00006_zigzag_conversion/solution.rs"]
+mod zigzag_conversion;
