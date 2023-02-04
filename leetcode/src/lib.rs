@@ -989,3 +989,6 @@ mod verifying_an_alien_dictionary;
 
 #[path = "00006_zigzag_conversion/solution.rs"]
 mod zigzag_conversion;
+
+#[path = "00567_permutation_in_string/solution.rs"]
+mod permutation_in_string;
