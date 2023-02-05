@@ -992,3 +992,6 @@ mod zigzag_conversion;
 
 #[path = "00567_permutation_in_string/solution.rs"]
 mod permutation_in_string;
+
+#[path = "00438_find_all_anagrams_in_a_string/solution.rs"]
+mod find_all_anagrams_in_a_string;
