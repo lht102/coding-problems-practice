@@ -998,3 +998,6 @@ mod find_all_anagrams_in_a_string;
 
 #[path = "00395_longest_substring_with_at_least_k_repeating_characters/solution.rs"]
 mod longest_substring_with_at_least_k_repeating_characters;
+
+#[path = "01470_shuffle_the_array/solution.rs"]
+mod shuffle_the_array;
