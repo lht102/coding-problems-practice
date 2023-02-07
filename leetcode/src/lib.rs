@@ -1001,3 +1001,6 @@ mod longest_substring_with_at_least_k_repeating_characters;
 
 #[path = "01470_shuffle_the_array/solution.rs"]
 mod shuffle_the_array;
+
+#[path = "00904_fruit_into_baskets/solution.rs"]
+mod fruit_into_baskets;
