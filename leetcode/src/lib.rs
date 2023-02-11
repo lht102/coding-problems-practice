@@ -1004,3 +1004,6 @@ mod shuffle_the_array;
 
 #[path = "00904_fruit_into_baskets/solution.rs"]
 mod fruit_into_baskets;
+
+#[path = "01129_shortest_path_with_alternating_colors/solution.rs"]
+mod shortest_path_with_alternating_colors;
