@@ -1007,3 +1007,6 @@ mod fruit_into_baskets;
 
 #[path = "01129_shortest_path_with_alternating_colors/solution.rs"]
 mod shortest_path_with_alternating_colors;
+
+#[path = "01162_as_far_from_land_as_possible/solution.rs"]
+mod as_far_from_land_as_possible;
