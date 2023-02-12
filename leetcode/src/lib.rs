@@ -1013,3 +1013,6 @@ mod as_far_from_land_as_possible;
 
 #[path = "02477_minimum_fuel_cost_to_report_to_the_capital/solution.rs"]
 mod minimum_fuel_cost_to_report_to_the_capital;
+
+#[path = "00045_jump_game_ii/solution.rs"]
+mod jump_game_ii;
