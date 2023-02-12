@@ -1010,3 +1010,6 @@ mod shortest_path_with_alternating_colors;
 
 #[path = "01162_as_far_from_land_as_possible/solution.rs"]
 mod as_far_from_land_as_possible;
+
+#[path = "02477_minimum_fuel_cost_to_report_to_the_capital/solution.rs"]
+mod minimum_fuel_cost_to_report_to_the_capital;
