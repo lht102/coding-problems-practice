@@ -5,8 +5,8 @@ impl Solution {
         let mut res = 0;
         let mut farthest = 0;
         let mut cur_pos = 0;
-        for i in 1..nums.len() {
-            farthest = farthest.max(nums[i - 1] as usize + i);
+        for (i, &num) in nums.iter().enumerate().take(nums.len() - 1) {
+            farthest = farthest.max(num as usize + i);
             if i == cur_pos {
                 cur_pos = farthest;
                 res += 1;
