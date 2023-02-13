@@ -1019,3 +1019,6 @@ mod jump_game_ii;
 
 #[path = "02306_naming_a_company/solution.rs"]
 mod naming_a_company;
+
+#[path = "01523_count_odd_numbers_in_an_interval_range/solution.rs"]
+mod count_odd_numbers_in_an_interval_range;
