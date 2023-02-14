@@ -1022,3 +1022,6 @@ mod naming_a_company;
 
 #[path = "01523_count_odd_numbers_in_an_interval_range/solution.rs"]
 mod count_odd_numbers_in_an_interval_range;
+
+#[path = "00067_add_binary/solution.rs"]
+mod add_binary;
