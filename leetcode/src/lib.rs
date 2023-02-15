@@ -1025,3 +1025,6 @@ mod count_odd_numbers_in_an_interval_range;
 
 #[path = "00067_add_binary/solution.rs"]
 mod add_binary;
+
+#[path = "00989_add_to_array_form_of_integer/solution.rs"]
+mod add_to_array_form_of_integer;
