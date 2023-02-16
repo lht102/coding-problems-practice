@@ -1028,3 +1028,6 @@ mod add_binary;
 
 #[path = "00989_add_to_array_form_of_integer/solution.rs"]
 mod add_to_array_form_of_integer;
+
+#[path = "00104_maximum_depth_of_binary_tree/solution.rs"]
+mod maximum_depth_of_binary_tree;
