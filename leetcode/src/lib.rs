@@ -1031,3 +1031,6 @@ mod add_to_array_form_of_integer;
 
 #[path = "00104_maximum_depth_of_binary_tree/solution.rs"]
 mod maximum_depth_of_binary_tree;
+
+#[path = "00783_minimum_distance_between_bst_nodes/solution.rs"]
+mod minimum_distance_between_bst_nodes;
