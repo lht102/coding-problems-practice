@@ -1,6 +1,8 @@
 use std::cell::RefCell;
 use std::rc::Rc;
 
+struct Solution;
+
 #[derive(Debug, PartialEq, Eq)]
 pub struct TreeNode {
     pub val: i32,
@@ -19,13 +21,11 @@ impl TreeNode {
     }
 }
 
-struct Solution;
-
 impl Solution {
     pub fn invert_tree(root: Option<Rc<RefCell<TreeNode>>>) -> Option<Rc<RefCell<TreeNode>>> {
         if let Some(ref r) = root {
-            let left = Solution::invert_tree(r.borrow().left.clone());
-            let right = Solution::invert_tree(r.borrow().right.clone());
+            let left = Self::invert_tree(r.borrow().left.clone());
+            let right = Self::invert_tree(r.borrow().right.clone());
             r.borrow_mut().left = right;
             r.borrow_mut().right = left;
             return root;
