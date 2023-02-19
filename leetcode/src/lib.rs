@@ -1034,3 +1034,6 @@ mod maximum_depth_of_binary_tree;
 
 #[path = "00783_minimum_distance_between_bst_nodes/solution.rs"]
 mod minimum_distance_between_bst_nodes;
+
+#[path = "00103_binary_tree_zigzag_level_order_traversal/solution.rs"]
+mod binary_tree_zigzag_level_order_traversal;
