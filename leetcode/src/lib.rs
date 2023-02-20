@@ -1037,3 +1037,6 @@ mod minimum_distance_between_bst_nodes;
 
 #[path = "00103_binary_tree_zigzag_level_order_traversal/solution.rs"]
 mod binary_tree_zigzag_level_order_traversal;
+
+#[path = "00035_search_insert_position/solution.rs"]
+mod search_insert_position;
