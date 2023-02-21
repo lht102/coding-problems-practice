@@ -1040,3 +1040,6 @@ mod binary_tree_zigzag_level_order_traversal;
 
 #[path = "00035_search_insert_position/solution.rs"]
 mod search_insert_position;
+
+#[path = "00540_single_element_in_a_sorted_array/solution.rs"]
+mod single_element_in_a_sorted_array;
