@@ -1043,3 +1043,6 @@ mod search_insert_position;
 
 #[path = "00540_single_element_in_a_sorted_array/solution.rs"]
 mod single_element_in_a_sorted_array;
+
+#[path = "01011_capacity_to_ship_packages_within_d_days/solution.rs"]
+mod capacity_to_ship_packages_within_d_days;
