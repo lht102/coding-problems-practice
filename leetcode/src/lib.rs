@@ -1049,3 +1049,6 @@ mod capacity_to_ship_packages_within_d_days;
 
 #[path = "00502_ipo/solution.rs"]
 mod ipo;
+
+#[path = "01675_minimize_deviation_in_array/solution.rs"]
+mod minimize_deviation_in_array;
