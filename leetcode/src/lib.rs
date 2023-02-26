@@ -1052,3 +1052,6 @@ mod ipo;
 
 #[path = "01675_minimize_deviation_in_array/solution.rs"]
 mod minimize_deviation_in_array;
+
+#[path = "00072_edit_distance/solution.rs"]
+mod edit_distance;
