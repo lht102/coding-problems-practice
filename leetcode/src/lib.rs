@@ -1055,3 +1055,6 @@ mod minimize_deviation_in_array;
 
 #[path = "00072_edit_distance/solution.rs"]
 mod edit_distance;
+
+#[path = "00652_find_duplicate_subtrees/solution.rs"]
+mod find_duplicate_subtrees;
