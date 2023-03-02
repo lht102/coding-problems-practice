@@ -1058,3 +1058,6 @@ mod edit_distance;
 
 #[path = "00652_find_duplicate_subtrees/solution.rs"]
 mod find_duplicate_subtrees;
+
+#[path = "00912_sort_an_array/solution.rs"]
+mod sort_an_array;
