@@ -1061,3 +1061,6 @@ mod find_duplicate_subtrees;
 
 #[path = "00912_sort_an_array/solution.rs"]
 mod sort_an_array;
+
+#[path = "00443_string_compression/solution.rs"]
+mod string_compression;
