@@ -1064,3 +1064,6 @@ mod sort_an_array;
 
 #[path = "00443_string_compression/solution.rs"]
 mod string_compression;
+
+#[path = "00028_find_the_index_of_the_first_occurrence_in_a_string/solution.rs"]
+mod find_the_index_of_the_first_occurrence_in_a_string;
