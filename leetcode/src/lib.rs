@@ -1067,3 +1067,6 @@ mod string_compression;
 
 #[path = "00028_find_the_index_of_the_first_occurrence_in_a_string/solution.rs"]
 mod find_the_index_of_the_first_occurrence_in_a_string;
+
+#[path = "02444_count_subarrays_with_fixed_bounds/solution.rs"]
+mod count_subarrays_with_fixed_bounds;
