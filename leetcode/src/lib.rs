@@ -1070,3 +1070,6 @@ mod find_the_index_of_the_first_occurrence_in_a_string;
 
 #[path = "02444_count_subarrays_with_fixed_bounds/solution.rs"]
 mod count_subarrays_with_fixed_bounds;
+
+#[path = "01345_jump_game_iv/solution.rs"]
+mod jump_game_iv;
