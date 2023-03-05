@@ -56,6 +56,6 @@ mod tests {
 
         let haystack = String::from("abb");
         let needle = String::from("abaaa");
-        assert_eq!(Solution::str_str(haystack, needle), 0);
+        assert_eq!(Solution::str_str(haystack, needle), -1);
     }
 }
