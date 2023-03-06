@@ -1073,3 +1073,6 @@ mod count_subarrays_with_fixed_bounds;
 
 #[path = "01345_jump_game_iv/solution.rs"]
 mod jump_game_iv;
+
+#[path = "01539_kth_missing_positive_number/solution.rs"]
+mod kth_missing_positive_number;
