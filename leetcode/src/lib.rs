@@ -1076,3 +1076,6 @@ mod jump_game_iv;
 
 #[path = "01539_kth_missing_positive_number/solution.rs"]
 mod kth_missing_positive_number;
+
+#[path = "02187_minimum_time_to_complete_trips/solution.rs"]
+mod minimum_time_to_complete_trips;
