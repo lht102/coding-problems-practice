@@ -1079,3 +1079,6 @@ mod kth_missing_positive_number;
 
 #[path = "02187_minimum_time_to_complete_trips/solution.rs"]
 mod minimum_time_to_complete_trips;
+
+#[path = "00875_koko_eating_bananas/solution.rs"]
+mod koko_eating_bananas;
