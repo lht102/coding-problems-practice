@@ -1085,3 +1085,6 @@ mod koko_eating_bananas;
 
 #[path = "00382_linked_list_random_node/solution.rs"]
 mod linked_list_random_node;
+
+#[path = "00109_convert_sorted_list_to_binary_search_tree/solution.rs"]
+mod convert_sorted_list_to_binary_search_tree;
