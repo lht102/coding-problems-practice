@@ -1082,3 +1082,6 @@ mod minimum_time_to_complete_trips;
 
 #[path = "00875_koko_eating_bananas/solution.rs"]
 mod koko_eating_bananas;
+
+#[path = "00382_linked_list_random_node/solution.rs"]
+mod linked_list_random_node;
