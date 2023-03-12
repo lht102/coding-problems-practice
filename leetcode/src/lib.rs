@@ -1088,3 +1088,6 @@ mod linked_list_random_node;
 
 #[path = "00109_convert_sorted_list_to_binary_search_tree/solution.rs"]
 mod convert_sorted_list_to_binary_search_tree;
+
+#[path = "00023_merge_k_sorted_lists/solution.rs"]
+mod merge_k_sorted_lists;
