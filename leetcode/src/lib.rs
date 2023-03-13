@@ -1091,3 +1091,6 @@ mod convert_sorted_list_to_binary_search_tree;
 
 #[path = "00023_merge_k_sorted_lists/solution.rs"]
 mod merge_k_sorted_lists;
+
+#[path = "00101_symmetric_tree/solution.rs"]
+mod symmetric_tree;
