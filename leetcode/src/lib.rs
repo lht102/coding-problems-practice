@@ -1094,3 +1094,6 @@ mod merge_k_sorted_lists;
 
 #[path = "00101_symmetric_tree/solution.rs"]
 mod symmetric_tree;
+
+#[path = "00129_sum_root_to_leaf_numbers/solution.rs"]
+mod sum_root_to_leaf_numbers;
