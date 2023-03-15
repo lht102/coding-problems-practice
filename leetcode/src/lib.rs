@@ -1097,3 +1097,6 @@ mod symmetric_tree;
 
 #[path = "00129_sum_root_to_leaf_numbers/solution.rs"]
 mod sum_root_to_leaf_numbers;
+
+#[path = "00958_check_completeness_of_a_binary_tree/solution.rs"]
+mod check_completeness_of_a_binary_tree;
