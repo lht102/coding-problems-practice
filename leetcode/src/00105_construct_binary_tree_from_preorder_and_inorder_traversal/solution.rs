@@ -29,7 +29,7 @@ impl Solution {
             .enumerate()
             .map(|(i, &v)| (v, i))
             .collect::<HashMap<i32, usize>>();
-        Solution::solve(
+        Self::dfs(
             &preorder,
             &inorder,
             &num_to_idx,
@@ -39,25 +39,25 @@ impl Solution {
         )
     }
 
-    fn solve(
+    fn dfs(
         preorder: &[i32],
-        _inorder: &[i32],
-        num_to_idx: &HashMap<i32, usize>,
-        pre_i: &mut usize,
+        inorder: &[i32],
+        in_num_to_idx: &HashMap<i32, usize>,
+        pre_idx: &mut usize,
         in_left: i32,
         in_right: i32,
     ) -> Option<Rc<RefCell<TreeNode>>> {
         if in_left > in_right {
             return None;
         }
-        let val = preorder[*pre_i];
-        let mid = *num_to_idx.get(&val).unwrap() as i32;
-        *pre_i += 1;
+        let val = preorder[*pre_idx];
+        let mid = *in_num_to_idx.get(&val).unwrap() as i32;
+        *pre_idx += 1;
         let root = Rc::new(RefCell::new(TreeNode::new(val)));
         root.borrow_mut().left =
-            Solution::solve(preorder, _inorder, num_to_idx, pre_i, in_left, mid - 1);
+            Self::dfs(preorder, inorder, in_num_to_idx, pre_idx, in_left, mid - 1);
         root.borrow_mut().right =
-            Solution::solve(preorder, _inorder, num_to_idx, pre_i, mid + 1, in_right);
+            Self::dfs(preorder, inorder, in_num_to_idx, pre_idx, mid + 1, in_right);
         Some(root)
     }
 }
