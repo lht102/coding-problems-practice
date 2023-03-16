@@ -29,7 +29,6 @@ impl Solution {
             .map(|(i, &v)| (v, i))
             .collect::<HashMap<i32, usize>>();
         Self::dfs(
-            &inorder,
             &postorder,
             &num_to_idx,
             &mut (postorder.len() - 1),
@@ -39,7 +38,6 @@ impl Solution {
     }
 
     fn dfs(
-        inorder: &[i32],
         postorder: &[i32],
         in_num_to_idx: &HashMap<i32, usize>,
         post_idx: &mut usize,
@@ -53,22 +51,8 @@ impl Solution {
         let mid = *in_num_to_idx.get(&val).unwrap() as i32;
         *post_idx -= 1;
         let root = Rc::new(RefCell::new(TreeNode::new(val)));
-        root.borrow_mut().right = Self::dfs(
-            inorder,
-            postorder,
-            in_num_to_idx,
-            post_idx,
-            mid + 1,
-            in_right,
-        );
-        root.borrow_mut().left = Self::dfs(
-            inorder,
-            postorder,
-            in_num_to_idx,
-            post_idx,
-            in_left,
-            mid - 1,
-        );
+        root.borrow_mut().right = Self::dfs(postorder, in_num_to_idx, post_idx, mid + 1, in_right);
+        root.borrow_mut().left = Self::dfs(postorder, in_num_to_idx, post_idx, in_left, mid - 1);
         Some(root)
     }
 }

@@ -29,19 +29,11 @@ impl Solution {
             .enumerate()
             .map(|(i, &v)| (v, i))
             .collect::<HashMap<i32, usize>>();
-        Self::dfs(
-            &preorder,
-            &inorder,
-            &num_to_idx,
-            &mut 0,
-            0,
-            inorder.len() as i32 - 1,
-        )
+        Self::dfs(&preorder, &num_to_idx, &mut 0, 0, inorder.len() as i32 - 1)
     }
 
     fn dfs(
         preorder: &[i32],
-        inorder: &[i32],
         in_num_to_idx: &HashMap<i32, usize>,
         pre_idx: &mut usize,
         in_left: i32,
@@ -54,10 +46,8 @@ impl Solution {
         let mid = *in_num_to_idx.get(&val).unwrap() as i32;
         *pre_idx += 1;
         let root = Rc::new(RefCell::new(TreeNode::new(val)));
-        root.borrow_mut().left =
-            Self::dfs(preorder, inorder, in_num_to_idx, pre_idx, in_left, mid - 1);
-        root.borrow_mut().right =
-            Self::dfs(preorder, inorder, in_num_to_idx, pre_idx, mid + 1, in_right);
+        root.borrow_mut().left = Self::dfs(preorder, in_num_to_idx, pre_idx, in_left, mid - 1);
+        root.borrow_mut().right = Self::dfs(preorder, in_num_to_idx, pre_idx, mid + 1, in_right);
         Some(root)
     }
 }
