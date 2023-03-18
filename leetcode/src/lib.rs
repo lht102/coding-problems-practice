@@ -1106,3 +1106,6 @@ mod construct_binary_tree_from_inorder_and_postorder_traversal;
 
 #[path = "00208_implement_trie_prefix_tree/solution.rs"]
 mod implement_trie_prefix_tree;
+
+#[path = "01472_design_browser_history/solution.rs"]
+mod design_browser_history;
