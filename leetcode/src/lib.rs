@@ -1109,3 +1109,6 @@ mod implement_trie_prefix_tree;
 
 #[path = "01472_design_browser_history/solution.rs"]
 mod design_browser_history;
+
+#[path = "00211_design_add_and_search_words_data_structure/solution.rs"]
+mod design_add_and_search_words_data_structure;
