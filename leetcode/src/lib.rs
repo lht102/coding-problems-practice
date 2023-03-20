@@ -1112,3 +1112,6 @@ mod design_browser_history;
 
 #[path = "00211_design_add_and_search_words_data_structure/solution.rs"]
 mod design_add_and_search_words_data_structure;
+
+#[path = "00605_can_place_flowers/solution.rs"]
+mod can_place_flowers;
