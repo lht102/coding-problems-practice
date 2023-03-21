@@ -1115,3 +1115,6 @@ mod design_add_and_search_words_data_structure;
 
 #[path = "00605_can_place_flowers/solution.rs"]
 mod can_place_flowers;
+
+#[path = "02348_number_of_zero_filled_subarrays/solution.rs"]
+mod number_of_zero_filled_subarrays;
