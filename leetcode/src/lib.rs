@@ -1118,3 +1118,6 @@ mod can_place_flowers;
 
 #[path = "02348_number_of_zero_filled_subarrays/solution.rs"]
 mod number_of_zero_filled_subarrays;
+
+#[path = "02492_minimum_score_of_a_path_between_two_cities/solution.rs"]
+mod minimum_score_of_a_path_between_two_cities;
