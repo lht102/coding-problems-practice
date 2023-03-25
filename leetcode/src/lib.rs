@@ -1121,3 +1121,6 @@ mod number_of_zero_filled_subarrays;
 
 #[path = "02492_minimum_score_of_a_path_between_two_cities/solution.rs"]
 mod minimum_score_of_a_path_between_two_cities;
+
+#[path = "01319_number_of_operations_to_make_network_connected/solution.rs"]
+mod number_of_operations_to_make_network_connected;
