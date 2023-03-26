@@ -1127,3 +1127,6 @@ mod number_of_operations_to_make_network_connected;
 
 #[path = "01466_reorder_routes_to_make_all_paths_lead_to_the_city_zero/solution.rs"]
 mod reorder_routes_to_make_all_paths_lead_to_the_city_zero;
+
+#[path = "02360_longest_cycle_in_a_graph/solution.rs"]
+mod longest_cycle_in_a_graph;
