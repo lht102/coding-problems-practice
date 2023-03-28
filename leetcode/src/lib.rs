@@ -1133,3 +1133,6 @@ mod longest_cycle_in_a_graph;
 
 #[path = "00064_minimum_path_sum/solution.rs"]
 mod minimum_path_sum;
+
+#[path = "00983_minimum_cost_for_tickets/solution.rs"]
+mod minimum_cost_for_tickets;
