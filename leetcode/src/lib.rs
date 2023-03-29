@@ -1136,3 +1136,6 @@ mod minimum_path_sum;
 
 #[path = "00983_minimum_cost_for_tickets/solution.rs"]
 mod minimum_cost_for_tickets;
+
+#[path = "01402_reducing_dishes/solution.rs"]
+mod reducing_dishes;
