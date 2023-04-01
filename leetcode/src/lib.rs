@@ -1139,3 +1139,6 @@ mod minimum_cost_for_tickets;
 
 #[path = "01402_reducing_dishes/solution.rs"]
 mod reducing_dishes;
+
+#[path = "00087_scramble_string/solution.rs"]
+mod scramble_string;
