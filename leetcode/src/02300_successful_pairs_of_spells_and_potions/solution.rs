@@ -4,12 +4,12 @@ impl Solution {
     pub fn successful_pairs(spells: Vec<i32>, potions: Vec<i32>, success: i64) -> Vec<i32> {
         let mut potions = potions;
         potions.sort_unstable();
-        let mut res = Vec::with_capacity(spells.len());
-        for &s in &spells {
-            let idx = potions.partition_point(|&p| (p as i64 * s as i64) < success);
-            res.push((potions.len() - idx) as i32);
-        }
-        res
+        spells
+            .into_iter()
+            .map(|s| {
+                (potions.len() - potions.partition_point(|&p| (p as i64 * s as i64) < success)) as _
+            })
+            .collect()
     }
 }
 
