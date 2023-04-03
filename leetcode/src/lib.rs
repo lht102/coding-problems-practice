@@ -1142,3 +1142,6 @@ mod reducing_dishes;
 
 #[path = "00087_scramble_string/solution.rs"]
 mod scramble_string;
+
+#[path = "00881_boats_to_save_people/solution.rs"]
+mod boats_to_save_people;
