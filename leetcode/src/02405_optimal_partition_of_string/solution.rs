@@ -1,19 +1,17 @@
-use std::collections::HashSet;
-
 struct Solution;
 
 impl Solution {
     pub fn partition_string(s: String) -> i32 {
-        let mut st = HashSet::new();
-        let mut res = 1;
-        for ch in s.chars() {
-            if st.contains(&ch) {
-                st.clear();
+        let mut mask = 0;
+        s.bytes().fold(1, |mut res, ch| {
+            let ch_mask = 1 << (ch - b'a');
+            if mask & ch_mask > 0 {
                 res += 1;
+                mask = 0;
             }
-            st.insert(ch);
-        }
-        res
+            mask |= ch_mask;
+            res
+        })
     }
 }
 
