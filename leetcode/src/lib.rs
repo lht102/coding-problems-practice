@@ -1148,3 +1148,6 @@ mod boats_to_save_people;
 
 #[path = "02610_convert_an_array_into_a_2d_array_with_conditions/solution.rs"]
 mod convert_an_array_into_a_2d_array_with_conditions;
+
+#[path = "02611_mice_and_cheese/solution.rs"]
+mod mice_and_cheese;
