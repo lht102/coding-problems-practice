@@ -1151,3 +1151,6 @@ mod convert_an_array_into_a_2d_array_with_conditions;
 
 #[path = "02611_mice_and_cheese/solution.rs"]
 mod mice_and_cheese;
+
+#[path = "02606_find_the_substring_with_maximum_cost/solution.rs"]
+mod find_the_substring_with_maximum_cost;
