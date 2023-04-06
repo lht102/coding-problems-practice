@@ -1154,3 +1154,6 @@ mod mice_and_cheese;
 
 #[path = "02606_find_the_substring_with_maximum_cost/solution.rs"]
 mod find_the_substring_with_maximum_cost;
+
+#[path = "01254_number_of_closed_islands/solution.rs"]
+mod number_of_closed_islands;
