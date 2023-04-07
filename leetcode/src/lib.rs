@@ -1160,3 +1160,6 @@ mod number_of_closed_islands;
 
 #[path = "02607_make_k_subarray_sums_equal/solution.rs"]
 mod make_k_subarray_sums_equal;
+
+#[path = "01020_number_of_enclaves/solution.rs"]
+mod number_of_enclaves;
