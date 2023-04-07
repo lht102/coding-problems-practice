@@ -1157,3 +1157,6 @@ mod find_the_substring_with_maximum_cost;
 
 #[path = "01254_number_of_closed_islands/solution.rs"]
 mod number_of_closed_islands;
+
+#[path = "02607_make_k_subarray_sums_equal/solution.rs"]
+mod make_k_subarray_sums_equal;
