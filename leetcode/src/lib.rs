@@ -1163,3 +1163,6 @@ mod make_k_subarray_sums_equal;
 
 #[path = "01020_number_of_enclaves/solution.rs"]
 mod number_of_enclaves;
+
+#[path = "01857_largest_color_value_in_a_directed_graph/solution.rs"]
+mod largest_color_value_in_a_directed_graph;
