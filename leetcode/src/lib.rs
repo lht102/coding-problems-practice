@@ -1166,3 +1166,6 @@ mod number_of_enclaves;
 
 #[path = "01857_largest_color_value_in_a_directed_graph/solution.rs"]
 mod largest_color_value_in_a_directed_graph;
+
+#[path = "02616_minimize_the_maximum_difference_of_pairs/solution.rs"]
+mod minimize_the_maximum_difference_of_pairs;
