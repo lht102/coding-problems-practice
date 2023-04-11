@@ -1169,3 +1169,6 @@ mod largest_color_value_in_a_directed_graph;
 
 #[path = "02616_minimize_the_maximum_difference_of_pairs/solution.rs"]
 mod minimize_the_maximum_difference_of_pairs;
+
+#[path = "02390_removing_stars_from_a_string/solution.rs"]
+mod removing_stars_from_a_string;
