@@ -1172,3 +1172,6 @@ mod minimize_the_maximum_difference_of_pairs;
 
 #[path = "02390_removing_stars_from_a_string/solution.rs"]
 mod removing_stars_from_a_string;
+
+#[path = "02602_minimum_operations_to_make_all_array_elements_equal/solution.rs"]
+mod minimum_operations_to_make_all_array_elements_equal;
