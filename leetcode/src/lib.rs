@@ -1175,3 +1175,6 @@ mod removing_stars_from_a_string;
 
 #[path = "02602_minimum_operations_to_make_all_array_elements_equal/solution.rs"]
 mod minimum_operations_to_make_all_array_elements_equal;
+
+#[path = "00071_simplify_path/solution.rs"]
+mod simplify_path;
