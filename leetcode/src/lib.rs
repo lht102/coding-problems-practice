@@ -1181,3 +1181,6 @@ mod simplify_path;
 
 #[path = "02597_the_number_of_beautiful_subsets/solution.rs"]
 mod the_number_of_beautiful_subsets;
+
+#[path = "00946_validate_stack_sequences/solution.rs"]
+mod validate_stack_sequences;
