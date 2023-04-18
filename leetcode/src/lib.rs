@@ -1178,3 +1178,6 @@ mod minimum_operations_to_make_all_array_elements_equal;
 
 #[path = "00071_simplify_path/solution.rs"]
 mod simplify_path;
+
+#[path = "02597_the_number_of_beautiful_subsets/solution.rs"]
+mod the_number_of_beautiful_subsets;
