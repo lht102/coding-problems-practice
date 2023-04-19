@@ -1184,3 +1184,6 @@ mod the_number_of_beautiful_subsets;
 
 #[path = "00946_validate_stack_sequences/solution.rs"]
 mod validate_stack_sequences;
+
+#[path = "00516_longest_palindromic_subsequence/solution.rs"]
+mod longest_palindromic_subsequence;
