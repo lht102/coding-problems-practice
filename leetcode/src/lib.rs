@@ -1190,3 +1190,6 @@ mod longest_palindromic_subsequence;
 
 #[path = "01431_kids_with_the_greatest_number_of_candies/solution.rs"]
 mod kids_with_the_greatest_number_of_candies;
+
+#[path = "01768_merge_strings_alternately/solution.rs"]
+mod merge_strings_alternately;
