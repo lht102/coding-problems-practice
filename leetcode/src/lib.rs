@@ -1187,3 +1187,6 @@ mod validate_stack_sequences;
 
 #[path = "00516_longest_palindromic_subsequence/solution.rs"]
 mod longest_palindromic_subsequence;
+
+#[path = "01431_kids_with_the_greatest_number_of_candies/solution.rs"]
+mod kids_with_the_greatest_number_of_candies;
