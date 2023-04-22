@@ -1193,3 +1193,6 @@ mod kids_with_the_greatest_number_of_candies;
 
 #[path = "01768_merge_strings_alternately/solution.rs"]
 mod merge_strings_alternately;
+
+#[path = "01372_longest_zigzag_path_in_a_binary_tree/solution.rs"]
+mod longest_zigzag_path_in_a_binary_tree;
