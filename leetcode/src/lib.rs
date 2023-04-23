@@ -1196,3 +1196,6 @@ mod merge_strings_alternately;
 
 #[path = "01372_longest_zigzag_path_in_a_binary_tree/solution.rs"]
 mod longest_zigzag_path_in_a_binary_tree;
+
+#[path = "01312_minimum_insertion_steps_to_make_a_string_palindrome/solution.rs"]
+mod minimum_insertion_steps_to_make_a_string_palindrome;
