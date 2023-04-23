@@ -1199,3 +1199,6 @@ mod longest_zigzag_path_in_a_binary_tree;
 
 #[path = "01312_minimum_insertion_steps_to_make_a_string_palindrome/solution.rs"]
 mod minimum_insertion_steps_to_make_a_string_palindrome;
+
+#[path = "01416_restore_the_array/solution.rs"]
+mod restore_the_array;
