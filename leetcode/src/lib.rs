@@ -1202,3 +1202,6 @@ mod minimum_insertion_steps_to_make_a_string_palindrome;
 
 #[path = "01416_restore_the_array/solution.rs"]
 mod restore_the_array;
+
+#[path = "01046_last_stone_weight/solution.rs"]
+mod last_stone_weight;
