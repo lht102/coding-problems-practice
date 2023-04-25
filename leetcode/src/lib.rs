@@ -1205,3 +1205,6 @@ mod restore_the_array;
 
 #[path = "01046_last_stone_weight/solution.rs"]
 mod last_stone_weight;
+
+#[path = "02336_smallest_number_in_infinite_set/solution.rs"]
+mod smallest_number_in_infinite_set;
