@@ -1208,3 +1208,6 @@ mod last_stone_weight;
 
 #[path = "02336_smallest_number_in_infinite_set/solution.rs"]
 mod smallest_number_in_infinite_set;
+
+#[path = "00258_add_digits/solution.rs"]
+mod add_digits;
