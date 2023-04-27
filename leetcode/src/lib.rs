@@ -1211,3 +1211,6 @@ mod smallest_number_in_infinite_set;
 
 #[path = "00258_add_digits/solution.rs"]
 mod add_digits;
+
+#[path = "00319_bulb_switcher/solution.rs"]
+mod bulb_switcher;
