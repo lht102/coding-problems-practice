@@ -1214,3 +1214,6 @@ mod add_digits;
 
 #[path = "00319_bulb_switcher/solution.rs"]
 mod bulb_switcher;
+
+#[path = "00839_similar_string_groups/solution.rs"]
+mod similar_string_groups;
