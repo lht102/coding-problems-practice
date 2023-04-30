@@ -1220,3 +1220,6 @@ mod similar_string_groups;
 
 #[path = "01697_checking_existence_of_edge_length_limited_paths/solution.rs"]
 mod checking_existence_of_edge_length_limited_paths;
+
+#[path = "01579_remove_max_number_of_edges_to_keep_graph_fully_traversable/solution.rs"]
+mod remove_max_number_of_edges_to_keep_graph_fully_traversable;
