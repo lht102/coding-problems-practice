@@ -1217,3 +1217,6 @@ mod bulb_switcher;
 
 #[path = "00839_similar_string_groups/solution.rs"]
 mod similar_string_groups;
+
+#[path = "01697_checking_existence_of_edge_length_limited_paths/solution.rs"]
+mod checking_existence_of_edge_length_limited_paths;
