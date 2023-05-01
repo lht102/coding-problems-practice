@@ -1223,3 +1223,6 @@ mod checking_existence_of_edge_length_limited_paths;
 
 #[path = "01579_remove_max_number_of_edges_to_keep_graph_fully_traversable/solution.rs"]
 mod remove_max_number_of_edges_to_keep_graph_fully_traversable;
+
+#[path = "01491_average_salary_excluding_the_minimum_and_maximum_salary/solution.rs"]
+mod average_salary_excluding_the_minimum_and_maximum_salary;
