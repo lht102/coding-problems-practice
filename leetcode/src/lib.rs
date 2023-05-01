@@ -1226,3 +1226,6 @@ mod remove_max_number_of_edges_to_keep_graph_fully_traversable;
 
 #[path = "01491_average_salary_excluding_the_minimum_and_maximum_salary/solution.rs"]
 mod average_salary_excluding_the_minimum_and_maximum_salary;
+
+#[path = "02657_find_the_prefix_common_array_of_two_arrays/solution.rs"]
+mod find_the_prefix_common_array_of_two_arrays;
