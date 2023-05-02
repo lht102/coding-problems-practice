@@ -1232,3 +1232,6 @@ mod find_the_prefix_common_array_of_two_arrays;
 
 #[path = "01822_sign_of_the_product_of_an_array/solution.rs"]
 mod sign_of_the_product_of_an_array;
+
+#[path = "02658_maximum_number_of_fish_in_a_grid/solution.rs"]
+mod maximum_number_of_fish_in_a_grid;
