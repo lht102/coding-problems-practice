@@ -1229,3 +1229,6 @@ mod average_salary_excluding_the_minimum_and_maximum_salary;
 
 #[path = "02657_find_the_prefix_common_array_of_two_arrays/solution.rs"]
 mod find_the_prefix_common_array_of_two_arrays;
+
+#[path = "01822_sign_of_the_product_of_an_array/solution.rs"]
+mod sign_of_the_product_of_an_array;
