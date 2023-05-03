@@ -1238,3 +1238,6 @@ mod maximum_number_of_fish_in_a_grid;
 
 #[path = "02215_find_the_difference_of_two_arrays/solution.rs"]
 mod find_the_difference_of_two_arrays;
+
+#[path = "02661_first_completely_painted_row_or_column/solution.rs"]
+mod first_completely_painted_row_or_column;
