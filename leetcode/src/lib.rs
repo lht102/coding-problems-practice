@@ -1241,3 +1241,6 @@ mod find_the_difference_of_two_arrays;
 
 #[path = "02661_first_completely_painted_row_or_column/solution.rs"]
 mod first_completely_painted_row_or_column;
+
+#[path = "00649_dota2_senate/solution.rs"]
+mod dota2_senate;
