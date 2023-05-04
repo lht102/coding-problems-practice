@@ -1244,3 +1244,6 @@ mod first_completely_painted_row_or_column;
 
 #[path = "00649_dota2_senate/solution.rs"]
 mod dota2_senate;
+
+#[path = "02662_minimum_cost_of_a_path_with_special_roads/solution.rs"]
+mod minimum_cost_of_a_path_with_special_roads;
