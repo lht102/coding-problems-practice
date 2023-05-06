@@ -1247,3 +1247,6 @@ mod dota2_senate;
 
 #[path = "02662_minimum_cost_of_a_path_with_special_roads/solution.rs"]
 mod minimum_cost_of_a_path_with_special_roads;
+
+#[path = "01456_maximum_number_of_vowels_in_a_substring_of_given_length/solution.rs"]
+mod maximum_number_of_vowels_in_a_substring_of_given_length;
