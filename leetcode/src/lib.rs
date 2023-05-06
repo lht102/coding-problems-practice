@@ -1250,3 +1250,6 @@ mod minimum_cost_of_a_path_with_special_roads;
 
 #[path = "01456_maximum_number_of_vowels_in_a_substring_of_given_length/solution.rs"]
 mod maximum_number_of_vowels_in_a_substring_of_given_length;
+
+#[path = "01498_number_of_subsequences_that_satisfy_the_given_sum_condition/solution.rs"]
+mod number_of_subsequences_that_satisfy_the_given_sum_condition;
