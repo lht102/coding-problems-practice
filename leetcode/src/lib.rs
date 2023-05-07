@@ -1253,3 +1253,6 @@ mod maximum_number_of_vowels_in_a_substring_of_given_length;
 
 #[path = "01498_number_of_subsequences_that_satisfy_the_given_sum_condition/solution.rs"]
 mod number_of_subsequences_that_satisfy_the_given_sum_condition;
+
+#[path = "01964_find_the_longest_valid_obstacle_course_at_each_position/solution.rs"]
+mod find_the_longest_valid_obstacle_course_at_each_position;
