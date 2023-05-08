@@ -1256,3 +1256,6 @@ mod number_of_subsequences_that_satisfy_the_given_sum_condition;
 
 #[path = "01964_find_the_longest_valid_obstacle_course_at_each_position/solution.rs"]
 mod find_the_longest_valid_obstacle_course_at_each_position;
+
+#[path = "01572_matrix_diagonal_sum/solution.rs"]
+mod matrix_diagonal_sum;
