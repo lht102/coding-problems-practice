@@ -4,7 +4,6 @@ impl Solution {
     pub fn diagonal_sum(mat: Vec<Vec<i32>>) -> i32 {
         let n = mat.len();
         (0..n)
-            .into_iter()
             .map(|i| mat[i][i] + mat[i][n - 1 - i])
             .sum::<i32>()
             - if n % 2 != 0 { mat[n / 2][n / 2] } else { 0 }
