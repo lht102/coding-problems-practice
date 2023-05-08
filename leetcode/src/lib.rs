@@ -1259,3 +1259,6 @@ mod find_the_longest_valid_obstacle_course_at_each_position;
 
 #[path = "01572_matrix_diagonal_sum/solution.rs"]
 mod matrix_diagonal_sum;
+
+#[path = "02672_number_of_adjacent_elements_with_the_same_color/solution.rs"]
+mod number_of_adjacent_elements_with_the_same_color;
