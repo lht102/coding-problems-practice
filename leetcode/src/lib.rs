@@ -1262,3 +1262,6 @@ mod matrix_diagonal_sum;
 
 #[path = "02672_number_of_adjacent_elements_with_the_same_color/solution.rs"]
 mod number_of_adjacent_elements_with_the_same_color;
+
+#[path = "00054_spiral_matrix/solution.rs"]
+mod spiral_matrix;
