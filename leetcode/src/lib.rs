@@ -1265,3 +1265,6 @@ mod number_of_adjacent_elements_with_the_same_color;
 
 #[path = "00054_spiral_matrix/solution.rs"]
 mod spiral_matrix;
+
+#[path = "00059_spiral_matrix_ii/solution.rs"]
+mod spiral_matrix_ii;
