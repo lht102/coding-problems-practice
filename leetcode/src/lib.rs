@@ -1268,3 +1268,6 @@ mod spiral_matrix;
 
 #[path = "00059_spiral_matrix_ii/solution.rs"]
 mod spiral_matrix_ii;
+
+#[path = "01035_uncrossed_lines/solution.rs"]
+mod uncrossed_lines;
