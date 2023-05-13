@@ -1271,3 +1271,6 @@ mod spiral_matrix_ii;
 
 #[path = "01035_uncrossed_lines/solution.rs"]
 mod uncrossed_lines;
+
+#[path = "02466_count_ways_to_build_good_strings/solution.rs"]
+mod count_ways_to_build_good_strings;
