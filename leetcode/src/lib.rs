@@ -1274,3 +1274,6 @@ mod uncrossed_lines;
 
 #[path = "02466_count_ways_to_build_good_strings/solution.rs"]
 mod count_ways_to_build_good_strings;
+
+#[path = "01799_maximize_score_after_n_operations/solution.rs"]
+mod maximize_score_after_n_operations;
