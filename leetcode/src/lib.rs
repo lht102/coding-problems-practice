@@ -1280,3 +1280,6 @@ mod maximize_score_after_n_operations;
 
 #[path = "01721_swapping_nodes_in_a_linked_list/solution.rs"]
 mod swapping_nodes_in_a_linked_list;
+
+#[path = "00024_swap_nodes_in_pairs/solution.rs"]
+mod swap_nodes_in_pairs;
