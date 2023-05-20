@@ -1283,3 +1283,6 @@ mod swapping_nodes_in_a_linked_list;
 
 #[path = "00024_swap_nodes_in_pairs/solution.rs"]
 mod swap_nodes_in_pairs;
+
+#[path = "02130_maximum_twin_sum_of_a_linked_list/solution.rs"]
+mod maximum_twin_sum_of_a_linked_list;
