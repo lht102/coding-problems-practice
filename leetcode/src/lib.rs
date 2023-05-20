@@ -1277,3 +1277,6 @@ mod count_ways_to_build_good_strings;
 
 #[path = "01799_maximize_score_after_n_operations/solution.rs"]
 mod maximize_score_after_n_operations;
+
+#[path = "01721_swapping_nodes_in_a_linked_list/solution.rs"]
+mod swapping_nodes_in_a_linked_list;
