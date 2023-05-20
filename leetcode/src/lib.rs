@@ -1289,3 +1289,6 @@ mod maximum_twin_sum_of_a_linked_list;
 
 #[path = "01557_minimum_number_of_vertices_to_reach_all_nodes/solution.rs"]
 mod minimum_number_of_vertices_to_reach_all_nodes;
+
+#[path = "00785_is_graph_bipartite/solution.rs"]
+mod is_graph_bipartite;
