@@ -1286,3 +1286,6 @@ mod swap_nodes_in_pairs;
 
 #[path = "02130_maximum_twin_sum_of_a_linked_list/solution.rs"]
 mod maximum_twin_sum_of_a_linked_list;
+
+#[path = "01557_minimum_number_of_vertices_to_reach_all_nodes/solution.rs"]
+mod minimum_number_of_vertices_to_reach_all_nodes;
