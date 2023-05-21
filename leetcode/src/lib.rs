@@ -1292,3 +1292,6 @@ mod minimum_number_of_vertices_to_reach_all_nodes;
 
 #[path = "00785_is_graph_bipartite/solution.rs"]
 mod is_graph_bipartite;
+
+#[path = "00934_shortest_bridge/solution.rs"]
+mod shortest_bridge;
