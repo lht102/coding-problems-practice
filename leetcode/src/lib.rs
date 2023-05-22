@@ -1298,3 +1298,6 @@ mod shortest_bridge;
 
 #[path = "00347_top_k_frequent_elements/solution.rs"]
 mod top_k_frequent_elements;
+
+#[path = "02680_maximum_or/solution.rs"]
+mod maximum_or;
