@@ -1295,3 +1295,6 @@ mod is_graph_bipartite;
 
 #[path = "00934_shortest_bridge/solution.rs"]
 mod shortest_bridge;
+
+#[path = "00347_top_k_frequent_elements/solution.rs"]
+mod top_k_frequent_elements;
