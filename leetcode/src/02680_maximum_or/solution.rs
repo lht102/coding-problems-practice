@@ -16,9 +16,10 @@ impl Solution {
                 Some(*acc)
             }))
             .collect::<Vec<_>>();
-        (0..nums.len()).fold(0, |max, i| {
-            max.max(pre[i] | (nums[i] as i64 * (1 << k)) | suf[nums.len() - i - 1])
-        })
+        (0..nums.len())
+            .map(|i| pre[i] | (nums[i] as i64 * (1 << k)) | suf[nums.len() - i - 1])
+            .max()
+            .unwrap()
     }
 }
 
