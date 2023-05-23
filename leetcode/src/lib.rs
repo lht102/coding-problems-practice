@@ -1304,3 +1304,6 @@ mod maximum_or;
 
 #[path = "00703_kth_largest_element_in_a_stream/solution.rs"]
 mod kth_largest_element_in_a_stream;
+
+#[path = "02684_maximum_number_of_moves_in_a_grid/solution.rs"]
+mod maximum_number_of_moves_in_a_grid;
