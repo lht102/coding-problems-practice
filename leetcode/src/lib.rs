@@ -1301,3 +1301,6 @@ mod top_k_frequent_elements;
 
 #[path = "02680_maximum_or/solution.rs"]
 mod maximum_or;
+
+#[path = "00703_kth_largest_element_in_a_stream/solution.rs"]
+mod kth_largest_element_in_a_stream;
