@@ -1310,3 +1310,6 @@ mod maximum_number_of_moves_in_a_grid;
 
 #[path = "02542_maximum_subsequence_score/solution.rs"]
 mod maximum_subsequence_score;
+
+#[path = "00837_new_21_game/solution.rs"]
+mod new_21_game;
