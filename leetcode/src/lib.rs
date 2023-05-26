@@ -1313,3 +1313,6 @@ mod maximum_subsequence_score;
 
 #[path = "00837_new_21_game/solution.rs"]
 mod new_21_game;
+
+#[path = "01140_stone_game_ii/solution.rs"]
+mod stone_game_ii;
