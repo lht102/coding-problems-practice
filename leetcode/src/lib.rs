@@ -1316,3 +1316,6 @@ mod new_21_game;
 
 #[path = "01140_stone_game_ii/solution.rs"]
 mod stone_game_ii;
+
+#[path = "01406_stone_game_iii/solution.rs"]
+mod stone_game_iii;
