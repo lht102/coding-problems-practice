@@ -1319,3 +1319,6 @@ mod stone_game_ii;
 
 #[path = "01406_stone_game_iii/solution.rs"]
 mod stone_game_iii;
+
+#[path = "01547_minimum_cost_to_cut_a_stick/solution.rs"]
+mod minimum_cost_to_cut_a_stick;
