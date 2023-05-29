@@ -1322,3 +1322,6 @@ mod stone_game_iii;
 
 #[path = "01547_minimum_cost_to_cut_a_stick/solution.rs"]
 mod minimum_cost_to_cut_a_stick;
+
+#[path = "01603_design_parking_system/solution.rs"]
+mod design_parking_system;
