@@ -21,29 +21,27 @@ impl Solution {
         if n == 1 {
             return 1;
         }
+        let n_i32 = n as i32;
         let mut res = 1;
         let mut vi = vec![vec![false; n]; n];
         vi[0][0] = true;
-        let mut q = VecDeque::new();
-        q.push_back((0, 0));
+        let mut q = VecDeque::from([(0, 0)]);
         while !q.is_empty() {
             for _ in 0..q.len() {
                 if let Some((i, j)) = q.pop_front() {
                     for &[di, dj] in dirs {
-                        let (ni, nj) = (i + di, j + dj);
-                        if ni < 0
-                            || ni >= n as i32
-                            || nj < 0
-                            || nj >= n as i32
-                            || grid[ni as usize][nj as usize] == 1
-                            || vi[ni as usize][nj as usize]
-                        {
+                        let (ni, nj) = (i as i32 + di, j as i32 + dj);
+                        if ni < 0 || ni >= n_i32 || nj < 0 || nj >= n_i32 {
                             continue;
                         }
-                        if ni == n as i32 - 1 && nj == n as i32 - 1 {
+                        let (ni, nj) = (ni as usize, nj as usize);
+                        if grid[ni][nj] == 1 || vi[ni][nj] {
+                            continue;
+                        }
+                        if ni == n - 1 && nj == n - 1 {
                             return res + 1;
                         }
-                        vi[ni as usize][nj as usize] = true;
+                        vi[ni][nj] = true;
                         q.push_back((ni, nj));
                     }
                 }
