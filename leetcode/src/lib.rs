@@ -1325,3 +1325,6 @@ mod minimum_cost_to_cut_a_stick;
 
 #[path = "01603_design_parking_system/solution.rs"]
 mod design_parking_system;
+
+#[path = "02101_detonate_the_maximum_bombs/solution.rs"]
+mod detonate_the_maximum_bombs;
