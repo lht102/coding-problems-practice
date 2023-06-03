@@ -15,7 +15,6 @@ impl Solution {
             }
         }
         (0..n)
-            .into_iter()
             .map(|i| {
                 let mut visited = vec![false; n];
                 Self::dfs(&adj, i, &mut visited)
