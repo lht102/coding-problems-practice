@@ -1328,3 +1328,6 @@ mod design_parking_system;
 
 #[path = "02101_detonate_the_maximum_bombs/solution.rs"]
 mod detonate_the_maximum_bombs;
+
+#[path = "01376_time_needed_to_inform_all_employees/solution.rs"]
+mod time_needed_to_inform_all_employees;
