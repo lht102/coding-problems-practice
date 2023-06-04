@@ -1331,3 +1331,6 @@ mod detonate_the_maximum_bombs;
 
 #[path = "01376_time_needed_to_inform_all_employees/solution.rs"]
 mod time_needed_to_inform_all_employees;
+
+#[path = "00547_number_of_provinces/solution.rs"]
+mod number_of_provinces;
