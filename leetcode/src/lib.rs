@@ -1334,3 +1334,6 @@ mod time_needed_to_inform_all_employees;
 
 #[path = "00547_number_of_provinces/solution.rs"]
 mod number_of_provinces;
+
+#[path = "01232_check_if_it_is_a_straight_line/solution.rs"]
+mod check_if_it_is_a_straight_line;
