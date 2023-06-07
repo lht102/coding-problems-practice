@@ -1337,3 +1337,6 @@ mod number_of_provinces;
 
 #[path = "01232_check_if_it_is_a_straight_line/solution.rs"]
 mod check_if_it_is_a_straight_line;
+
+#[path = "01502_can_make_arithmetic_progression_from_sequence/solution.rs"]
+mod can_make_arithmetic_progression_from_sequence;
