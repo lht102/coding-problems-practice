@@ -1346,3 +1346,6 @@ mod minimum_flips_to_make_a_or_b_equal_to_c;
 
 #[path = "01351_count_negative_numbers_in_a_sorted_matrix/solution.rs"]
 mod count_negative_numbers_in_a_sorted_matrix;
+
+#[path = "00744_find_smallest_letter_greater_than_target/solution.rs"]
+mod find_smallest_letter_greater_than_target;
