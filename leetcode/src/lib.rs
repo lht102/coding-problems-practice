@@ -1343,3 +1343,6 @@ mod can_make_arithmetic_progression_from_sequence;
 
 #[path = "01318_minimum_flips_to_make_a_or_b_equal_to_c/solution.rs"]
 mod minimum_flips_to_make_a_or_b_equal_to_c;
+
+#[path = "01351_count_negative_numbers_in_a_sorted_matrix/solution.rs"]
+mod count_negative_numbers_in_a_sorted_matrix;
