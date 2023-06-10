@@ -1349,3 +1349,6 @@ mod count_negative_numbers_in_a_sorted_matrix;
 
 #[path = "00744_find_smallest_letter_greater_than_target/solution.rs"]
 mod find_smallest_letter_greater_than_target;
+
+#[path = "01802_maximum_value_at_a_given_index_in_a_bounded_array/solution.rs"]
+mod maximum_value_at_a_given_index_in_a_bounded_array;
