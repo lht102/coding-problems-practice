@@ -1355,3 +1355,6 @@ mod maximum_value_at_a_given_index_in_a_bounded_array;
 
 #[path = "01146_snapshot_array/solution.rs"]
 mod snapshot_array;
+
+#[path = "00228_summary_ranges/solution.rs"]
+mod summary_ranges;
