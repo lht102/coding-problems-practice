@@ -1358,3 +1358,6 @@ mod snapshot_array;
 
 #[path = "00228_summary_ranges/solution.rs"]
 mod summary_ranges;
+
+#[path = "02352_equal_row_and_column_pairs/solution.rs"]
+mod equal_row_and_column_pairs;
