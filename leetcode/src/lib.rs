@@ -1364,3 +1364,6 @@ mod equal_row_and_column_pairs;
 
 #[path = "00530_minimum_absolute_difference_in_bst/solution.rs"]
 mod minimum_absolute_difference_in_bst;
+
+#[path = "01161_maximum_level_sum_of_a_binary_tree/solution.rs"]
+mod maximum_level_sum_of_a_binary_tree;
