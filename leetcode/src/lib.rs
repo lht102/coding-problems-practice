@@ -1367,3 +1367,6 @@ mod minimum_absolute_difference_in_bst;
 
 #[path = "01161_maximum_level_sum_of_a_binary_tree/solution.rs"]
 mod maximum_level_sum_of_a_binary_tree;
+
+#[path = "01027_longest_arithmetic_subsequence/solution.rs"]
+mod longest_arithmetic_subsequence;
