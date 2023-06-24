@@ -1370,3 +1370,6 @@ mod maximum_level_sum_of_a_binary_tree;
 
 #[path = "01027_longest_arithmetic_subsequence/solution.rs"]
 mod longest_arithmetic_subsequence;
+
+#[path = "00956_tallest_billboard/solution.rs"]
+mod tallest_billboard;
