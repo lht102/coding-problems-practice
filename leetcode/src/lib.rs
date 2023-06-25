@@ -1373,3 +1373,6 @@ mod longest_arithmetic_subsequence;
 
 #[path = "00956_tallest_billboard/solution.rs"]
 mod tallest_billboard;
+
+#[path = "01575_count_all_possible_routes/solution.rs"]
+mod count_all_possible_routes;
