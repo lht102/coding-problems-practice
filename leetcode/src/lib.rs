@@ -1376,3 +1376,6 @@ mod tallest_billboard;
 
 #[path = "01575_count_all_possible_routes/solution.rs"]
 mod count_all_possible_routes;
+
+#[path = "02462_total_cost_to_hire_k_workers/solution.rs"]
+mod total_cost_to_hire_k_workers;
