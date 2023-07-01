@@ -1379,3 +1379,6 @@ mod count_all_possible_routes;
 
 #[path = "02462_total_cost_to_hire_k_workers/solution.rs"]
 mod total_cost_to_hire_k_workers;
+
+#[path = "00373_find_k_pairs_with_smallest_sums/solution.rs"]
+mod find_k_pairs_with_smallest_sums;
