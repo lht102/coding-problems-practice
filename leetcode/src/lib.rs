@@ -1382,3 +1382,6 @@ mod total_cost_to_hire_k_workers;
 
 #[path = "00373_find_k_pairs_with_smallest_sums/solution.rs"]
 mod find_k_pairs_with_smallest_sums;
+
+#[path = "01601_maximum_number_of_achievable_transfer_requests/solution.rs"]
+mod maximum_number_of_achievable_transfer_requests;
