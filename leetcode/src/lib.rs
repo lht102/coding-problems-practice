@@ -1385,3 +1385,6 @@ mod find_k_pairs_with_smallest_sums;
 
 #[path = "01601_maximum_number_of_achievable_transfer_requests/solution.rs"]
 mod maximum_number_of_achievable_transfer_requests;
+
+#[path = "00859_buddy_strings/solution.rs"]
+mod buddy_strings;
