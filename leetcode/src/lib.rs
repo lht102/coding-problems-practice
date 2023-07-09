@@ -1391,3 +1391,6 @@ mod buddy_strings;
 
 #[path = "00137_single_number_ii/solution.rs"]
 mod single_number_ii;
+
+#[path = "01493_longest_subarray_of_1s_after_deleting_one_element/solution.rs"]
+mod longest_subarray_of_1s_after_deleting_one_element;
