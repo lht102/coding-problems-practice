@@ -1394,3 +1394,6 @@ mod single_number_ii;
 
 #[path = "01493_longest_subarray_of_1s_after_deleting_one_element/solution.rs"]
 mod longest_subarray_of_1s_after_deleting_one_element;
+
+#[path = "02024_maximize_the_confusion_of_an_exam/solution.rs"]
+mod maximize_the_confusion_of_an_exam;
