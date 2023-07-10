@@ -1397,3 +1397,6 @@ mod longest_subarray_of_1s_after_deleting_one_element;
 
 #[path = "02024_maximize_the_confusion_of_an_exam/solution.rs"]
 mod maximize_the_confusion_of_an_exam;
+
+#[path = "00111_minimum_depth_of_binary_tree/solution.rs"]
+mod minimum_depth_of_binary_tree;
