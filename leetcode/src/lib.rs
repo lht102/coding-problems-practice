@@ -1400,3 +1400,6 @@ mod maximize_the_confusion_of_an_exam;
 
 #[path = "00111_minimum_depth_of_binary_tree/solution.rs"]
 mod minimum_depth_of_binary_tree;
+
+#[path = "02750_ways_to_split_array_into_good_subarrays/solution.rs"]
+mod ways_to_split_array_into_good_subarrays;
