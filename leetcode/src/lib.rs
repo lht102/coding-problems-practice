@@ -1403,3 +1403,6 @@ mod minimum_depth_of_binary_tree;
 
 #[path = "02750_ways_to_split_array_into_good_subarrays/solution.rs"]
 mod ways_to_split_array_into_good_subarrays;
+
+#[path = "00863_all_nodes_distance_k_in_binary_tree/solution.rs"]
+mod all_nodes_distance_k_in_binary_tree;
