@@ -1409,3 +1409,6 @@ mod all_nodes_distance_k_in_binary_tree;
 
 #[path = "00802_find_eventual_safe_states/solution.rs"]
 mod find_eventual_safe_states;
+
+#[path = "00435_non_overlapping_intervals/solution.rs"]
+mod non_overlapping_intervals;
