@@ -10,7 +10,7 @@ impl Solution {
         let mut indegrees = vec![0; n];
         for (i, edges) in graph.iter().enumerate() {
             for e in edges.iter().map(|&x| x as usize) {
-                g[e as usize].push(i);
+                g[e].push(i);
                 indegrees[i] += 1;
             }
         }

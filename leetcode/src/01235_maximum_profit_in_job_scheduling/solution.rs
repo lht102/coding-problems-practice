@@ -10,12 +10,12 @@ impl Solution {
         jobs.sort_unstable_by(|a, b| a.0.cmp(&b.0));
         let mut dp = BTreeMap::from([(0, 0)]);
         for (end_t, start_t, p) in jobs {
-            let current_profit = dp.range(..=start_t).rev().next().unwrap().1 + p;
-            if current_profit > *dp.iter().rev().next().unwrap().1 {
+            let current_profit = dp.range(..=start_t).next_back().unwrap().1 + p;
+            if current_profit > *dp.iter().next_back().unwrap().1 {
                 dp.insert(end_t, current_profit);
             }
         }
-        *dp.iter().rev().next().unwrap().1
+        *dp.iter().next_back().unwrap().1
     }
 }
 
