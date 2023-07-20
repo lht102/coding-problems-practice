@@ -1412,3 +1412,6 @@ mod find_eventual_safe_states;
 
 #[path = "00435_non_overlapping_intervals/solution.rs"]
 mod non_overlapping_intervals;
+
+#[path = "00735_asteroid_collision/solution.rs"]
+mod asteroid_collision;
