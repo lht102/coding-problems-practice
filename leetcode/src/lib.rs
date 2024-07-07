@@ -1421,3 +1421,6 @@ mod three_consecutive_odds;
 
 #[path = "00350_intersection_of_two_arrays_ii/solution.rs"]
 mod intersection_of_two_arrays_ii;
+
+#[path = "01509_minimum_difference_between_largest_and_smallest_value_in_three_moves/solution.rs"]
+mod minimum_difference_between_largest_and_smallest_value_in_three_moves;
