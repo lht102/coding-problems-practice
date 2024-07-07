@@ -1415,3 +1415,6 @@ mod non_overlapping_intervals;
 
 #[path = "00735_asteroid_collision/solution.rs"]
 mod asteroid_collision;
+
+#[path = "01550_three_consecutive_odds/solution.rs"]
+mod three_consecutive_odds;
