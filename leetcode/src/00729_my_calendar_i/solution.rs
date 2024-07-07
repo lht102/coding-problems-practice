@@ -18,7 +18,8 @@ impl MyCalendar {
             .map_or(false, |(&s, _)| end > s)
             || self
                 .calendar
-                .range(..start).next_back()
+                .range(..start)
+                .next_back()
                 .map_or(false, |(_, &e)| e > start)
         {
             return false;
