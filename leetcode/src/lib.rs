@@ -1418,3 +1418,6 @@ mod asteroid_collision;
 
 #[path = "01550_three_consecutive_odds/solution.rs"]
 mod three_consecutive_odds;
+
+#[path = "00350_intersection_of_two_arrays_ii/solution.rs"]
+mod intersection_of_two_arrays_ii;
