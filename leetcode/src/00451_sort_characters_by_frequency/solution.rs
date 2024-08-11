@@ -23,13 +23,13 @@ mod tests {
 
     #[test]
     fn test() {
-        let s = String::from("tree");
-        assert_eq!(Solution::frequency_sort(s), String::from("eert"));
+        let s = Solution::frequency_sort("tree".to_string());
+        assert!(matches!(&*s, "eert" | "eetr"));
 
-        let s = String::from("cccaaa");
-        assert_eq!(Solution::frequency_sort(s), String::from("aaaccc"));
+        let s = Solution::frequency_sort("cccaaa".to_string());
+        assert!(matches!(&*s, "aaaccc" | "cccaaa"));
 
-        let s = String::from("Aabb");
-        assert_eq!(Solution::frequency_sort(s), String::from("bbAa"));
+        let s = Solution::frequency_sort("Aabb".to_string());
+        assert!(matches!(&*s, "bbAa" | "bbaA"));
     }
 }
