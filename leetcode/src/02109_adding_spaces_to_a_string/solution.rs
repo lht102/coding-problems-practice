@@ -2,8 +2,7 @@ struct Solution;
 
 impl Solution {
     pub fn add_spaces(s: String, spaces: Vec<i32>) -> String {
-        let mut res: Vec<char> = std::iter::repeat('#')
-            .take(s.len() + spaces.len())
+        let mut res: Vec<char> = std::iter::repeat_n('#', s.len() + spaces.len())
             .collect();
         for (i, &idx) in spaces.iter().enumerate() {
             res[idx as usize + i] = ' ';

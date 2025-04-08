@@ -12,7 +12,7 @@ impl Solution {
         if res == '\0' {
             String::new()
         } else {
-            std::iter::repeat(res).take(3).collect()
+            std::iter::repeat_n(res, 3).collect()
         }
     }
 }

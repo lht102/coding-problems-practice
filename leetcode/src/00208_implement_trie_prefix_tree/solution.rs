@@ -22,7 +22,7 @@ impl Trie {
     }
 
     fn search(&self, word: String) -> bool {
-        self.dfs(&word).map_or(false, |trie| trie.end)
+        self.dfs(&word).is_some_and(|trie| trie.end)
     }
 
     fn starts_with(&self, prefix: String) -> bool {

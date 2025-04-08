@@ -6,7 +6,7 @@ pub unsafe fn guess(num: i32) -> i32 {
 
 impl Solution {
     #[allow(non_snake_case)]
-    unsafe fn guessNumber(n: i32) -> i32 {
+    unsafe fn guessNumber(n: i32) -> i32 { unsafe {
         let (mut lo, mut hi) = (1, n);
         while lo < hi {
             let mid = lo + (hi - lo) / 2;
@@ -17,5 +17,5 @@ impl Solution {
             }
         }
         lo
-    }
+    }}
 }

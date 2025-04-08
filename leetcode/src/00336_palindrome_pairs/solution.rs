@@ -20,7 +20,7 @@ impl Trie {
             if is_palindrome(s, 0, j) {
                 cur.palindrome_indices.push(i);
             }
-            cur = cur.next.entry(ch).or_insert_with(Trie::new);
+            cur = cur.next.entry(ch).or_default();
         }
         cur.index = Some(i);
         cur.palindrome_indices.push(i);

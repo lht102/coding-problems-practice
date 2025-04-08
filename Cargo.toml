@@ -1,5 +1,3 @@
 [workspace]
-
-members = [
-    "leetcode",
-]
+resolver = "3"
+members = ["leetcode"]

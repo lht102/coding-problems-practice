@@ -16,7 +16,7 @@ impl Solution {
             std::mem::swap(&mut sum1, &mut sum2);
             std::mem::swap(&mut nums1, &mut nums2);
         }
-        let mut freq = vec![0; 6];
+        let mut freq = [0; 6];
         for &num in &nums1 {
             freq[6 - num as usize] += 1;
         }

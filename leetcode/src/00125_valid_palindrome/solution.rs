@@ -4,7 +4,7 @@ impl Solution {
     pub fn is_palindrome(s: String) -> bool {
         let s = s
             .chars()
-            .filter_map(|ch| ch.is_ascii_alphanumeric().then(|| ch.to_ascii_lowercase()))
+            .filter(|&ch| ch.is_ascii_alphanumeric()).map(|ch| ch.to_ascii_lowercase())
             .collect::<Vec<_>>();
         let n = s.len();
         for i in 0..n / 2 {

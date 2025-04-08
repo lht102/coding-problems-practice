@@ -14,7 +14,7 @@ impl Solution {
         Solution::bfs(&adj)
     }
 
-    fn bfs(adj: &Vec<Vec<usize>>) -> bool {
+    fn bfs(adj: &[Vec<usize>]) -> bool {
         let mut q = VecDeque::new();
         let mut colors = vec![-1; adj.len()];
         for i in 0..adj.len() {

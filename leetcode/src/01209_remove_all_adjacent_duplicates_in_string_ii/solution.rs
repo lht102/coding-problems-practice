@@ -18,7 +18,7 @@ impl Solution {
         }
         let mut res = String::new();
         for t in st {
-            res.push_str(&std::iter::repeat(t.0).take(t.1).collect::<String>());
+            res.push_str(&std::iter::repeat_n(t.0, t.1).collect::<String>());
         }
         res
     }

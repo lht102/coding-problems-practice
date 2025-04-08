@@ -15,12 +15,12 @@ impl MyCalendar {
             .calendar
             .range(start..)
             .next()
-            .map_or(false, |(&s, _)| end > s)
+            .is_some_and(|(&s, _)| end > s)
             || self
                 .calendar
                 .range(..start)
                 .next_back()
-                .map_or(false, |(_, &e)| e > start)
+                .is_some_and(|(_, &e)| e > start)
         {
             return false;
         }

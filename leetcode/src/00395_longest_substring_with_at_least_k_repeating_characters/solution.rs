@@ -43,7 +43,7 @@ impl Solution {
 
     fn get_max_unique_count(s: &[u8]) -> usize {
         let mut res = 0;
-        let mut seen = vec![false; 26];
+        let mut seen = [false; 26];
         for i in s.iter().copied().map(Self::get_index) {
             if !seen[i] {
                 res += 1;

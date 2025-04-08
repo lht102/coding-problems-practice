@@ -45,7 +45,6 @@ impl UndergroundSystem {
  * obj.check_out(id, stationName, t);
  * let ret_3: f64 = obj.get_average_time(startStation, endStation);
  */
-
 #[cfg(test)]
 mod tests {
     use super::*;

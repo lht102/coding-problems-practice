@@ -11,8 +11,8 @@ impl Solution {
         nums.iter()
             .cloned()
             .filter(|n| {
-                freq.get(&(n - 1)).is_none()
-                    && freq.get(&(n + 1)).is_none()
+                !freq.contains_key(&(n - 1))
+                    && !freq.contains_key(&(n + 1))
                     && *freq.get(n).unwrap() == 1
             })
             .collect()

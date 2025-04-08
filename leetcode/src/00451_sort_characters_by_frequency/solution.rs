@@ -10,7 +10,7 @@ impl Solution {
         arr.sort_unstable_by(|a, b| b.1.cmp(&a.1));
         arr.into_iter()
             .filter_map(|(ch, cnt)| {
-                (cnt > 0).then_some(std::iter::repeat(char::from_u32(ch as u32).unwrap()).take(cnt))
+                (cnt > 0).then_some(std::iter::repeat_n(char::from_u32(ch as u32).unwrap(), cnt))
             })
             .flatten()
             .collect()

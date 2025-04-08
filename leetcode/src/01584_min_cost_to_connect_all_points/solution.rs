@@ -66,7 +66,7 @@ impl Edge {
 
 impl PartialOrd for Edge {
     fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
-        self.cost.partial_cmp(&other.cost)
+        Some(self.cmp(other))
     }
 }
 

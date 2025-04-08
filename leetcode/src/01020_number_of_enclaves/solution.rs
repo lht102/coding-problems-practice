@@ -16,7 +16,7 @@ impl Solution {
         grid.iter()
             .flatten()
             .zip(visited.iter().flatten())
-            .filter(|(&x, &used)| x == 1 && !used)
+            .filter(|&(&x, &used)| x == 1 && !used)
             .count() as _
     }
 

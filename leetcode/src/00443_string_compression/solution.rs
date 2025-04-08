@@ -1,6 +1,7 @@
 struct Solution;
 
 impl Solution {
+    #[allow(clippy::ptr_arg)]
     pub fn compress(chars: &mut Vec<char>) -> i32 {
         let mut res = 0;
         let n = chars.len();

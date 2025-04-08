@@ -2,7 +2,7 @@ struct Solution;
 
 impl Solution {
     pub fn largest_combination(candidates: Vec<i32>) -> i32 {
-        let mut freq = vec![0; 32];
+        let mut freq = [0; 32];
         let mut candidates = candidates;
         candidates.sort_unstable();
         for &num in &candidates {

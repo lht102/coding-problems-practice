@@ -7,7 +7,7 @@ struct Solution;
 impl Solution {
     pub fn min_mutation(start: String, end: String, bank: Vec<String>) -> i32 {
         let mut q = VecDeque::from([start]);
-        let mut bank: HashSet<String> = HashSet::from_iter(bank.into_iter());
+        let mut bank: HashSet<String> = HashSet::from_iter(bank);
         let mut dist = 0;
         while !q.is_empty() {
             for _ in 0..q.len() {

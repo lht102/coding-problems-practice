@@ -19,7 +19,7 @@ impl Solution {
                 if *h2.get(matched_word).unwrap() != ch {
                     return false;
                 }
-            } else if h2.get(word).is_some() {
+            } else if h2.contains_key(word) {
                 return false;
             } else {
                 h1.insert(ch, word);
