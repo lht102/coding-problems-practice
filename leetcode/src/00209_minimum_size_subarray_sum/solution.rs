@@ -17,11 +17,7 @@ impl Solution {
             let j = psum.partition_point(|&x| x <= k);
             res = res.min(i - j + 1);
         }
-        if res == usize::MAX {
-            0
-        } else {
-            res as i32
-        }
+        if res == usize::MAX { 0 } else { res as i32 }
     }
 }
 

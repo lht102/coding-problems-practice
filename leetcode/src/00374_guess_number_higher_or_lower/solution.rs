@@ -6,16 +6,18 @@ pub unsafe fn guess(num: i32) -> i32 {
 
 impl Solution {
     #[allow(non_snake_case)]
-    unsafe fn guessNumber(n: i32) -> i32 { unsafe {
-        let (mut lo, mut hi) = (1, n);
-        while lo < hi {
-            let mid = lo + (hi - lo) / 2;
-            if guess(mid) == 1 {
-                lo = mid + 1;
-            } else {
-                hi = mid;
+    unsafe fn guessNumber(n: i32) -> i32 {
+        unsafe {
+            let (mut lo, mut hi) = (1, n);
+            while lo < hi {
+                let mid = lo + (hi - lo) / 2;
+                if guess(mid) == 1 {
+                    lo = mid + 1;
+                } else {
+                    hi = mid;
+                }
             }
+            lo
         }
-        lo
-    }}
+    }
 }

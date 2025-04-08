@@ -36,26 +36,34 @@ mod tests {
             String::from("bat"),
         ];
         let actual = Solution::group_anagrams(strs);
-        assert!([vec![String::from("bat")],
-            vec![String::from("tan"), String::from("nat")],
-            vec![
-                String::from("eat"),
-                String::from("tea"),
-                String::from("ate")
-            ]]
-        .iter()
-        .all(|item| actual.contains(item)));
+        assert!(
+            [
+                vec![String::from("bat")],
+                vec![String::from("tan"), String::from("nat")],
+                vec![
+                    String::from("eat"),
+                    String::from("tea"),
+                    String::from("ate")
+                ]
+            ]
+            .iter()
+            .all(|item| actual.contains(item))
+        );
 
         let strs = vec![String::from("")];
         let actual = Solution::group_anagrams(strs);
-        assert!([vec![String::from("")]]
-            .iter()
-            .all(|item| actual.contains(item)));
+        assert!(
+            [vec![String::from("")]]
+                .iter()
+                .all(|item| actual.contains(item))
+        );
 
         let strs = vec![String::from("a")];
         let actual = Solution::group_anagrams(strs);
-        assert!([vec![String::from("a")]]
-            .iter()
-            .all(|item| actual.contains(item)));
+        assert!(
+            [vec![String::from("a")]]
+                .iter()
+                .all(|item| actual.contains(item))
+        );
     }
 }

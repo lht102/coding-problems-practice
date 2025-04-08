@@ -2,10 +2,7 @@ struct Solution;
 
 impl Solution {
     pub fn earliest_full_bloom(plant_time: Vec<i32>, grow_time: Vec<i32>) -> i32 {
-        let mut arr = plant_time
-            .into_iter()
-            .zip(grow_time)
-            .collect::<Vec<_>>();
+        let mut arr = plant_time.into_iter().zip(grow_time).collect::<Vec<_>>();
         arr.sort_unstable_by(|a, b| b.1.cmp(&a.1));
         let mut res = 0;
         let mut cur_p = 0;

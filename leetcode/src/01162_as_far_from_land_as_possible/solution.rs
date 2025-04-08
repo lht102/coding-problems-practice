@@ -38,11 +38,7 @@ impl Solution {
             }
             res += 1;
         }
-        if res == 0 {
-            -1
-        } else {
-            res
-        }
+        if res == 0 { -1 } else { res }
     }
 }
 

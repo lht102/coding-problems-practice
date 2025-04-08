@@ -11,11 +11,7 @@ impl Solution {
                 hi = mid;
             }
         }
-        if nums[lo] == target {
-            lo as i32
-        } else {
-            -1
-        }
+        if nums[lo] == target { lo as i32 } else { -1 }
     }
 }
 

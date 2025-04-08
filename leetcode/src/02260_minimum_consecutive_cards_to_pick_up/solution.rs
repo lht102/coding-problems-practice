@@ -1,5 +1,5 @@
-use std::collections::hash_map::Entry;
 use std::collections::HashMap;
+use std::collections::hash_map::Entry;
 
 struct Solution;
 
@@ -13,11 +13,7 @@ impl Solution {
             }
             map.insert(c, i);
         }
-        if res == usize::MAX {
-            -1
-        } else {
-            res as i32
-        }
+        if res == usize::MAX { -1 } else { res as i32 }
     }
 }
 

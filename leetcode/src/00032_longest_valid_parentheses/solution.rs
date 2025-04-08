@@ -21,11 +21,7 @@ impl Solution {
         dp[idx] = if s[idx] == '(' {
             0
         } else if i <= 1 {
-            if s[0] == '(' && s[1] == ')' {
-                2
-            } else {
-                0
-            }
+            if s[0] == '(' && s[1] == ')' { 2 } else { 0 }
         } else if s[idx - 1] == '(' {
             Solution::solve(s, i - 2, dp) + 2
         } else {

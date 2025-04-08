@@ -4,9 +4,10 @@ impl Solution {
     pub fn make_good(s: String) -> String {
         let mut st: Vec<char> = Vec::new();
         for ch in s.chars() {
-            if st.last().is_some_and(|&top| {
-                top.eq_ignore_ascii_case(&ch) && top != ch
-            }) {
+            if st
+                .last()
+                .is_some_and(|&top| top.eq_ignore_ascii_case(&ch) && top != ch)
+            {
                 st.pop();
             } else {
                 st.push(ch)

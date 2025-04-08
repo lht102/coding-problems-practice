@@ -39,11 +39,7 @@ impl Solution {
                 }
             }
         }
-        if seen < n {
-            -1
-        } else {
-            res
-        }
+        if seen < n { -1 } else { res }
     }
 }
 

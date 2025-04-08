@@ -31,11 +31,7 @@ impl Solution {
                 }
             }
         }
-        if res == usize::MAX {
-            -1
-        } else {
-            res as i32
-        }
+        if res == usize::MAX { -1 } else { res as i32 }
     }
 }
 

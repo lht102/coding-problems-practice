@@ -69,7 +69,9 @@ mod tests {
         let k = 0;
         assert_eq!(Solution::get_length_of_optimal_compression(s, k), 3);
 
-        let s = String::from("bccomlcafhldoebfbgmiiicfhdfgfmggmlfjakbhfmolkajncdofofokngifmedleoelbhhmgiaibkgccifbmkolkjhifidobido");
+        let s = String::from(
+            "bccomlcafhldoebfbgmiiicfhdfgfmggmlfjakbhfmolkajncdofofokngifmedleoelbhhmgiaibkgccifbmkolkjhifidobido",
+        );
         let k = 47;
         assert_eq!(Solution::get_length_of_optimal_compression(s, k), 41);
     }

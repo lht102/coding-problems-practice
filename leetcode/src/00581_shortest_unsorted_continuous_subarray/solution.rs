@@ -11,11 +11,7 @@ impl Solution {
                 hi = hi.max(i);
             }
         }
-        if hi > lo {
-            (hi - lo + 1) as i32
-        } else {
-            0
-        }
+        if hi > lo { (hi - lo + 1) as i32 } else { 0 }
     }
 }
 

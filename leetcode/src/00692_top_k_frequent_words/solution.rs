@@ -17,7 +17,7 @@ impl Solution {
                 .into_iter()
                 .map(|(k, v)| (v, k)),
         );
-        (0..k).map(|_| pq.pop().unwrap().1 .0.to_owned()).collect()
+        (0..k).map(|_| pq.pop().unwrap().1.0.to_owned()).collect()
     }
 }
 
