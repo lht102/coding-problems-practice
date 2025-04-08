@@ -7,8 +7,9 @@ struct Solution;
 struct NonNan(f64);
 
 impl PartialOrd for NonNan {
+    #[allow(clippy::non_canonical_partial_ord_impl)]
     fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
-        Some(self.cmp(other))
+        self.0.partial_cmp(&other.0)
     }
 }
 
