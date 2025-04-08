@@ -15,15 +15,15 @@ func Constructor() TimeMap {
 	}
 }
 
-func (this *TimeMap) Set(key string, value string, timestamp int) {
-	this.keyTimestampMap[key] = append(this.keyTimestampMap[key], timestampVal{
+func (tm *TimeMap) Set(key string, value string, timestamp int) {
+	tm.keyTimestampMap[key] = append(tm.keyTimestampMap[key], timestampVal{
 		timestamp: timestamp,
 		val:       value,
 	})
 }
 
-func (this *TimeMap) Get(key string, timestamp int) string {
-	timestampVals, exist := this.keyTimestampMap[key]
+func (tm *TimeMap) Get(key string, timestamp int) string {
+	timestampVals, exist := tm.keyTimestampMap[key]
 	if !exist {
 		return ""
 	}

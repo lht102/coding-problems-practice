@@ -5,8 +5,8 @@ jobs:
     name: Run formatter
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-go@v3
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
         with:
           go-version: ^1.21.0
       - uses: dtolnay/rust-toolchain@stable
@@ -18,13 +18,14 @@ jobs:
     name: Run linter
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-go@v3
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
         with:
-          go-version: ^1.21.0
-      - uses: golangci/golangci-lint-action@v3
+          go-version: ^1.24.0
+      - name: golangci-lint
+        uses: golangci/golangci-lint-action@v7
         with:
-          version: v1.55.2
+          version: v2.0
           working-directory: leetcode
       - uses: dtolnay/rust-toolchain@stable
         with:
@@ -35,10 +36,10 @@ jobs:
     name: Run test
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-go@v3
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
         with:
-          go-version: ^1.21.0
+          go-version: ^1.24.0
       - uses: dtolnay/rust-toolchain@stable
         with:
           components: rustfmt, clippy

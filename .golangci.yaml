@@ -1,19 +1,22 @@
+version: "2"
+
 run:
   tests: true
   timeout: 5m
 
 linters:
-  disable-all: true
+  default: none
   enable:
     - errcheck
-    - gosimple
     - govet
     - ineffassign
     - staticcheck
-    - typecheck
     - godot
+    - misspell
+    - whitespace
+
+formatters:
+  enable:
     - gofmt
     - gofumpt
     - goimports
-    - misspell
-    - whitespace

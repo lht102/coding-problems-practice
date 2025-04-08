@@ -15,11 +15,12 @@ func eventualSafeNodes(graph [][]int) []int {
 func dfs(adj [][]int, colors []int, u int) bool {
 	colors[u] = 1
 	for _, v := range adj[u] {
-		if colors[v] == 0 {
+		switch colors[v] {
+		case 0:
 			if dfs(adj, colors, v) {
 				return true
 			}
-		} else if colors[v] == 1 {
+		case 1:
 			return true
 		}
 	}

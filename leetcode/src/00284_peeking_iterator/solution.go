@@ -30,25 +30,25 @@ func Constructor(iter *Iterator) *PeekingIterator {
 	}
 }
 
-func (this *PeekingIterator) hasNext() bool {
-	return this.curIdx < len(this.items) || this.iter.hasNext()
+func (pi *PeekingIterator) hasNext() bool {
+	return pi.curIdx < len(pi.items) || pi.iter.hasNext()
 }
 
-func (this *PeekingIterator) next() int {
-	if this.curIdx < len(this.items) {
-		res := this.items[this.curIdx]
-		this.curIdx++
+func (pi *PeekingIterator) next() int {
+	if pi.curIdx < len(pi.items) {
+		res := pi.items[pi.curIdx]
+		pi.curIdx++
 		return res
 	}
-	if this.iter.hasNext() {
-		return this.iter.next()
+	if pi.iter.hasNext() {
+		return pi.iter.next()
 	}
 	return -1
 }
 
-func (this *PeekingIterator) peek() int {
-	if this.iter.hasNext() && this.curIdx == len(this.items) {
-		this.items = append(this.items, this.iter.next())
+func (pi *PeekingIterator) peek() int {
+	if pi.iter.hasNext() && pi.curIdx == len(pi.items) {
+		pi.items = append(pi.items, pi.iter.next())
 	}
-	return this.items[this.curIdx]
+	return pi.items[pi.curIdx]
 }

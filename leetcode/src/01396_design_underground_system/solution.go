@@ -21,25 +21,25 @@ func Constructor() UndergroundSystem {
 	}
 }
 
-func (this *UndergroundSystem) CheckIn(id int, stationName string, t int) {
-	this.idToStationTime[id] = StationTime{
+func (us *UndergroundSystem) CheckIn(id int, stationName string, t int) {
+	us.idToStationTime[id] = StationTime{
 		s: stationName,
 		t: t,
 	}
 }
 
-func (this *UndergroundSystem) CheckOut(id int, stationName string, t int) {
-	stationTime, ok := this.idToStationTime[id]
+func (us *UndergroundSystem) CheckOut(id int, stationName string, t int) {
+	stationTime, ok := us.idToStationTime[id]
 	if ok {
 		route := [2]string{stationTime.s, stationName}
-		sumCnt := this.routeToSumCnt[route]
-		this.routeToSumCnt[route] = [2]int{sumCnt[0] + t - stationTime.t, sumCnt[1] + 1}
+		sumCnt := us.routeToSumCnt[route]
+		us.routeToSumCnt[route] = [2]int{sumCnt[0] + t - stationTime.t, sumCnt[1] + 1}
 	}
 }
 
-func (this *UndergroundSystem) GetAverageTime(startStation string, endStation string) float64 {
+func (us *UndergroundSystem) GetAverageTime(startStation string, endStation string) float64 {
 	route := [2]string{startStation, endStation}
-	sumCnt := this.routeToSumCnt[route]
+	sumCnt := us.routeToSumCnt[route]
 	return math.Round(float64(sumCnt[0])/float64(sumCnt[1])*100000) / 100000
 }
 
