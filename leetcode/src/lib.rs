@@ -1424,3 +1424,6 @@ mod intersection_of_two_arrays_ii;
 
 #[path = "01509_minimum_difference_between_largest_and_smallest_value_in_three_moves/solution.rs"]
 mod minimum_difference_between_largest_and_smallest_value_in_three_moves;
+
+#[path = "00386_lexicographical_numbers/solution.rs"]
+mod lexicographical_numbers;
