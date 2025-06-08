@@ -12,8 +12,13 @@ jobs:
       - uses: dtolnay/rust-toolchain@stable
         with:
           components: rustfmt, clippy
+      - uses: astral-sh/setup-uv@v5
+        with:
+          version: "0.7.12"
       - run: if [ "$(gofmt -s -l . | wc -l)" -gt 0 ]; then exit 1; fi
       - run: cargo fmt --all -- --check
+      - run: uv sync --locked --all-extras --dev
+      - run: uv run ruff format
   lint:
     name: Run linter
     runs-on: ubuntu-latest
@@ -30,8 +35,13 @@ jobs:
       - uses: dtolnay/rust-toolchain@stable
         with:
           components: rustfmt, clippy
+      - uses: astral-sh/setup-uv@v5
+        with:
+          version: "0.7.12"
       - run: golangci-lint run
       - run: cargo clippy
+      - run: uv sync --locked --all-extras --dev
+      - run: uv run ruff check
   test:
     name: Run test
     runs-on: ubuntu-latest
@@ -43,5 +53,10 @@ jobs:
       - uses: dtolnay/rust-toolchain@stable
         with:
           components: rustfmt, clippy
+      - uses: astral-sh/setup-uv@v5
+        with:
+          version: "0.7.12"
       - run: go test ./...
       - run: cargo test
+      - run: uv sync --locked --all-extras --dev
+      - run: uv run python leetcode/run_tests.py
