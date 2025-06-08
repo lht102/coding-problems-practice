@@ -1,0 +1,12 @@
+[project]
+name = "coding-problems-practice"
+version = "0.1.0"
+description = "A collection of coding problems and solutions"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "ruff>=0.11.13",
+]
