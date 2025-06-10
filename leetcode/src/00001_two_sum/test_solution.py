@@ -2,7 +2,7 @@ import unittest
 from .solution import Solution
 
 
-class TestTwoSum(unittest.TestCase):
+class TestSolution(unittest.TestCase):
     def test_twoSum(self):
         s = Solution()
         self.assertEqual(s.twoSum([2, 7, 11, 15], 9), [0, 1])
