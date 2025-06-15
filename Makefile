@@ -10,7 +10,7 @@ fmt:
 test:
 	go test ./...
 	cargo test -- --nocapture
-	uv run python leetcode/run_tests.py
+	uv run python -m unittest
 
 .PHONY: lint
 lint:
