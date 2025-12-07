@@ -1,6 +1,6 @@
 from bisect import bisect_right
 from collections import Counter
-from itertools import accumulate, repeat
+from itertools import accumulate 
 
 
 class Solution:
